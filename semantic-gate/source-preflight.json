@@ -1,23 +1,23 @@
 {
   "scope": "Initial-HTML source preflight only; not a live Semantic Gate certification",
-  "target_query": "HVAC business intelligence DMV",
+  "target_query": "website rank eligibility check",
   "source_checks": [
     {
       "requirement": "Exactly one H1",
       "satisfied_in_source": true,
       "evidence": [
-        "HVAC business intelligence for the DMV. "
+        "Before you optimize, clear the six gates. "
       ]
     },
     {
-      "requirement": "Title aligns with confirmed target",
+      "requirement": "Title reflects the working page identity",
       "satisfied_in_source": true,
-      "evidence": "HVAC Business Intelligence in the DMV | MBRACE INSIGHT"
+      "evidence": "Website Rank Eligibility & Page Clearance | MBRACE INSIGHT"
     },
     {
-      "requirement": "H1 aligns with confirmed target",
+      "requirement": "H1 reflects the working page identity",
       "satisfied_in_source": true,
-      "evidence": "HVAC business intelligence for the DMV. "
+      "evidence": "Before you optimize, clear the six gates. "
     },
     {
       "requirement": "Homepage self canonical",
@@ -29,12 +29,12 @@
     {
       "requirement": "Description exists",
       "satisfied_in_source": true,
-      "evidence": "HVAC business intelligence for owners and operators in Washington, DC, Maryland, and Virginia. Start with a Four-ZIP Market Brief covering local visibility, the customer journey, and your next business move."
+      "evidence": "Request a six-gate page-clearance review, unlock practical website resources, and join the MBRACE INSIGHT newsletter. One page, one query, evidence before a verdict."
     },
     {
       "requirement": "Private draft remains noindex",
       "satisfied_in_source": true,
-      "evidence": "noindex, nofollow"
+      "evidence": "noindex,nofollow"
     },
     {
       "requirement": "No duplicate homepage IDs",
@@ -42,67 +42,67 @@
       "evidence": []
     },
     {
-      "requirement": "Q1: What does HVAC business intelligence mean here?",
+      "requirement": "Q1: What does the six-gate review cover?",
       "satisfied_in_source": true,
-      "evidence": "BUSINESS INTELLIGENCE, WITH A CLEAR JOB Where should your business put its attention next? MBRACE INSIGHT turns public research, local visibility observations, and your business questions into a manageable review. For HVAC owners and operators in Washington, DC, Maryland, and Virginia , the starting point is a small territory and a specific decision. "
+      "evidence": "01 / CLEARANCE BEFORE OPTIMIZATION A finished-looking page still needs evidence. The six-gate method separates access, meaning, and credibility. A complete review records each condition and its evidence. G0 + G1 / ACCESS Can the page exist in search? Crawlability and index eligibility examine the response, initial HTML, discovery signals, directives, and canonical identity. Google\u2019s technical requirements \u2197 G2 + G3 / MEANING Does it answer the right question? Query alignment and semantic coverage compare the page with a frozen list of questions, sections, and entities for the target query. Inspect the evidence worksheet \u2197 G4 + G5 / CREDIBILITY Can the claims be checked? Citation mapping and trust signals look for supporting authority, a responsible publisher, contact, and appropriate structured identity. Google\u2019s people-first content guidance \u2197 THE RULE All six gates need evidence for a full PASS. Missing evidence fails the relevant gate. This independent framework does not promise Google indexing or rankings. See what a report contains \u2197 "
     },
     {
-      "requirement": "Q2: Who is it for and which DMV markets does it cover?",
+      "requirement": "Q2: Is the request an instant automated assessment?",
       "satisfied_in_source": true,
-      "evidence": "BUSINESS INTELLIGENCE, WITH A CLEAR JOB Where should your business put its attention next? MBRACE INSIGHT turns public research, local visibility observations, and your business questions into a manageable review. For HVAC owners and operators in Washington, DC, Maryland, and Virginia , the starting point is a small territory and a specific decision. "
+      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
     },
     {
-      "requirement": "Q3: How do local visibility and commercial readiness differ?",
+      "requirement": "Q3: How does a visitor unlock an asset?",
       "satisfied_in_source": true,
-      "evidence": "01 / THE FOUR-ZIP MARKET BRIEF Less territory. More useful detail. Four ZIP codes set the research boundary. Your service, your capacity, and your most pressing question set the direction. 01 See how you show up. Examine the local search journey, Google Business Profile information, service-area clarity, and what a potential customer can actually find. 02 Follow the inquiry. Trace the route from interest to contact. Look for unclear services, broken paths, missing information, and handoffs worth checking. 03 Choose the next move. Separate the observed finding from the assumption. Give the next action an owner, a review date, and the evidence needed to assess it. Local-search reference: Google\u2019s published guidance \u2197 Define your four-ZIP scope \u2197 THE FOUR-ZIP MARKET BRIEF SAMPLE FORMAT A clear territory. A question worth answering. RESEARCH AREA ZIP 01 RESEARCH AREA ZIP 02 RESEARCH AREA ZIP 03 RESEARCH AREA ZIP 04 OBSERVATION What did we actually see? EVIDENCE Source, date, and context NEXT ACTION Who does what next, and why? Open the sample brief \u2197 A SECOND PATH Get ready for commercial. Commercial readiness begins with your capabilities and a separately confirmed project need. Local visibility asks how customers discover and contact you; commercial qualification asks whether the work, authority, timing, and capacity fit. Read the qualification note \u2197 "
+      "evidence": "03 / THE RESOURCE LIBRARY A useful asset. A reason to stay in touch. Start with a checklist or a worksheet. Enter your email to unlock the download, with a separate choice to join the newsletter. START HERE 01 SIX GATES. \u2197 Page clearance \u00b7 Markdown checklist The Six-Gate Readiness Checklist A practical checklist for crawlability, indexing, query fit, coverage, citations, and trust. Get the resource \u2197 BUILD YOUR RECORD 02 SHOW THE EVIDENCE. \u2197 Evidence \u00b7 Editable worksheet The Evidence & Citation Worksheet Keep the claim, source, checked date, and missing evidence together before issuing a verdict. Get the resource \u2197 BEFORE YOU SHIP 03 READY TO SHIP? \u2197 Publishing \u00b7 Markdown checklist The Before-Publish Checklist A compact review of initial HTML, metadata, discovery paths, identity, and release evidence. Get the resource \u2197 HVAC RESOURCE 04 FOUR ZIP CODES. \u2197 For HVAC operators \u00b7 Editable worksheet The Four-ZIP Market Worksheet A focused territory and customer-journey worksheet for HVAC owners investigating their next move. Get the resource \u2197 "
     },
     {
-      "requirement": "Q4: Where do the research inputs come from and how are they checked?",
+      "requirement": "Q4: Is newsletter consent distinct from the resource request?",
       "satisfied_in_source": true,
-      "evidence": "A SIGNAL NEEDS A SOURCE Know what\u2019s behind the next move. Our working method keeps the observation, its source, the date checked, and the unanswered questions together. Recommendations and illustrative examples are labeled separately from verified findings. 01 / LOCAL VISIBILITY Google Business Profile guidance Google\u2019s published guidance describes relevance, distance, and prominence in local results. We use that guidance as a reference for profile accuracy and visibility research, without a ranking promise. Read Google\u2019s guidance \u2197 02 / COMMERCIAL RESEARCH Official county benchmarking data Montgomery County\u2019s public data is one research input. Our process requires separate confirmation of current authority, project intent, scope, and permission before describing a record as an opportunity. Explore the county dataset \u2197 References checked October 29, 2026. Field notes and service descriptions are editorial drafts. Actual project facts require their own dated evidence. "
+      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
     },
     {
-      "requirement": "Q5: Does this preview provide live leads, guaranteed rankings, or verified projects?",
+      "requirement": "Q5: What inputs start a clearance request?",
       "satisfied_in_source": true,
-      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re starting with. What is the Four-ZIP Market Brief? + It is a focused review format for an HVAC business: four ZIP codes, one core service, and a question about visibility or the customer journey. A researched brief pairs observations with sources, unknowns, and one next action. The builder on this page prepares the scope and worksheet for that work. Who is MBRACE INSIGHT for? + HVAC owners and operators in Washington, DC, Maryland, and Virginia. Insight focuses on business decisions. Homeowner and building energy decisions belong to the separate MBRACE Energy journey. What do I get from the brief builder? + A downloadable worksheet with your four ZIP codes, service focus, chosen question, and a record for collecting observations and sources. It runs in your browser. The optional email link prepares a draft to Max with your scope; you decide whether to send it. How much does a researched brief cost? + The worksheet builder is free to use. This preview does not publish pricing for a researched engagement. Ask Max about scope, fee, and timing before agreeing to any work. Using the builder creates no purchase or subscription. Are these live leads or guaranteed results? + This preview provides no live lead feed or verified project inventory. The builder does not retrieve search rankings or measure your website. A researched brief does not guarantee rankings, calls, revenue, or awarded projects. Where does commercial work fit? + Commercial readiness is a separate qualification question. A public building record can start research; current authority, project need, scope, timing, capacity, and permission still need confirmation before a contractor introduction. "
+      "evidence": "02 / START WITH ONE PAGE What page are we clearing? Share one public page URL, one target query, and your email. Your request starts the review queue; a completed verdict requires an evidence review. \u21b3 Get the Six-Gate Readiness Checklist as soon as your request is saved. YOUR CLEARANCE REQUEST ONE URL / ONE QUERY Public page URL The target search query Your email Leave this empty You may email me about this page-clearance request. Also send me the MBRACE INSIGHT newsletter. I can unsubscribe at any time. Request my gate check \u2197 Newsletter signup is optional. Your request is saved in the publisher\u2019s private list. Privacy & preferences . "
     },
     {
-      "requirement": "Q6: How much does it cost and how can an operator get started?",
+      "requirement": "Q6: Who is responsible for the content?",
       "satisfied_in_source": true,
-      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re starting with. What is the Four-ZIP Market Brief? + It is a focused review format for an HVAC business: four ZIP codes, one core service, and a question about visibility or the customer journey. A researched brief pairs observations with sources, unknowns, and one next action. The builder on this page prepares the scope and worksheet for that work. Who is MBRACE INSIGHT for? + HVAC owners and operators in Washington, DC, Maryland, and Virginia. Insight focuses on business decisions. Homeowner and building energy decisions belong to the separate MBRACE Energy journey. What do I get from the brief builder? + A downloadable worksheet with your four ZIP codes, service focus, chosen question, and a record for collecting observations and sources. It runs in your browser. The optional email link prepares a draft to Max with your scope; you decide whether to send it. How much does a researched brief cost? + The worksheet builder is free to use. This preview does not publish pricing for a researched engagement. Ask Max about scope, fee, and timing before agreeing to any work. Using the builder creates no purchase or subscription. Are these live leads or guaranteed results? + This preview provides no live lead feed or verified project inventory. The builder does not retrieve search rankings or measure your website. A researched brief does not guarantee rankings, calls, revenue, or awarded projects. Where does commercial work fit? + Commercial readiness is a separate qualification question. A public building record can start research; current authority, project need, scope, timing, capacity, and permission still need confirmation before a contractor introduction. "
+      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent review framework and practical resources. Private website draft. "
     },
     {
-      "requirement": "S1: audience and scope",
+      "requirement": "Q7: Does the framework promise rankings?",
       "satisfied_in_source": true,
-      "evidence": "#scope-definition"
+      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
     },
     {
-      "requirement": "S2: local visibility and commercial readiness",
+      "requirement": "S1: six-gate method",
       "satisfied_in_source": true,
-      "evidence": "#opportunity"
+      "evidence": "#gates"
     },
     {
-      "requirement": "S3: evidence-to-action process",
+      "requirement": "S2: clearance request and contact consent",
       "satisfied_in_source": true,
-      "evidence": "#approach"
+      "evidence": "#clearance"
     },
     {
-      "requirement": "S4: sources and claim boundaries",
+      "requirement": "S3: resource library and email capture",
       "satisfied_in_source": true,
-      "evidence": "#evidence"
+      "evidence": "#resources"
     },
     {
-      "requirement": "S5: starting brief and next action",
+      "requirement": "S4: newsletter signup and separate opt-in",
       "satisfied_in_source": true,
-      "evidence": "#your-next-move"
+      "evidence": "#newsletter"
     },
     {
-      "requirement": "S6: responsible publisher and contact",
+      "requirement": "S5: responsible publisher and contact",
       "satisfied_in_source": true,
       "evidence": "#publisher"
     },
     {
-      "requirement": "S7: scope, cost, and availability questions",
+      "requirement": "S6: scope and fulfillment questions",
       "satisfied_in_source": true,
       "evidence": "#faq"
     },
@@ -112,34 +112,34 @@
       "evidence": "MBRACE INSIGHT"
     },
     {
-      "requirement": "Main-content entity: HVAC",
+      "requirement": "Main-content entity: Crawlability",
       "satisfied_in_source": true,
-      "evidence": "HVAC"
+      "evidence": "Crawlability"
     },
     {
-      "requirement": "Main-content entity: business intelligence",
+      "requirement": "Main-content entity: Index Eligibility",
       "satisfied_in_source": true,
-      "evidence": "business intelligence"
+      "evidence": "Index Eligibility"
     },
     {
-      "requirement": "Main-content entity: Washington, DC",
+      "requirement": "Main-content entity: Query Alignment",
       "satisfied_in_source": true,
-      "evidence": "Washington, DC"
+      "evidence": "Query Alignment"
     },
     {
-      "requirement": "Main-content entity: Maryland",
+      "requirement": "Main-content entity: Semantic Coverage",
       "satisfied_in_source": true,
-      "evidence": "Maryland"
+      "evidence": "Semantic Coverage"
     },
     {
-      "requirement": "Main-content entity: Virginia",
+      "requirement": "Main-content entity: Citation Map",
       "satisfied_in_source": true,
-      "evidence": "Virginia"
+      "evidence": "Citation Map"
     },
     {
-      "requirement": "Main-content entity: Google Business Profile",
+      "requirement": "Main-content entity: Trust Signals",
       "satisfied_in_source": true,
-      "evidence": "Google Business Profile"
+      "evidence": "Trust Signals"
     },
     {
       "requirement": "Main-content entity: Max Fisher",
@@ -147,19 +147,24 @@
       "evidence": "Max Fisher"
     },
     {
-      "requirement": "Primary local-search citation",
+      "requirement": "Main-content entity: newsletter",
       "satisfied_in_source": true,
-      "evidence": "Google Business Profile guidance"
+      "evidence": "newsletter"
     },
     {
-      "requirement": "Primary county-data citation",
+      "requirement": "Primary technical-requirements citation",
       "satisfied_in_source": true,
-      "evidence": "County Socrata dataset"
+      "evidence": "Google Search technical requirements"
+    },
+    {
+      "requirement": "Primary content-guidance citation",
+      "satisfied_in_source": true,
+      "evidence": "Google people-first content guidance"
     },
     {
       "requirement": "Visible publisher and direct contact",
       "satisfied_in_source": true,
-      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT Editorial and business inquiries:  mfisher@mbraceinsight.com \u2197 Website concept for review. Contact Max to discuss the scope, fee, and timing of a researched brief. "
+      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent review framework and practical resources. Private website draft. "
     },
     {
       "requirement": "Organization, person, website, and page schema",
@@ -174,7 +179,7 @@
     {
       "requirement": "Initial-HTML content: /field-notes/four-zip-codes/",
       "satisfied_in_source": true,
-      "evidence": "dist/field-notes/four-zip-codes/index.html"
+      "evidence": "public/field-notes/four-zip-codes/index.html"
     },
     {
       "requirement": "Self canonical: /field-notes/four-zip-codes/",
@@ -184,29 +189,24 @@
       ]
     },
     {
-      "requirement": "Real crawlable homepage link: /field-notes/four-zip-codes/",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/field-notes/four-zip-codes/"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /#gates",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/#gates"
     },
     {
-      "requirement": "Local article link resolves: /#opportunity",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#opportunity"
+      "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#approach",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#approach"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /#about",
@@ -214,9 +214,9 @@
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#clearance",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#clearance"
     },
     {
       "requirement": "Local article link resolves: /#field-notes",
@@ -229,14 +229,14 @@
       "evidence": "/#your-next-move"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -246,7 +246,7 @@
     {
       "requirement": "Initial-HTML content: /field-notes/building-signal-project/",
       "satisfied_in_source": true,
-      "evidence": "dist/field-notes/building-signal-project/index.html"
+      "evidence": "public/field-notes/building-signal-project/index.html"
     },
     {
       "requirement": "Self canonical: /field-notes/building-signal-project/",
@@ -256,29 +256,24 @@
       ]
     },
     {
-      "requirement": "Real crawlable homepage link: /field-notes/building-signal-project/",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/field-notes/building-signal-project/"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /#gates",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/#gates"
     },
     {
-      "requirement": "Local article link resolves: /#opportunity",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#opportunity"
+      "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#approach",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#approach"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /#about",
@@ -286,9 +281,9 @@
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#clearance",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#clearance"
     },
     {
       "requirement": "Local article link resolves: /#field-notes",
@@ -301,14 +296,14 @@
       "evidence": "/#your-next-move"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -318,7 +313,7 @@
     {
       "requirement": "Initial-HTML content: /field-notes/customer-handoff/",
       "satisfied_in_source": true,
-      "evidence": "dist/field-notes/customer-handoff/index.html"
+      "evidence": "public/field-notes/customer-handoff/index.html"
     },
     {
       "requirement": "Self canonical: /field-notes/customer-handoff/",
@@ -328,29 +323,24 @@
       ]
     },
     {
-      "requirement": "Real crawlable homepage link: /field-notes/customer-handoff/",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/field-notes/customer-handoff/"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /#gates",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/#gates"
     },
     {
-      "requirement": "Local article link resolves: /#opportunity",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#opportunity"
+      "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#approach",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#approach"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /#about",
@@ -358,9 +348,9 @@
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#clearance",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#clearance"
     },
     {
       "requirement": "Local article link resolves: /#field-notes",
@@ -373,14 +363,14 @@
       "evidence": "/#your-next-move"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -390,7 +380,7 @@
     {
       "requirement": "Initial-HTML content: /sample-brief/",
       "satisfied_in_source": true,
-      "evidence": "dist/sample-brief/index.html"
+      "evidence": "public/sample-brief/index.html"
     },
     {
       "requirement": "Self canonical: /sample-brief/",
@@ -400,29 +390,24 @@
       ]
     },
     {
-      "requirement": "Real crawlable homepage link: /sample-brief/",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/sample-brief/"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /#gates",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/#gates"
     },
     {
-      "requirement": "Local article link resolves: /#opportunity",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#opportunity"
+      "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#approach",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#approach"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /#about",
@@ -430,9 +415,9 @@
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#clearance",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#clearance"
     },
     {
       "requirement": "Local article link resolves: /#field-notes",
@@ -445,14 +430,14 @@
       "evidence": "/#your-next-move"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -462,7 +447,7 @@
     {
       "requirement": "Initial-HTML content: /privacy/",
       "satisfied_in_source": true,
-      "evidence": "dist/privacy/index.html"
+      "evidence": "public/privacy/index.html"
     },
     {
       "requirement": "Self canonical: /privacy/",
@@ -472,29 +457,24 @@
       ]
     },
     {
-      "requirement": "Real crawlable homepage link: /privacy/",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/privacy/"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /#gates",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/#gates"
     },
     {
-      "requirement": "Local article link resolves: /#opportunity",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#opportunity"
+      "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#approach",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#approach"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /#about",
@@ -502,9 +482,9 @@
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#clearance",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#clearance"
     },
     {
       "requirement": "Local article link resolves: /#field-notes",
@@ -517,14 +497,14 @@
       "evidence": "/#your-next-move"
     },
     {
-      "requirement": "Local article link resolves: /#",
+      "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
-      "evidence": "/#"
+      "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#newsletter"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -532,7 +512,119 @@
       "evidence": "/privacy/"
     },
     {
-      "requirement": "Sitemap includes all six pages",
+      "requirement": "Initial-HTML content: /sample-report/",
+      "satisfied_in_source": true,
+      "evidence": "public/sample-report/index.html"
+    },
+    {
+      "requirement": "Self canonical: /sample-report/",
+      "satisfied_in_source": true,
+      "evidence": [
+        "https://mbrace-insight.niceshark22.chatgpt.site/sample-report/"
+      ]
+    },
+    {
+      "requirement": "Local article link resolves: /",
+      "satisfied_in_source": true,
+      "evidence": "/"
+    },
+    {
+      "requirement": "Local article link resolves: /#gates",
+      "satisfied_in_source": true,
+      "evidence": "/#gates"
+    },
+    {
+      "requirement": "Local article link resolves: /#resources",
+      "satisfied_in_source": true,
+      "evidence": "/#resources"
+    },
+    {
+      "requirement": "Local article link resolves: /#newsletter",
+      "satisfied_in_source": true,
+      "evidence": "/#newsletter"
+    },
+    {
+      "requirement": "Local article link resolves: /#about",
+      "satisfied_in_source": true,
+      "evidence": "/#about"
+    },
+    {
+      "requirement": "Local article link resolves: /#clearance",
+      "satisfied_in_source": true,
+      "evidence": "/#clearance"
+    },
+    {
+      "requirement": "Local article link resolves: /#field-notes",
+      "satisfied_in_source": true,
+      "evidence": "/#field-notes"
+    },
+    {
+      "requirement": "Local article link resolves: /#your-next-move",
+      "satisfied_in_source": true,
+      "evidence": "/#your-next-move"
+    },
+    {
+      "requirement": "Local article link resolves: /",
+      "satisfied_in_source": true,
+      "evidence": "/"
+    },
+    {
+      "requirement": "Local article link resolves: /#newsletter",
+      "satisfied_in_source": true,
+      "evidence": "/#newsletter"
+    },
+    {
+      "requirement": "Local article link resolves: /privacy/",
+      "satisfied_in_source": true,
+      "evidence": "/privacy/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/six-gate-checklist/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/six-gate-checklist/"
+    },
+    {
+      "requirement": "Resource is linked from the homepage: /resources/six-gate-checklist/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/six-gate-checklist/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/evidence-worksheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/evidence-worksheet/"
+    },
+    {
+      "requirement": "Resource is linked from the homepage: /resources/evidence-worksheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/evidence-worksheet/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/launch-clearance-checklist/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/launch-clearance-checklist/"
+    },
+    {
+      "requirement": "Resource is linked from the homepage: /resources/launch-clearance-checklist/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/launch-clearance-checklist/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/four-zip-worksheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/four-zip-worksheet/"
+    },
+    {
+      "requirement": "Resource is linked from the homepage: /resources/four-zip-worksheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/four-zip-worksheet/"
+    },
+    {
+      "requirement": "Review, resource, and newsletter sections are present",
+      "satisfied_in_source": true,
+      "evidence": "Primary conversion sections"
+    },
+    {
+      "requirement": "Sitemap includes all authored pages",
       "satisfied_in_source": true,
       "evidence": [
         "https://mbrace-insight.niceshark22.chatgpt.site/",
@@ -540,7 +632,12 @@
         "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/building-signal-project/",
         "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/customer-handoff/",
         "https://mbrace-insight.niceshark22.chatgpt.site/sample-brief/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/privacy/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/privacy/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/sample-report/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/six-gate-checklist/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/evidence-worksheet/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/launch-clearance-checklist/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/four-zip-worksheet/"
       ]
     },
     {

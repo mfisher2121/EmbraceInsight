@@ -1,49 +1,46 @@
-# MBRACE INSIGHT website concept
+# MBRACE INSIGHT — page clearance and email-list growth
 
-A responsive, buildless HTML/CSS/JavaScript website for private review through Sites. The canonical source for this draft is this folder and the Sites source repository linked by `.openai/hosting.json`.
+The user-selected direction is the six-gate review / clearance-engine offer, supported by resource lead magnets and newsletter signup. **Semantic Gate** and **Clearance Engine** are provisional product names. The Four-ZIP Worksheet is a supporting HVAC resource, not the primary offer.
 
-Audience: HVAC owners and operators in the DMV. Job: help an operator scope a focused Four-ZIP Market Brief, inspect its sample format, and begin a conversation about a researched review. Local visibility and the customer journey lead; commercial qualification is a secondary educational path. Homeowner energy decisions belong to the separate Energy journey.
+## Current experience
 
-## Included
+- A six-gate overview and an honest review-request form for one public URL and one query.
+- Four resource lead magnets with email capture and immediate protected downloads.
+- A separate newsletter CTA; optional newsletter choices on resource/review forms start unchecked.
+- Real Sites D1 storage for deduplicated contacts and distinct request/consent/source events.
+- Private preference links and explicit withdrawal. Opening a link does not change a subscription.
+- Owner-only contact, newsletter-request, and review-queue CSV exports at `/admin`.
 
-- One primary offer: the Four-ZIP Market Brief, with a visible sample and a simple choose / inspect / act process.
-- A browser-local scope builder with optional business and website fields, four required unique ZIP codes, a starting market, service focus, and business question.
-- A tailored Markdown worksheet with a research log for each ZIP code and source / date / observation / unknown / next-action fields.
-- An optional mailto draft containing the entered scope. The visitor reviews and sends through their own mail app; the site does not send automatically.
-- Three original field-note drafts, filters, progressive modal readers, and standalone pages with content in initial HTML.
-- A compact secondary route for commercial readiness, plus primary references, responsible publisher, contact, FAQ, and privacy information.
+The review form queues a request; it does not run an automated assessment or issue a simulated PASS/FAIL. Newsletter requests remain pending email confirmation. No newsletter platform is connected, and no emails are sent automatically by this preview.
 
-ZIP validation checks format and uniqueness only. The builder creates a scope, not completed research. It does not fetch rankings, validate territory coverage, infer ownership, or provide live leads. Inputs are not submitted to a backend or persisted after reload.
+## Source and build
 
-## Editing and preview
+`public/` is authored HTML/browser source. `content/resources.json` is the resource catalog; add a matching Markdown file in `assets-downloads/` for every catalog item. `content/field-notes.json` controls editorial pages, the privacy draft, and sample format. `worker/index.js` is the server-side request handler. The supplied Worker ESM contract is preserved; build output embeds browser assets and protected downloads in one module.
 
-Edit `dist/index.html`, `dist/styles.css`, and `dist/app.js`. The canonical field-note content lives in `content/field-notes.json`; run `node scripts/prepare-content.mjs` after editing it or shared page chrome to regenerate the five standalone pages, shared reader JSON, sitemap, and draft robots declaration. Run `python3 scripts/semantic-preflight.py` for source checks, then `python3 -m http.server 4173 --directory dist` for a local preview. No third-party dependencies are required. Fonts are served locally. `dist/assets/rooftop.jpg` is the optimized hero asset.
+- `npm run build` generates initial-HTML resource pages, sitemap, and `dist/server/index.js`.
+- `npm test` runs capture integration checks with SQLite using the same Worker handler.
+- `python3 scripts/semantic-preflight.py` checks source requirements; it is not a public certification.
+- `npm run dev` serves the built Worker on http://127.0.0.1:4173 using a separate local SQLite database in the task's work folder.
+- `/__dev/owner` enables a local-only owner simulation. That route exists only in the development server and is absent from production.
 
-## Content and launch status
+For browser-source edits, rebuild and restart the preview. No live subscriber data belongs in source or generated archives.
 
-This is a private website concept. It does not modify mbraceinsight.com, its current hosting, or its DNS. All service descriptions and field notes are drafts; the commercial brief is expressly illustrative. There are no invented customers, testimonials, prices, conversion metrics, or live projects.
+## Storage and configuration
 
-Before a public/domain launch, confirm the final offer, intake and consent requirements, editorial review, privacy language, and any referral relationship disclosures. The visible contact route is mfisher@mbraceinsight.com, corroborated by the existing MBRACE source's schema and contact routing; clicking it opens a visitor's mail app and does not send mail automatically. Add analytics or lead capture only with appropriate review.
+The hosting manifest preserves the Sites project ID and declares D1 binding `DB`. Drizzle migrations are generated from `db/schema.ts` with `npm run db:generate`; applied migrations and metadata are immutable. The publisher applies hosted migrations. Request handlers never create or alter tables.
 
-## Semantic Gate is required
+Runtime keys `ADMIN_EMAIL` and `SITE_ORIGIN` are configured through Sites, not in source. Owner exports require Sites-supplied user ID and owner email. Captures use parameterized queries, bounded inputs, origin checks, a honeypot, and a hashed rate marker. Access tokens are stored as hashes. Newsletter/resource consent records remain distinct. Test addresses ending in .invalid are excluded from real-list exports; no real messages are sent in tests.
 
-Semantic Gate remains the public-launch requirement. The user confirmed the homepage target query **HVAC business intelligence DMV**. The acceptance contract is in `semantic-gate/requirements.json`; `AGENTS.md` records it for continued work. Six gates, binary outcomes, no scores, no inferred passes, no ranking guarantees. The current private hosted URL returns an authentication gate to anonymous requests, and its source retains noindex and robots disallow. It cannot receive a public eligibility PASS. Source preflight results do not certify a live URL.
+Exports contain at most 5,000 rows and keep newsletter status explicit. Pending confirmation is not verified ownership or permission for an unsolicited blast.
 
-The implementation now includes a self canonical, query-aligned title and H1, visible publisher and business contact, Organization/Person/WebSite/WebPage schema, primary outbound sources, direct resource links, and article content in initial HTML. Public release requires deliberate alignment of canonical, metadata, sitemap, schema, and robots to the actual public origin, followed by a fresh anonymous live validation. Preserve private access until explicitly changed by the user. Do not display a certification badge without a full live PASS.
+## Launch status
 
-## Source context
+The site remains owner-private. mbraceinsight.com, DNS, and its existing deployment are unchanged. Audience and newsletter-platform clarification was requested; current copy provisionally serves website owners/SEO agencies while retaining HVAC resources.
 
-- Existing mbraceinsight.com starter page, checked October 29, 2026: https://mbraceinsight.com/
-- Related existing brand title, checked October 29, 2026: https://mbraceintelligence.com/
-- Internal October 29 MBRACE Apple Ladder and Data Capture proposal supplied the intended Insight audience and separation from Energy. Its proposed operational system and products are not represented as deployed here.
-- Public research reference linked in the commercial field note: https://mcbeps.org/
+The former confirmed HVAC query is preserved in semantic-gate/hvac-requirements-v1.json. The revised working query, website rank eligibility check, is not user-confirmed. Semantic Gate remains a separate requirement for this website's public launch: fresh query-specific requirements, anonymous access/indexing checks, sources, identity, and a complete six-gate result on the actual public URL.
 
-## Generated imagery
+Before public signup or sending: select the delivery provider, verify confirmation/delivery/unsubscribe integration, finalize privacy/retention terms and editorial content, and approve the final product/audience/query decisions. The private database can capture requests now; no sending or automated certification is claimed.
 
-Created with the built-in image generation tool. `dist/assets/rooftop.jpg` is illustrative imagery, not a photographed client project. The original generated image is retained at `assets-source/rooftop-original.png`.
+## Asset provenance
 
-Prompt: "Premium editorial website hero photograph for MBRACE INSIGHT, a business intelligence brand for HVAC operators in Washington DC, Maryland and Virginia. A quiet architectural photograph of realistic silver and cream rooftop HVAC condensing units with radial fan grilles, flat roof, leafy mid-Atlantic low-rise city in the distance, slightly elevated diagonal view, soft late afternoon light, muted sage, olive and warm gray, wide landscape, no people, logos, text, or charts. Illustrative brand imagery, not a real project."
-
-## Fonts
-
-Manrope and IBM Plex Mono, obtained through Google Fonts and self-hosted with the site. See the included font license files in `dist/assets/`.
+Three new preparation assets summarize the user's local Semantic Gate v1.0 protocol and link to primary Google Search documentation. The Four-ZIP Worksheet comes from the user's existing HVAC newsletter launch kit. All are editable drafts. Previous illustrative rooftop imagery and self-hosted font files are retained with their licenses; the gate-focused hero uses native HTML/CSS rather than a project photograph.

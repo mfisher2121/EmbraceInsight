@@ -1,38 +1,32 @@
 {
-  "audience": "HVAC owners and operators in Washington, DC, Maryland, and Virginia",
-  "primary_job": "Help an operator define a focused business question and a four-ZIP review scope, then discuss a researched brief.",
-  "flagship_offer": "Four-ZIP Market Brief",
-  "recommendation_status": "Selected by Codex under the user’s instruction to focus on the best build; service copy remains a private draft.",
+  "primary_offer": "Six-gate page-clearance review request",
+  "product_name_candidates": [
+    "Semantic Gate",
+    "Clearance Engine"
+  ],
+  "product_name_decided": false,
+  "primary_business_goal": "Start an attributed, consent-aware email list through clearance requests, useful assets, and newsletter signup.",
+  "primary_ctas": [
+    "Request my gate check",
+    "Get the resource",
+    "Join the newsletter"
+  ],
+  "audience_status": "Provisional website owners/SEO agencies; optional clarification pending",
   "main_journey": [
-    "Understand the offer",
-    "Inspect the sample",
-    "Build a four-ZIP research scope",
-    "Download the worksheet or discuss the scope with Max"
+    "Understand six gates",
+    "Request a review or unlock an asset with email",
+    "Choose newsletter separately",
+    "Receive a saved-request confirmation and immediate asset download where applicable"
   ],
-  "secondary_path": "Commercial capability and project qualification education",
-  "home": "mbraceinsight.com intended; existing private Sites origin until public launch is authorized",
-  "canonical_content": "This source repository; content/field-notes.json for editorial pages",
-  "non_goals": [
-    "Homeowner energy advice",
-    "Live opportunity feed",
-    "Automated ranking audit",
-    "Subscription dashboard",
-    "Autonomous email outreach",
-    "Public launch without Semantic Gate"
-  ],
-  "implemented": [
-    "Unique four-ZIP format validation",
-    "Optional business and website inputs",
-    "Market, service, and question selection",
-    "Tailored evidence worksheet",
-    "Explicit research-pending output state",
-    "User-initiated email draft",
-    "Initial-HTML resource pages and preserved Semantic Gate requirements"
-  ],
-  "launch_decisions_still_needed": [
-    "Final researched-service scope, fee, and turnaround",
-    "Editorial and privacy review",
-    "Public-domain cutover and audience change",
-    "Fresh six-gate validation on final public URL"
+  "four_zip_role": "Supporting HVAC-specific asset, not the flagship offer",
+  "storage": "Private Sites D1; contact email deduped, request and consent events preserved",
+  "newsletter_state": "Requests pending email confirmation; no provider connected and no automated sending",
+  "automation_boundary": "The form queues a review; it does not issue a simulated or instant certification.",
+  "source_of_truth": "Source repository for content; private D1 for contact/consent/request records",
+  "launch_dependencies": [
+    "Final product/audience/query decisions",
+    "Newsletter provider, verified email confirmation and delivery",
+    "Final privacy/retention review",
+    "Public domain/access changes and a fresh six-gate validation"
   ]
 }

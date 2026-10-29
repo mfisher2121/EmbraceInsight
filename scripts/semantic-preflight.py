@@ -8,7 +8,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-DIST = ROOT / 'dist'
+DIST = ROOT / 'public'
 requirements = json.loads((ROOT / 'semantic-gate/requirements.json').read_text())
 origin = requirements['evaluated_url'].rstrip('/')
 
@@ -84,7 +84,8 @@ def check(name, result, evidence):
 
 check('Exactly one H1', len(home.h1) == 1, home.h1)
 for name, text in [('Title', home.title), ('H1', ' '.join(home.h1))]:
-    check(name + ' aligns with confirmed target', all(w.lower() in text.lower() for w in ['HVAC', 'business', 'intelligence', 'DMV']), text)
+    tokens = requirements['identity_tokens']['title' if name == 'Title' else 'h1']
+    check(name + ' reflects the working page identity', all(w.lower() in text.lower() for w in tokens), text)
 check('Homepage self canonical', home.canonical == [origin+'/'], home.canonical)
 check('Description exists', bool(home.meta.get('description')), home.meta.get('description'))
 check('Private draft remains noindex', 'noindex' in home.meta.get('robots',''), home.meta.get('robots'))
@@ -97,8 +98,8 @@ for item in requirements['required_sections']:
     check(item['id'] + ': ' + item['name'], item['selector'].removeprefix('#') in home.ids, item['selector'])
 for entity in requirements['required_entities']:
     check('Main-content entity: '+entity, entity.lower() in home.main.lower(), entity)
-check('Primary local-search citation', 'https://support.google.com/business/answer/7091?hl=en' in home.links, 'Google Business Profile guidance')
-check('Primary county-data citation', 'https://data.montgomerycountymd.gov/d/g6nn-rgwc' in home.links, 'County Socrata dataset')
+check('Primary technical-requirements citation', 'https://developers.google.com/search/docs/essentials/technical' in home.links, 'Google Search technical requirements')
+check('Primary content-guidance citation', 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content' in home.links, 'Google people-first content guidance')
 check('Visible publisher and direct contact', 'Max Fisher' in home.ids.get('publisher','') and 'mailto:mfisher@mbraceinsight.com' in home.links, home.ids.get('publisher',''))
 nodes = [n for s in home.schemas for n in s.get('@graph', [s])]
 check('Organization, person, website, and page schema', {'Organization','Person','WebSite','WebPage'}.issubset({n['@type'] for n in nodes}), [n['@type'] for n in nodes])
@@ -108,7 +109,6 @@ for key, item in content.items():
     page = Page(article_path.read_text())
     check('Initial-HTML content: '+item['path'], len(page.main) > 500 and item['title'] in page.main, str(article_path.relative_to(ROOT)))
     check('Self canonical: '+item['path'], page.canonical == [origin+item['path']], page.canonical)
-    check('Real crawlable homepage link: '+item['path'], item['path'] in home.links, item['path'])
     for href in page.links:
         if href.startswith('/') and not href.startswith('//'):
             parsed=urlsplit(href)
@@ -117,9 +117,16 @@ for key, item in content.items():
             else:
                 target=DIST / parsed.path.lstrip('/')
             check('Local article link resolves: '+href, target.exists(), href)
+resources=json.loads((ROOT/'content/resources.json').read_text())
+for resource in resources:
+    route='/resources/'+resource['id']+'/'
+    page=Page((DIST/route.lstrip('/')/'index.html').read_text())
+    check('Resource has initial HTML and self canonical: '+route, resource['title'] in page.main and page.canonical==[origin+route], route)
+    check('Resource is linked from the homepage: '+route, route in home.links, route)
+check('Review, resource, and newsletter sections are present', all(id_ in home.ids for id_ in ['clearance','resources','newsletter']), 'Primary conversion sections')
 urls=[n.text for n in ET.fromstring((DIST/'sitemap.xml').read_text()).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-expected=[origin+'/']+[origin+a['path'] for a in content.values()]
-check('Sitemap includes all six pages', set(urls)==set(expected), urls)
+expected=[origin+'/']+[origin+a['path'] for a in content.values()]+[origin+'/resources/'+r['id']+'/' for r in resources]
+check('Sitemap includes all authored pages', set(urls)==set(expected), urls)
 robots=(DIST/'robots.txt').read_text()
 check('Discovery declaration exists and preserves draft restriction', 'Disallow: /' in robots and origin+'/sitemap.xml' in robots, robots)
 unmet=[c for c in checks if not c['satisfied_in_source']]

@@ -1,0 +1,6 @@
+[
+  {"id":"six-gate-checklist","title":"The Six-Gate Readiness Checklist","category":"Page clearance","description":"A practical checklist for crawlability, indexing, query fit, coverage, citations, and trust.","format":"Markdown checklist","tag":"START HERE"},
+  {"id":"evidence-worksheet","title":"The Evidence & Citation Worksheet","category":"Evidence","description":"Keep the claim, source, checked date, and missing evidence together before issuing a verdict.","format":"Editable worksheet","tag":"BUILD YOUR RECORD"},
+  {"id":"launch-clearance-checklist","title":"The Before-Publish Checklist","category":"Publishing","description":"A compact review of initial HTML, metadata, discovery paths, identity, and release evidence.","format":"Markdown checklist","tag":"BEFORE YOU SHIP"},
+  {"id":"four-zip-worksheet","title":"The Four-ZIP Market Worksheet","category":"For HVAC operators","description":"A focused territory and customer-journey worksheet for HVAC owners investigating their next move.","format":"Editable worksheet","tag":"HVAC RESOURCE"}
+]
