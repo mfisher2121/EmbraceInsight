@@ -11,3 +11,7 @@ The current Sites project is owner-private. Preserve that audience until the use
 All resource content must exist in initial HTML at real linked URLs. Canonical content lives in `content/field-notes.json`; run `node scripts/prepare-content.mjs` after editing it or the shared header/footer. Keep homepage evidence and organization/person/contact schema consistent with visible content. Do not invent credentials, an office address, customers, projects, prices, outcomes, or verification links.
 
 Keep MBRACE INSIGHT for HVAC business operators and the MBRACE Energy homeowner/building decision journey distinct. Contact email is corroborated by the existing MBRACE source's schema and contact routing. No email is sent by this site; contact links open the visitor's mail application.
+
+## Product focus
+
+The current flagship offer is the Four-ZIP Market Brief. Keep one main journey: understand the offer, inspect a sample, build a scoped worksheet, and optionally discuss it with Max. Commercial readiness remains secondary. The builder must require four distinct five-digit ZIP codes, label research as pending, validate only format/uniqueness, keep inputs local until the visitor explicitly opens a mail draft, and never claim to have researched live rankings or verified service coverage. Product choices and remaining launch decisions are recorded in product-build-contract.json.

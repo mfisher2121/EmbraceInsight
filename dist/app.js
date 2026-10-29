@@ -21,27 +21,6 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu();
 document.addEventListener('click', e => { if (!e.target.closest('.site-header')) closeMenu(); });
 window.addEventListener('resize', () => { if (window.innerWidth > 700) closeMenu(); });
 
-const tabs = $$('[role="tab"]');
-function selectTab(tab, focus = false) {
-  tabs.forEach(t => {
-    const active = t === tab;
-    t.setAttribute('aria-selected', String(active));
-    t.tabIndex = active ? 0 : -1;
-    $('#' + t.getAttribute('aria-controls')).hidden = !active;
-  });
-  if (focus) tab.focus();
-}
-tabs.forEach((tab, index) => {
-  tab.addEventListener('click', () => selectTab(tab));
-  tab.addEventListener('keydown', e => {
-    let next;
-    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') next = tabs[(index + 1) % tabs.length];
-    if (e.key === 'Home') next = tabs[0];
-    if (e.key === 'End') next = tabs[tabs.length - 1];
-    if (next) { e.preventDefault(); selectTab(next, true); }
-  });
-});
-
 $$('[data-filter]').forEach(button => button.addEventListener('click', () => {
   const filter = button.dataset.filter;
   $$('[data-filter]').forEach(b => {
@@ -83,66 +62,93 @@ dialog.addEventListener('click', e => { if (e.target === dialog) { const r = dia
 dialog.addEventListener('close', () => { document.body.style.overflow = ''; lastArticleTrigger?.focus({ preventScroll: true }); });
 
 const markets = { dc: 'Washington, DC', md: 'Maryland', va: 'Virginia' };
-const plans = {
+const priorities = {
   visibility: {
-    title: 'Own a smaller part of the map.',
-    intro: 'Start with a focused view of your service area. Learn what a potential customer sees before changing everything at once.',
+    question: 'Can the right customers find us?',
     steps: [
-      'Choose four ZIP codes you can serve reliably. Record your core services, drive-time boundaries, and the type of work you want to understand.',
-      'Follow the search-to-contact journey in each area. Record the date and search context, then compare your website, business profile, and contact route.',
-      'Choose one observed gap to improve. Record the change and a consistent way to assess it before claiming an improvement.'
-    ]
-  },
-  commercial: {
-    title: 'Qualify the opportunity. Then the fit.',
-    intro: 'Begin with what your team can deliver. Use that capability to decide which building signals deserve a closer look.',
-    steps: [
-      'Document your commercial capabilities: system types, comparable projects, relevant credentials, service coverage, and current capacity.',
-      'For each building you investigate, keep its exact identity, source, reporting period, and checked date. Separate observations from ownership, need, or procurement assumptions.',
-      'Confirm scope, authority, stage, timing, and permission with an authorized representative before treating the record as an opportunity or making an introduction.'
+      'Record the local search journey for your chosen service in each ZIP code. Keep the query, search context, source, and checked date with every observation.',
+      'Compare the business profile and service pages with your actual offer and coverage. Identify what is clear and what needs confirmation.',
+      'Choose one evidenced gap to investigate first. Assign a next action, an owner, and a review date before describing a result.'
     ]
   },
   operations: {
-    title: 'Make the next handoff obvious.',
-    intro: 'Look inside one customer journey. Find the point where the next action stops being clear to your team.',
+    question: 'What happens after customers find us?',
     steps: [
-      'Using authorized internal records, trace one inquiry from first contact to its most recent outcome. Record what happened and when.',
-      'At each handoff, identify the responsible person, the information they need, the next action, and the event that confirms completion.',
-      'Choose one transition to improve. Give it an owner and a review date, then assess it with the same method before expanding the change.'
+      'Follow the service-page-to-contact route for each part of your territory. Record the steps, device, checked date, and any questions a visitor still has.',
+      'Using authorized internal records, trace one inquiry through the business. Identify the next owner and the information needed at each handoff.',
+      'Choose one transition to investigate first. State who acts next, what completion looks like, and when to review the change.'
     ]
   }
 };
-let currentBrief = null;
 const form = $('#brief-form');
 const result = $('#brief-result');
+const zipInputs = [1,2,3,4].map(i => $('#zip-' + i));
+const websiteInput = $('#business-website');
+let currentBrief = null;
 $('.planner-submit').disabled = false;
-form.addEventListener('submit', e => {
-  e.preventDefault();
+
+zipInputs.forEach(input => input.addEventListener('input', () => {
+  zipInputs.forEach(field => field.setCustomValidity(''));
+}));
+websiteInput.addEventListener('input', () => websiteInput.setCustomValidity(''));
+
+form.addEventListener('submit', event => {
+  event.preventDefault();
   const data = new FormData(form);
+  const zips = zipInputs.map(input => input.value.trim());
+  for (let i = 0; i < zips.length; i++) {
+    if (!/^\d{5}$/.test(zips[i])) {
+      zipInputs[i].setCustomValidity('Enter a five-digit ZIP code.');
+      zipInputs[i].reportValidity();
+      return;
+    }
+    if (zips.indexOf(zips[i]) !== i) {
+      zipInputs[i].setCustomValidity('Use four different ZIP codes.');
+      zipInputs[i].reportValidity();
+      return;
+    }
+  }
+  const website = websiteInput.value.trim();
+  if (website) {
+    try {
+      const parsed = new URL(website);
+      if (!['http:', 'https:'].includes(parsed.protocol) || !parsed.hostname.includes('.')) throw new Error('Unsupported URL');
+    } catch {
+      websiteInput.setCustomValidity('Enter a complete business website beginning with https:// or http://.');
+      websiteInput.reportValidity();
+      return;
+    }
+  }
   const market = data.get('market');
-  const priority = data.get('priority');
-  const plan = plans[priority];
-  if (!plan || !markets[market]) return;
-  currentBrief = { market: markets[market], ...plan };
+  const priority = priorities[data.get('priority')];
+  if (!markets[market] || !priority) return;
+  currentBrief = {
+    business: String(data.get('business') || '').trim(),
+    website, market: markets[market], zips,
+    service: String(data.get('service')), question: priority.question,
+    steps: priority.steps
+  };
   $('#result-market').textContent = currentBrief.market.toUpperCase();
-  $('#result-title').textContent = plan.title;
-  $('#result-intro').textContent = plan.intro;
-  $('#result-steps').replaceChildren(...plan.steps.map(text => { const li = document.createElement('li'); li.textContent = text; return li; }));
+  $('#result-title').textContent = currentBrief.business ? `${currentBrief.business}: your scope is ready.` : 'Your four-ZIP scope is ready.';
+  $('#result-intro').textContent = `${currentBrief.service} · ${currentBrief.market}. Start with the territory below, then collect the evidence before choosing an action.`;
+  $('#result-zips').replaceChildren(...zips.map(zip => { const span = document.createElement('span'); span.textContent = zip; return span; }));
+  $('#result-question').textContent = 'Your question: ' + priority.question;
+  $('#result-steps').replaceChildren(...priority.steps.map(text => { const li = document.createElement('li'); li.textContent = text; return li; }));
+  const subject = `Four-ZIP Market Brief${currentBrief.business ? ' — '+currentBrief.business : ''}`;
+  const body = `Hi Max,\n\nI would like to discuss a Four-ZIP Market Brief.\n\nBusiness: ${currentBrief.business || 'To discuss'}\nWebsite: ${currentBrief.website || 'To discuss'}\nStarting market: ${currentBrief.market}\nZIP codes: ${zips.join(', ')}\nService focus: ${currentBrief.service}\nQuestion: ${priority.question}\n\nCan we discuss the proposed scope, fee, and timing? This is a review scope; observations have not yet been collected.\n\nThanks`;
+  $('#email-brief').href = `mailto:mfisher@mbraceinsight.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   form.hidden = true;
   result.hidden = false;
   $('#result-title').focus({ preventScroll: true });
-  $('#your-next-move').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  $('.planner-card').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 });
-function showBriefForm() {
+
+$('#restart-brief').addEventListener('click', () => {
   result.hidden = true;
   form.hidden = false;
-}
-$('#restart-brief').addEventListener('click', () => { showBriefForm(); $('input:checked', form).focus({ preventScroll: true }); });
-$$('[data-focus]').forEach(button => button.addEventListener('click', () => {
-  showBriefForm();
-  $(`input[name="priority"][value="${button.dataset.focus}"]`, form).checked = true;
-  $('#your-next-move').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
-}));
+  zipInputs[0].focus({ preventScroll: true });
+});
+
 let toastTimeout;
 function toast(message) {
   clearTimeout(toastTimeout);
@@ -150,17 +156,20 @@ function toast(message) {
   $('#toast').hidden = false;
   toastTimeout = setTimeout(() => { $('#toast').hidden = true; }, 5000);
 }
+
 $('#download-brief').addEventListener('click', () => {
   if (!currentBrief) return;
-  const text = `MBRACE INSIGHT | YOUR STARTING BRIEF\n\nMarket focus: ${currentBrief.market}\n\n${currentBrief.title}\n\n${currentBrief.intro}\n\n${currentBrief.steps.map((s, i) => `${i + 1}. ${s}`).join('\n\n')}\n\nReview date: __________________\nOwner of next action: __________________\n\nABOUT THIS BRIEF\nThis is a planning framework based only on your selections. It is not a site audit, live market research, engineering or compliance advice, or a verified project opportunity. Market selection labels the territory to investigate; the plan does not contain jurisdiction-specific rules.\n\nCreated in your browser. Your selections were not sent to MBRACE.\nWebsite concept for private review.\n`;
-  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const b = currentBrief;
+  const logs = b.zips.map(zip => `## Research area: ZIP ${zip}\n\n- Service coverage confirmed: [ ]\n- Query or customer-journey steps: \n- Source URL / authorized record: \n- Checked date and context: \n- What was observed: \n- What remains unknown: \n- Proposed next action: \n- Person responsible: \n- Review date: \n`).join('\n');
+  const text = `# MBRACE INSIGHT — FOUR-ZIP MARKET BRIEF\n\nResearch scope · observations pending\nCreated: ${new Date().toISOString().slice(0,10)}\n\nBusiness: ${b.business || 'To be added'}\nWebsite: ${b.website || 'To be added'}\nStarting market: ${b.market}\nZIP codes: ${b.zips.join(', ')}\nService focus: ${b.service}\n\n## The question\n\n${b.question}\n\n## What to investigate\n\n${b.steps.map((step,i)=>`${i+1}. ${step}`).join('\n\n')}\n\n${logs}\n## One decision after the evidence review\n\n- Finding and supporting source: \n- Why it matters to the chosen question: \n- Evidence still missing: \n- Next action: \n- Owner: \n- Review date: \n\n## Research references\n\nGoogle Business Profile local ranking guidance:\nhttps://support.google.com/business/answer/7091?hl=en\n\nSBA market research and competitive analysis:\nhttps://www.sba.gov/counseling/plan-your-business/#market-research-and-competitive-analysis\n\n## Scope and status\n\nThis worksheet was generated from your inputs in your browser. It is a research scope, not a completed audit, live ranking report, geographic validation, verified lead list, engineering assessment, or compliance determination. ZIP codes were checked for format and uniqueness only. The four-ZIP boundary is MBRACE's proposed scoping method, not an official ranking rule.\n\nTo discuss a researched review, contact Max Fisher: mfisher@mbraceinsight.com. Scope, fee, and timing require agreement. No email has been sent by this site.\n`;
+  const blob = new Blob([text], { type: 'text/markdown;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = 'mbrace-insight-starting-brief.txt';
+  link.download = 'mbrace-four-zip-market-brief.md';
   document.body.appendChild(link);
   link.click();
   link.remove();
   setTimeout(() => URL.revokeObjectURL(url), 30000);
-  toast('Your starting brief is ready to save.');
+  toast('Your four-ZIP worksheet is ready to save.');
 });

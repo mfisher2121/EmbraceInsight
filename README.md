@@ -2,14 +2,18 @@
 
 A responsive, buildless HTML/CSS/JavaScript website for private review through Sites. The canonical source for this draft is this folder and the Sites source repository linked by `.openai/hosting.json`.
 
-Audience: HVAC owners and operators in the DMV. Job: introduce Insight's proposed local visibility and commercial readiness paths, offer practical editorial resources, and help an operator produce a starting framework. Homeowner energy decisions belong to the separate Energy journey.
+Audience: HVAC owners and operators in the DMV. Job: help an operator scope a focused Four-ZIP Market Brief, inspect its sample format, and begin a conversation about a researched review. Local visibility and the customer journey lead; commercial qualification is a secondary educational path. Homeowner energy decisions belong to the separate Energy journey.
 
 ## Included
 
-- Responsive home page with mobile navigation, two accessible service tabs, an approach section, sample brief, and brand explanation.
-- Three original editorial drafts with category filtering and keyboard-accessible modal readers.
-- Browser-local planning brief with three priorities, three market labels, and a text download. Market selection defines the territory to investigate; it does not imply jurisdiction-specific advice.
-- FAQ and preview/privacy information. No forms send data, and no subscription or CRM is connected.
+- One primary offer: the Four-ZIP Market Brief, with a visible sample and a simple choose / inspect / act process.
+- A browser-local scope builder with optional business and website fields, four required unique ZIP codes, a starting market, service focus, and business question.
+- A tailored Markdown worksheet with a research log for each ZIP code and source / date / observation / unknown / next-action fields.
+- An optional mailto draft containing the entered scope. The visitor reviews and sends through their own mail app; the site does not send automatically.
+- Three original field-note drafts, filters, progressive modal readers, and standalone pages with content in initial HTML.
+- A compact secondary route for commercial readiness, plus primary references, responsible publisher, contact, FAQ, and privacy information.
+
+ZIP validation checks format and uniqueness only. The builder creates a scope, not completed research. It does not fetch rankings, validate territory coverage, infer ownership, or provide live leads. Inputs are not submitted to a backend or persisted after reload.
 
 ## Editing and preview
 
@@ -23,7 +27,7 @@ Before a public/domain launch, confirm the final offer, intake and consent requi
 
 ## Semantic Gate is required
 
-The user confirmed the homepage target query **HVAC business intelligence DMV**. The acceptance contract is in `semantic-gate/requirements.json`; `AGENTS.md` records it for continued work. Six gates, binary outcomes, no scores, no inferred passes, no ranking guarantees. The current private hosted URL returns an authentication gate to anonymous requests, and its source retains noindex and robots disallow. It cannot receive a public eligibility PASS. Source preflight results do not certify a live URL.
+Semantic Gate remains the public-launch requirement. The user confirmed the homepage target query **HVAC business intelligence DMV**. The acceptance contract is in `semantic-gate/requirements.json`; `AGENTS.md` records it for continued work. Six gates, binary outcomes, no scores, no inferred passes, no ranking guarantees. The current private hosted URL returns an authentication gate to anonymous requests, and its source retains noindex and robots disallow. It cannot receive a public eligibility PASS. Source preflight results do not certify a live URL.
 
 The implementation now includes a self canonical, query-aligned title and H1, visible publisher and business contact, Organization/Person/WebSite/WebPage schema, primary outbound sources, direct resource links, and article content in initial HTML. Public release requires deliberate alignment of canonical, metadata, sitemap, schema, and robots to the actual public origin, followed by a fresh anonymous live validation. Preserve private access until explicitly changed by the user. Do not display a certification badge without a full live PASS.
 

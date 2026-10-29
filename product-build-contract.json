@@ -1,0 +1,38 @@
+{
+  "audience": "HVAC owners and operators in Washington, DC, Maryland, and Virginia",
+  "primary_job": "Help an operator define a focused business question and a four-ZIP review scope, then discuss a researched brief.",
+  "flagship_offer": "Four-ZIP Market Brief",
+  "recommendation_status": "Selected by Codex under the user’s instruction to focus on the best build; service copy remains a private draft.",
+  "main_journey": [
+    "Understand the offer",
+    "Inspect the sample",
+    "Build a four-ZIP research scope",
+    "Download the worksheet or discuss the scope with Max"
+  ],
+  "secondary_path": "Commercial capability and project qualification education",
+  "home": "mbraceinsight.com intended; existing private Sites origin until public launch is authorized",
+  "canonical_content": "This source repository; content/field-notes.json for editorial pages",
+  "non_goals": [
+    "Homeowner energy advice",
+    "Live opportunity feed",
+    "Automated ranking audit",
+    "Subscription dashboard",
+    "Autonomous email outreach",
+    "Public launch without Semantic Gate"
+  ],
+  "implemented": [
+    "Unique four-ZIP format validation",
+    "Optional business and website inputs",
+    "Market, service, and question selection",
+    "Tailored evidence worksheet",
+    "Explicit research-pending output state",
+    "User-initiated email draft",
+    "Initial-HTML resource pages and preserved Semantic Gate requirements"
+  ],
+  "launch_decisions_still_needed": [
+    "Final researched-service scope, fee, and turnaround",
+    "Editorial and privacy review",
+    "Public-domain cutover and audience change",
+    "Fresh six-gate validation on final public URL"
+  ]
+}
