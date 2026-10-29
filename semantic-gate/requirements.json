@@ -1,126 +1,133 @@
 {
   "framework": "Semantic Gate v1.0",
-  "target_query": "website rank eligibility check",
+  "target_query": "DMV heat pump rebates",
   "target_query_confirmed_by_user": false,
-  "query_status": "Working query for the user-requested page-clearance and email-capture direction. The older HVAC query is retained in hvac-requirements-v1.json; new public validation and query confirmation are required.",
+  "query_status": "Working query reflecting the user-confirmed DMV resident education direction; exact search query remains unconfirmed.",
   "location": null,
   "evaluated_url": "https://mbrace-insight.niceshark22.chatgpt.site/",
   "intended_public_domain": "https://mbraceinsight.com/",
   "stage": "owner-private draft; no public rank-eligibility claim",
   "gates": [
-    "G0 — Crawlability",
-    "G1 — Index Eligibility",
-    "G2 — Query Alignment",
-    "G3 — Semantic Coverage",
-    "G4 — Citation Map",
-    "G5 — Trust Signals"
+    "G0 \u2014 Crawlability",
+    "G1 \u2014 Index Eligibility",
+    "G2 \u2014 Query Alignment",
+    "G3 \u2014 Semantic Coverage",
+    "G4 \u2014 Citation Map",
+    "G5 \u2014 Trust Signals"
   ],
-  "requirements_frozen_at": "2026-10-29T20:21:45.223184+00:00",
-  "requirements_basis": "Finite operator-defined source acceptance list for the revised build. No PAA or SERP consensus is asserted. A public certification requires a new evidence snapshot.",
+  "requirements_frozen_at": "2026-10-29T20:42:47.306586+00:00",
+  "requirements_basis": "Finite editorial acceptance list frozen before source checks. User confirmed the resident audience and topic; no PAA or SERP consensus is asserted.",
   "identity_tokens": {
     "title": [
-      "website",
-      "rank",
-      "eligibility"
+      "DMV",
+      "heat pump",
+      "rebates"
     ],
     "h1": [
-      "optimize",
-      "gates"
+      "DMV",
+      "heat pumps",
+      "rebates"
     ]
   },
   "required_questions": [
     {
       "id": "Q1",
-      "question": "What does the six-gate review cover?",
-      "selector": "#gates",
-      "evidence": "Crawlability"
+      "question": "Who is this publication for?",
+      "selector": "#about",
+      "evidence": "residents"
     },
     {
       "id": "Q2",
-      "question": "Is the request an instant automated assessment?",
-      "selector": "#faq",
-      "evidence": "review request"
+      "question": "How do DC, Maryland, and Virginia rebate routes differ?",
+      "selector": "#regional-briefing",
+      "evidence": "launch"
     },
     {
       "id": "Q3",
-      "question": "How does a visitor unlock an asset?",
-      "selector": "#resources",
-      "evidence": "Enter your email"
+      "question": "What must a resident check before relying on a rebate?",
+      "selector": "#briefing",
+      "evidence": "purchase timing"
     },
     {
       "id": "Q4",
-      "question": "Is newsletter consent distinct from the resource request?",
+      "question": "Does BEPS apply to every home?",
+      "selector": "#beps",
+      "evidence": "covered buildings"
+    },
+    {
+      "id": "Q5",
+      "question": "Can a resource request be separate from newsletter signup?",
       "selector": "#faq",
       "evidence": "separate, unchecked"
     },
     {
-      "id": "Q5",
-      "question": "What inputs start a clearance request?",
-      "selector": "#clearance",
-      "evidence": "target query"
-    },
-    {
       "id": "Q6",
-      "question": "Who is responsible for the content?",
-      "selector": "#publisher",
-      "evidence": "Max Fisher"
+      "question": "How current is the information?",
+      "selector": "#faq",
+      "evidence": "source-checked date"
     },
     {
       "id": "Q7",
-      "question": "Does the framework promise rankings?",
-      "selector": "#faq",
-      "evidence": "not guaranteed"
+      "question": "Who is responsible and how can a correction be sent?",
+      "selector": "#publisher",
+      "evidence": "Max Fisher"
     }
   ],
   "required_sections": [
     {
       "id": "S1",
-      "name": "six-gate method",
-      "selector": "#gates"
+      "name": "regional rebate routes",
+      "selector": "#regional-briefing"
     },
     {
       "id": "S2",
-      "name": "clearance request and contact consent",
-      "selector": "#clearance"
+      "name": "source-linked local context",
+      "selector": "#briefing"
     },
     {
       "id": "S3",
-      "name": "resource library and email capture",
-      "selector": "#resources"
+      "name": "BEPS coverage and limits",
+      "selector": "#beps"
     },
     {
       "id": "S4",
-      "name": "newsletter signup and separate opt-in",
-      "selector": "#newsletter"
+      "name": "resident resources and email capture",
+      "selector": "#resources"
     },
     {
       "id": "S5",
-      "name": "responsible publisher and contact",
-      "selector": "#publisher"
+      "name": "newsletter with explicit opt-in",
+      "selector": "#newsletter"
     },
     {
       "id": "S6",
-      "name": "scope and fulfillment questions",
+      "name": "publisher and contact",
+      "selector": "#publisher"
+    },
+    {
+      "id": "S7",
+      "name": "scope and currency questions",
       "selector": "#faq"
     }
   ],
   "required_entities": [
     "MBRACE INSIGHT",
-    "Crawlability",
-    "Index Eligibility",
-    "Query Alignment",
-    "Semantic Coverage",
-    "Citation Map",
-    "Trust Signals",
-    "Max Fisher",
-    "newsletter"
+    "Washington, DC",
+    "Maryland",
+    "Virginia",
+    "heat pump",
+    "rebates",
+    "electrification",
+    "BEPS",
+    "Max Fisher"
   ],
   "non_goals": [
-    "Instant simulated certification",
-    "Ranking guarantees",
-    "Automatic newsletter enrollment with every resource",
-    "Unverified email delivery claims",
-    "Public launch without a live six-gate review"
+    "SEO agency services on the resident homepage",
+    "Personal rebate approval",
+    "Building compliance certification",
+    "Guaranteed funding or savings",
+    "Automatic email sending before provider integration",
+    "Public eligibility claims from a private source check"
   ],
   "release_condition": "Preserve owner-private access. Confirm the revised query/audience and complete a fresh anonymous live validation on the actual public URL before any public eligibility claim."
 }

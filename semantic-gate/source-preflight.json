@@ -1,23 +1,23 @@
 {
   "scope": "Initial-HTML source preflight only; not a live Semantic Gate certification",
-  "target_query": "website rank eligibility check",
+  "target_query": "DMV heat pump rebates",
   "source_checks": [
     {
       "requirement": "Exactly one H1",
       "satisfied_in_source": true,
       "evidence": [
-        "Before you optimize, clear the six gates. "
+        "Heat pumps. Rebates. DMV, explained. "
       ]
     },
     {
       "requirement": "Title reflects the working page identity",
       "satisfied_in_source": true,
-      "evidence": "Website Rank Eligibility & Page Clearance | MBRACE INSIGHT"
+      "evidence": "DMV Heat Pump Rebates, Electrification & BEPS | MBRACE INSIGHT"
     },
     {
       "requirement": "H1 reflects the working page identity",
       "satisfied_in_source": true,
-      "evidence": "Before you optimize, clear the six gates. "
+      "evidence": "Heat pumps. Rebates. DMV, explained. "
     },
     {
       "requirement": "Homepage self canonical",
@@ -29,7 +29,7 @@
     {
       "requirement": "Description exists",
       "satisfied_in_source": true,
-      "evidence": "Request a six-gate page-clearance review, unlock practical website resources, and join the MBRACE INSIGHT newsletter. One page, one query, evidence before a verdict."
+      "evidence": "Source-checked insight for DMV residents on heat pumps, electrification rebates, and BEPS. Read the local context, get practical guides, and join the newsletter."
     },
     {
       "requirement": "Private draft remains noindex",
@@ -42,67 +42,72 @@
       "evidence": []
     },
     {
-      "requirement": "Q1: What does the six-gate review cover?",
+      "requirement": "Q1: Who is this publication for?",
       "satisfied_in_source": true,
-      "evidence": "01 / CLEARANCE BEFORE OPTIMIZATION A finished-looking page still needs evidence. The six-gate method separates access, meaning, and credibility. A complete review records each condition and its evidence. G0 + G1 / ACCESS Can the page exist in search? Crawlability and index eligibility examine the response, initial HTML, discovery signals, directives, and canonical identity. Google\u2019s technical requirements \u2197 G2 + G3 / MEANING Does it answer the right question? Query alignment and semantic coverage compare the page with a frozen list of questions, sections, and entities for the target query. Inspect the evidence worksheet \u2197 G4 + G5 / CREDIBILITY Can the claims be checked? Citation mapping and trust signals look for supporting authority, a responsible publisher, contact, and appropriate structured identity. Google\u2019s people-first content guidance \u2197 THE RULE All six gates need evidence for a full PASS. Missing evidence fails the relevant gate. This independent framework does not promise Google indexing or rankings. See what a report contains \u2197 "
+      "evidence": "\u2733 WHY MBRACE INSIGHT The local detail. The bigger picture. MBRACE INSIGHT helps residents of Washington, DC, Maryland, and Virginia make sense of the electrification movement\u2014from heat pumps and rebate programs to building-performance requirements. Our version of insider insight is doing the reading: connecting the program details, explaining what they mean, and showing you the source. Our focus is independent education and useful questions for your next decision. RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent educational publication. Sources checked October 29, 2026. Private editorial preview. OUR EDITORIAL STANDARD Official sources, linked. Jurisdictions kept distinct. Checked dates, visible. Unknowns stay unknown. Read our standard \u2197 "
     },
     {
-      "requirement": "Q2: Is the request an instant automated assessment?",
+      "requirement": "Q2: How do DC, Maryland, and Virginia rebate routes differ?",
       "satisfied_in_source": true,
-      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
+      "evidence": "FROM THE LOCAL DESK 01 / REBATES Same region. Different rules. DC Know the program route. Federal assistance and local residential rebates follow distinct routes. DOEE program details \u2197 MD Federal launch still pending. MEA reports revised applications submitted; launch depends on DOE approval. MEA status update \u2197 VA Approval comes before launch. Virginia Energy says the federal programs are not yet available. Virginia Energy FAQ \u2197 SOURCES CHECKED OCT 29, 2026 DATED SNAPSHOT "
     },
     {
-      "requirement": "Q3: How does a visitor unlock an asset?",
+      "requirement": "Q3: What must a resident check before relying on a rebate?",
       "satisfied_in_source": true,
-      "evidence": "03 / THE RESOURCE LIBRARY A useful asset. A reason to stay in touch. Start with a checklist or a worksheet. Enter your email to unlock the download, with a separate choice to join the newsletter. START HERE 01 SIX GATES. \u2197 Page clearance \u00b7 Markdown checklist The Six-Gate Readiness Checklist A practical checklist for crawlability, indexing, query fit, coverage, citations, and trust. Get the resource \u2197 BUILD YOUR RECORD 02 SHOW THE EVIDENCE. \u2197 Evidence \u00b7 Editable worksheet The Evidence & Citation Worksheet Keep the claim, source, checked date, and missing evidence together before issuing a verdict. Get the resource \u2197 BEFORE YOU SHIP 03 READY TO SHIP? \u2197 Publishing \u00b7 Markdown checklist The Before-Publish Checklist A compact review of initial HTML, metadata, discovery paths, identity, and release evidence. Get the resource \u2197 HVAC RESOURCE 04 FOUR ZIP CODES. \u2197 For HVAC operators \u00b7 Editable worksheet The Four-ZIP Market Worksheet A focused territory and customer-journey worksheet for HVAC owners investigating their next move. Get the resource \u2197 "
+      "evidence": "01 / THE BRIEFING The detail behind the big promise. Useful local context starts with the responsible source. These are editorial snapshots, with checked dates and clear limits. 01 / REBATES A rebate headline is not an approval. Location, utility, program status, and purchase timing matter. Start with the right official route before putting an incentive in your budget. Read the rebate briefing \u2197 02 / THE FINE PRINT Old tax-credit copy can cost you. The IRS describes the Section 25C credit for improvements through 2025. Do not assume a new 2026 installation qualifies. Check the IRS timing rules \u2197 03 / HEAT PUMP PLANNING Look past the price tag. A useful comparison includes the scope, equipment, assessment, electrical work, and who handles program documentation. Start your question list \u2197 "
     },
     {
-      "requirement": "Q4: Is newsletter consent distinct from the resource request?",
+      "requirement": "Q4: Does BEPS apply to every home?",
       "satisfied_in_source": true,
-      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
+      "evidence": "02 / BEPS, WITHOUT THE GUESSWORK Start with your building. Building Energy Performance Standards are specific to covered buildings and jurisdictions. A condo resident\u2019s questions can differ from a single-family homeowner\u2019s. Read the resident BEPS guide \u2197 MARYLAND / STATE PROGRAM 35,000 sq ft and above MDE identifies commercial and multifamily buildings at this size for its program, with exemption procedures. Confirm the actual building\u2019s coverage. Check Maryland MDE \u2197 MONTGOMERY COUNTY / LOCAL PROGRAM 25,000 sq ft and above The County describes coverage for most commercial and multifamily buildings at this size. Its rules need their own check. Read the County\u2019s scope \u2197 WASHINGTON, DC / OWN PROGRAM Use the District\u2019s record. Start with DOEE\u2019s current program and building-energy portal to check coverage and applicable requirements. Start with DC DOEE \u2197 A performance gap alone does not establish noncompliance, required HVAC replacement, or a funded project. Confirm the building record and applicable requirements. "
     },
     {
-      "requirement": "Q5: What inputs start a clearance request?",
+      "requirement": "Q5: Can a resource request be separate from newsletter signup?",
       "satisfied_in_source": true,
-      "evidence": "02 / START WITH ONE PAGE What page are we clearing? Share one public page URL, one target query, and your email. Your request starts the review queue; a completed verdict requires an evidence review. \u21b3 Get the Six-Gate Readiness Checklist as soon as your request is saved. YOUR CLEARANCE REQUEST ONE URL / ONE QUERY Public page URL The target search query Your email Leave this empty You may email me about this page-clearance request. Also send me the MBRACE INSIGHT newsletter. I can unsubscribe at any time. Request my gate check \u2197 Newsletter signup is optional. Your request is saved in the publisher\u2019s private list. Privacy & preferences . "
+      "evidence": "A FEW GOOD QUESTIONS Clear context. Clear expectations. Can you tell me which rebate I qualify for? + Our guides help you find the responsible program and prepare questions. The administrator determines eligibility. Program status, utility, income, equipment, contractor rules, and timing can change the answer. We do not promise approval or a rebate amount. Does BEPS mean every homeowner must replace their HVAC? + No. Start by checking whether a particular building is covered under the applicable jurisdiction\u2019s program. A threshold or performance gap alone does not establish a replacement obligation. Condo boards and building managers should confirm the building\u2019s record with the administrator. Is this a government or utility website? + MBRACE INSIGHT is an independent educational publication. We link to official agencies and programs so you can verify information directly. We do not claim government endorsement, privileged access, or authority to approve applications. Does a guide subscribe me to the newsletter? + Only if you select the separate, unchecked newsletter option. Resource requests and newsletter requests are recorded distinctly. Use the preference link shown after signup to withdraw your newsletter request. Will an email arrive immediately? + This private preview records requests and unlocks downloads after saving. Email confirmation and newsletter delivery are not connected yet. Newsletter requests remain pending confirmation; no email is sent automatically. How current is the briefing? + The source-checked date records our review, not an automatic live feed. Recheck official terms before a purchase or compliance decision. Send a correction or source to Max at mfisher@mbraceinsight.com . "
     },
     {
-      "requirement": "Q6: Who is responsible for the content?",
+      "requirement": "Q6: How current is the information?",
       "satisfied_in_source": true,
-      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent review framework and practical resources. Private website draft. "
+      "evidence": "A FEW GOOD QUESTIONS Clear context. Clear expectations. Can you tell me which rebate I qualify for? + Our guides help you find the responsible program and prepare questions. The administrator determines eligibility. Program status, utility, income, equipment, contractor rules, and timing can change the answer. We do not promise approval or a rebate amount. Does BEPS mean every homeowner must replace their HVAC? + No. Start by checking whether a particular building is covered under the applicable jurisdiction\u2019s program. A threshold or performance gap alone does not establish a replacement obligation. Condo boards and building managers should confirm the building\u2019s record with the administrator. Is this a government or utility website? + MBRACE INSIGHT is an independent educational publication. We link to official agencies and programs so you can verify information directly. We do not claim government endorsement, privileged access, or authority to approve applications. Does a guide subscribe me to the newsletter? + Only if you select the separate, unchecked newsletter option. Resource requests and newsletter requests are recorded distinctly. Use the preference link shown after signup to withdraw your newsletter request. Will an email arrive immediately? + This private preview records requests and unlocks downloads after saving. Email confirmation and newsletter delivery are not connected yet. Newsletter requests remain pending confirmation; no email is sent automatically. How current is the briefing? + The source-checked date records our review, not an automatic live feed. Recheck official terms before a purchase or compliance decision. Send a correction or source to Max at mfisher@mbraceinsight.com . "
     },
     {
-      "requirement": "Q7: Does the framework promise rankings?",
+      "requirement": "Q7: Who is responsible and how can a correction be sent?",
       "satisfied_in_source": true,
-      "evidence": "A FEW GOOD QUESTIONS Know what you\u2019re signing up for. Does the form run an instant automated check? + No. It saves a page-clearance review request with your URL and target query. The evidence must be collected and assessed before a real verdict can be issued. The sample report is an example of the format. What do the six gates cover? + G0 Crawlability, G1 Index Eligibility, G2 Query Alignment, G3 Semantic Coverage, G4 Citation Map, and G5 Trust Signals. A full PASS requires evidence for every condition; missing evidence fails the relevant gate. Does getting a resource subscribe me to the newsletter? + Only if you choose the separate, unchecked newsletter option. A resource request and a newsletter request are recorded distinctly. You can withdraw your newsletter request using the preference link shown after signup. Will I receive an email immediately? + This private preview records requests and unlocks resource downloads immediately. It does not send a report, a confirmation email, or a newsletter automatically. Newsletter requests remain pending email confirmation until the delivery workflow is connected. Is a PASS a promise that my page will rank? + No. The method assesses structural eligibility for a specified query. Indexing and rankings are not guaranteed. Google\u2019s technical requirements also distinguish eligibility from guaranteed indexing. Can I start without requesting a full review? + Yes. Choose a checklist or worksheet in the resource library, or join the newsletter. Those paths do not require a page URL or a review request. "
+      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent educational publication. Sources checked October 29, 2026. Private editorial preview. "
     },
     {
-      "requirement": "S1: six-gate method",
+      "requirement": "S1: regional rebate routes",
       "satisfied_in_source": true,
-      "evidence": "#gates"
+      "evidence": "#regional-briefing"
     },
     {
-      "requirement": "S2: clearance request and contact consent",
+      "requirement": "S2: source-linked local context",
       "satisfied_in_source": true,
-      "evidence": "#clearance"
+      "evidence": "#briefing"
     },
     {
-      "requirement": "S3: resource library and email capture",
+      "requirement": "S3: BEPS coverage and limits",
+      "satisfied_in_source": true,
+      "evidence": "#beps"
+    },
+    {
+      "requirement": "S4: resident resources and email capture",
       "satisfied_in_source": true,
       "evidence": "#resources"
     },
     {
-      "requirement": "S4: newsletter signup and separate opt-in",
+      "requirement": "S5: newsletter with explicit opt-in",
       "satisfied_in_source": true,
       "evidence": "#newsletter"
     },
     {
-      "requirement": "S5: responsible publisher and contact",
+      "requirement": "S6: publisher and contact",
       "satisfied_in_source": true,
       "evidence": "#publisher"
     },
     {
-      "requirement": "S6: scope and fulfillment questions",
+      "requirement": "S7: scope and currency questions",
       "satisfied_in_source": true,
       "evidence": "#faq"
     },
@@ -112,34 +117,39 @@
       "evidence": "MBRACE INSIGHT"
     },
     {
-      "requirement": "Main-content entity: Crawlability",
+      "requirement": "Main-content entity: Washington, DC",
       "satisfied_in_source": true,
-      "evidence": "Crawlability"
+      "evidence": "Washington, DC"
     },
     {
-      "requirement": "Main-content entity: Index Eligibility",
+      "requirement": "Main-content entity: Maryland",
       "satisfied_in_source": true,
-      "evidence": "Index Eligibility"
+      "evidence": "Maryland"
     },
     {
-      "requirement": "Main-content entity: Query Alignment",
+      "requirement": "Main-content entity: Virginia",
       "satisfied_in_source": true,
-      "evidence": "Query Alignment"
+      "evidence": "Virginia"
     },
     {
-      "requirement": "Main-content entity: Semantic Coverage",
+      "requirement": "Main-content entity: heat pump",
       "satisfied_in_source": true,
-      "evidence": "Semantic Coverage"
+      "evidence": "heat pump"
     },
     {
-      "requirement": "Main-content entity: Citation Map",
+      "requirement": "Main-content entity: rebates",
       "satisfied_in_source": true,
-      "evidence": "Citation Map"
+      "evidence": "rebates"
     },
     {
-      "requirement": "Main-content entity: Trust Signals",
+      "requirement": "Main-content entity: electrification",
       "satisfied_in_source": true,
-      "evidence": "Trust Signals"
+      "evidence": "electrification"
+    },
+    {
+      "requirement": "Main-content entity: BEPS",
+      "satisfied_in_source": true,
+      "evidence": "BEPS"
     },
     {
       "requirement": "Main-content entity: Max Fisher",
@@ -147,24 +157,44 @@
       "evidence": "Max Fisher"
     },
     {
-      "requirement": "Main-content entity: newsletter",
+      "requirement": "Primary citation: DC Department of Energy & Environment / Federal Home Energy Rebates and Healthy Homes",
       "satisfied_in_source": true,
-      "evidence": "newsletter"
+      "evidence": "https://doee.dc.gov/service/federal-home-energy-rebates-and-healthy-homes-act-2024"
     },
     {
-      "requirement": "Primary technical-requirements citation",
+      "requirement": "Primary citation: Maryland Energy Administration / Home Energy Rebate Program status",
       "satisfied_in_source": true,
-      "evidence": "Google Search technical requirements"
+      "evidence": "https://energy.maryland.gov/Pages/IRArebates.aspx"
     },
     {
-      "requirement": "Primary content-guidance citation",
+      "requirement": "Primary citation: Virginia Energy / Home Energy Rebates FAQ",
       "satisfied_in_source": true,
-      "evidence": "Google people-first content guidance"
+      "evidence": "https://energy.virginia.gov/energy-efficiency/HomeEnergyRebatesFrequentlyAskedQuestions.shtml"
+    },
+    {
+      "requirement": "Primary citation: Internal Revenue Service / Energy Efficient Home Improvement Credit",
+      "satisfied_in_source": true,
+      "evidence": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit"
+    },
+    {
+      "requirement": "Primary citation: Maryland Department of the Environment / Building Energy Performance Standards",
+      "satisfied_in_source": true,
+      "evidence": "https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx"
+    },
+    {
+      "requirement": "Primary citation: DC Department of Energy & Environment / DC Building Energy Performance Standards",
+      "satisfied_in_source": true,
+      "evidence": "https://doee.dc.gov/service/building-energy-performance-standards-beps"
+    },
+    {
+      "requirement": "Primary citation: Montgomery County / BEPS regulations adopted",
+      "satisfied_in_source": true,
+      "evidence": "https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611"
     },
     {
       "requirement": "Visible publisher and direct contact",
       "satisfied_in_source": true,
-      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent review framework and practical resources. Private website draft. "
+      "evidence": "RESPONSIBLE PUBLISHER Max Fisher \u00b7 MBRACE INSIGHT mfisher@mbraceinsight.com \u2197 Independent educational publication. Sources checked October 29, 2026. Private editorial preview. "
     },
     {
       "requirement": "Organization, person, website, and page schema",
@@ -177,15 +207,15 @@
       ]
     },
     {
-      "requirement": "Initial-HTML content: /field-notes/four-zip-codes/",
+      "requirement": "Initial-HTML content: /guides/dmv-heat-pump-rebates/",
       "satisfied_in_source": true,
-      "evidence": "public/field-notes/four-zip-codes/index.html"
+      "evidence": "public/guides/dmv-heat-pump-rebates/index.html"
     },
     {
-      "requirement": "Self canonical: /field-notes/four-zip-codes/",
+      "requirement": "Self canonical: /guides/dmv-heat-pump-rebates/",
       "satisfied_in_source": true,
       "evidence": [
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/four-zip-codes/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/dmv-heat-pump-rebates/"
       ]
     },
     {
@@ -194,9 +224,14 @@
       "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#gates",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
+    },
+    {
+      "requirement": "Local article link resolves: /#beps",
+      "satisfied_in_source": true,
+      "evidence": "/#beps"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -204,29 +239,24 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
       "requirement": "Local article link resolves: /#about",
       "satisfied_in_source": true,
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#clearance",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#clearance"
+      "evidence": "/#newsletter"
     },
     {
-      "requirement": "Local article link resolves: /#field-notes",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#briefing"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#resources"
     },
     {
       "requirement": "Local article link resolves: /",
@@ -237,6 +267,11 @@
       "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
       "evidence": "/#newsletter"
+    },
+    {
+      "requirement": "Local article link resolves: /editorial-policy/",
+      "satisfied_in_source": true,
+      "evidence": "/editorial-policy/"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -244,15 +279,15 @@
       "evidence": "/privacy/"
     },
     {
-      "requirement": "Initial-HTML content: /field-notes/building-signal-project/",
+      "requirement": "Initial-HTML content: /guides/beps-for-dmv-residents/",
       "satisfied_in_source": true,
-      "evidence": "public/field-notes/building-signal-project/index.html"
+      "evidence": "public/guides/beps-for-dmv-residents/index.html"
     },
     {
-      "requirement": "Self canonical: /field-notes/building-signal-project/",
+      "requirement": "Self canonical: /guides/beps-for-dmv-residents/",
       "satisfied_in_source": true,
       "evidence": [
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/building-signal-project/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/beps-for-dmv-residents/"
       ]
     },
     {
@@ -261,9 +296,14 @@
       "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#gates",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
+    },
+    {
+      "requirement": "Local article link resolves: /#beps",
+      "satisfied_in_source": true,
+      "evidence": "/#beps"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -271,29 +311,24 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
       "requirement": "Local article link resolves: /#about",
       "satisfied_in_source": true,
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#clearance",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#clearance"
+      "evidence": "/#newsletter"
     },
     {
-      "requirement": "Local article link resolves: /#field-notes",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#briefing"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#resources"
     },
     {
       "requirement": "Local article link resolves: /",
@@ -304,6 +339,11 @@
       "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
       "evidence": "/#newsletter"
+    },
+    {
+      "requirement": "Local article link resolves: /editorial-policy/",
+      "satisfied_in_source": true,
+      "evidence": "/editorial-policy/"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -311,15 +351,15 @@
       "evidence": "/privacy/"
     },
     {
-      "requirement": "Initial-HTML content: /field-notes/customer-handoff/",
+      "requirement": "Initial-HTML content: /guides/heat-pump-planning/",
       "satisfied_in_source": true,
-      "evidence": "public/field-notes/customer-handoff/index.html"
+      "evidence": "public/guides/heat-pump-planning/index.html"
     },
     {
-      "requirement": "Self canonical: /field-notes/customer-handoff/",
+      "requirement": "Self canonical: /guides/heat-pump-planning/",
       "satisfied_in_source": true,
       "evidence": [
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/customer-handoff/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/heat-pump-planning/"
       ]
     },
     {
@@ -328,9 +368,14 @@
       "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#gates",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
+    },
+    {
+      "requirement": "Local article link resolves: /#beps",
+      "satisfied_in_source": true,
+      "evidence": "/#beps"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -338,66 +383,19 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
       "requirement": "Local article link resolves: /#about",
       "satisfied_in_source": true,
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#clearance",
-      "satisfied_in_source": true,
-      "evidence": "/#clearance"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
-    },
-    {
-      "requirement": "Local article link resolves: /#your-next-move",
-      "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
-    },
-    {
-      "requirement": "Local article link resolves: /",
-      "satisfied_in_source": true,
-      "evidence": "/"
-    },
-    {
       "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
       "evidence": "/#newsletter"
     },
     {
-      "requirement": "Local article link resolves: /privacy/",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/privacy/"
-    },
-    {
-      "requirement": "Initial-HTML content: /sample-brief/",
-      "satisfied_in_source": true,
-      "evidence": "public/sample-brief/index.html"
-    },
-    {
-      "requirement": "Self canonical: /sample-brief/",
-      "satisfied_in_source": true,
-      "evidence": [
-        "https://mbrace-insight.niceshark22.chatgpt.site/sample-brief/"
-      ]
-    },
-    {
-      "requirement": "Local article link resolves: /",
-      "satisfied_in_source": true,
-      "evidence": "/"
-    },
-    {
-      "requirement": "Local article link resolves: /#gates",
-      "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -405,31 +403,6 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
-      "requirement": "Local article link resolves: /#about",
-      "satisfied_in_source": true,
-      "evidence": "/#about"
-    },
-    {
-      "requirement": "Local article link resolves: /#clearance",
-      "satisfied_in_source": true,
-      "evidence": "/#clearance"
-    },
-    {
-      "requirement": "Local article link resolves: /#field-notes",
-      "satisfied_in_source": true,
-      "evidence": "/#field-notes"
-    },
-    {
-      "requirement": "Local article link resolves: /#your-next-move",
-      "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
-    },
-    {
       "requirement": "Local article link resolves: /",
       "satisfied_in_source": true,
       "evidence": "/"
@@ -438,6 +411,11 @@
       "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
       "evidence": "/#newsletter"
+    },
+    {
+      "requirement": "Local article link resolves: /editorial-policy/",
+      "satisfied_in_source": true,
+      "evidence": "/editorial-policy/"
     },
     {
       "requirement": "Local article link resolves: /privacy/",
@@ -462,9 +440,14 @@
       "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#gates",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
+    },
+    {
+      "requirement": "Local article link resolves: /#beps",
+      "satisfied_in_source": true,
+      "evidence": "/#beps"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -472,29 +455,24 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
       "requirement": "Local article link resolves: /#about",
       "satisfied_in_source": true,
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#clearance",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#clearance"
+      "evidence": "/#newsletter"
     },
     {
-      "requirement": "Local article link resolves: /#field-notes",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#briefing"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#resources"
     },
     {
       "requirement": "Local article link resolves: /",
@@ -507,20 +485,25 @@
       "evidence": "/#newsletter"
     },
     {
+      "requirement": "Local article link resolves: /editorial-policy/",
+      "satisfied_in_source": true,
+      "evidence": "/editorial-policy/"
+    },
+    {
       "requirement": "Local article link resolves: /privacy/",
       "satisfied_in_source": true,
       "evidence": "/privacy/"
     },
     {
-      "requirement": "Initial-HTML content: /sample-report/",
+      "requirement": "Initial-HTML content: /editorial-policy/",
       "satisfied_in_source": true,
-      "evidence": "public/sample-report/index.html"
+      "evidence": "public/editorial-policy/index.html"
     },
     {
-      "requirement": "Self canonical: /sample-report/",
+      "requirement": "Self canonical: /editorial-policy/",
       "satisfied_in_source": true,
       "evidence": [
-        "https://mbrace-insight.niceshark22.chatgpt.site/sample-report/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/editorial-policy/"
       ]
     },
     {
@@ -529,9 +512,14 @@
       "evidence": "/"
     },
     {
-      "requirement": "Local article link resolves: /#gates",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#gates"
+      "evidence": "/#briefing"
+    },
+    {
+      "requirement": "Local article link resolves: /#beps",
+      "satisfied_in_source": true,
+      "evidence": "/#beps"
     },
     {
       "requirement": "Local article link resolves: /#resources",
@@ -539,29 +527,24 @@
       "evidence": "/#resources"
     },
     {
-      "requirement": "Local article link resolves: /#newsletter",
-      "satisfied_in_source": true,
-      "evidence": "/#newsletter"
-    },
-    {
       "requirement": "Local article link resolves: /#about",
       "satisfied_in_source": true,
       "evidence": "/#about"
     },
     {
-      "requirement": "Local article link resolves: /#clearance",
+      "requirement": "Local article link resolves: /#newsletter",
       "satisfied_in_source": true,
-      "evidence": "/#clearance"
+      "evidence": "/#newsletter"
     },
     {
-      "requirement": "Local article link resolves: /#field-notes",
+      "requirement": "Local article link resolves: /#briefing",
       "satisfied_in_source": true,
-      "evidence": "/#field-notes"
+      "evidence": "/#briefing"
     },
     {
-      "requirement": "Local article link resolves: /#your-next-move",
+      "requirement": "Local article link resolves: /#resources",
       "satisfied_in_source": true,
-      "evidence": "/#your-next-move"
+      "evidence": "/#resources"
     },
     {
       "requirement": "Local article link resolves: /",
@@ -574,17 +557,57 @@
       "evidence": "/#newsletter"
     },
     {
+      "requirement": "Local article link resolves: /editorial-policy/",
+      "satisfied_in_source": true,
+      "evidence": "/editorial-policy/"
+    },
+    {
       "requirement": "Local article link resolves: /privacy/",
       "satisfied_in_source": true,
       "evidence": "/privacy/"
     },
     {
-      "requirement": "Resource has initial HTML and self canonical: /resources/six-gate-checklist/",
+      "requirement": "Resource has initial HTML and self canonical: /resources/dmv-rebate-roadmap/",
       "satisfied_in_source": true,
-      "evidence": "/resources/six-gate-checklist/"
+      "evidence": "/resources/dmv-rebate-roadmap/"
     },
     {
-      "requirement": "Resource is linked from the homepage: /resources/six-gate-checklist/",
+      "requirement": "Featured resource is linked from the homepage: /resources/dmv-rebate-roadmap/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/dmv-rebate-roadmap/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/heat-pump-quote-companion/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/heat-pump-quote-companion/"
+    },
+    {
+      "requirement": "Featured resource is linked from the homepage: /resources/heat-pump-quote-companion/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/heat-pump-quote-companion/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/beps-resident-question-sheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/beps-resident-question-sheet/"
+    },
+    {
+      "requirement": "Featured resource is linked from the homepage: /resources/beps-resident-question-sheet/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/beps-resident-question-sheet/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/home-electrification-planner/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/home-electrification-planner/"
+    },
+    {
+      "requirement": "Featured resource is linked from the homepage: /resources/home-electrification-planner/",
+      "satisfied_in_source": true,
+      "evidence": "/resources/home-electrification-planner/"
+    },
+    {
+      "requirement": "Resource has initial HTML and self canonical: /resources/six-gate-checklist/",
       "satisfied_in_source": true,
       "evidence": "/resources/six-gate-checklist/"
     },
@@ -594,17 +617,7 @@
       "evidence": "/resources/evidence-worksheet/"
     },
     {
-      "requirement": "Resource is linked from the homepage: /resources/evidence-worksheet/",
-      "satisfied_in_source": true,
-      "evidence": "/resources/evidence-worksheet/"
-    },
-    {
       "requirement": "Resource has initial HTML and self canonical: /resources/launch-clearance-checklist/",
-      "satisfied_in_source": true,
-      "evidence": "/resources/launch-clearance-checklist/"
-    },
-    {
-      "requirement": "Resource is linked from the homepage: /resources/launch-clearance-checklist/",
       "satisfied_in_source": true,
       "evidence": "/resources/launch-clearance-checklist/"
     },
@@ -614,30 +627,24 @@
       "evidence": "/resources/four-zip-worksheet/"
     },
     {
-      "requirement": "Resource is linked from the homepage: /resources/four-zip-worksheet/",
+      "requirement": "Resident briefing, resource, and newsletter sections are present",
       "satisfied_in_source": true,
-      "evidence": "/resources/four-zip-worksheet/"
-    },
-    {
-      "requirement": "Review, resource, and newsletter sections are present",
-      "satisfied_in_source": true,
-      "evidence": "Primary conversion sections"
+      "evidence": "Primary resident sections"
     },
     {
       "requirement": "Sitemap includes all authored pages",
       "satisfied_in_source": true,
       "evidence": [
         "https://mbrace-insight.niceshark22.chatgpt.site/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/four-zip-codes/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/building-signal-project/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/field-notes/customer-handoff/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/sample-brief/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/dmv-heat-pump-rebates/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/beps-for-dmv-residents/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/guides/heat-pump-planning/",
         "https://mbrace-insight.niceshark22.chatgpt.site/privacy/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/sample-report/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/resources/six-gate-checklist/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/resources/evidence-worksheet/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/resources/launch-clearance-checklist/",
-        "https://mbrace-insight.niceshark22.chatgpt.site/resources/four-zip-worksheet/"
+        "https://mbrace-insight.niceshark22.chatgpt.site/editorial-policy/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/dmv-rebate-roadmap/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/heat-pump-quote-companion/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/beps-resident-question-sheet/",
+        "https://mbrace-insight.niceshark22.chatgpt.site/resources/home-electrification-planner/"
       ]
     },
     {

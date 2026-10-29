@@ -98,8 +98,9 @@ for item in requirements['required_sections']:
     check(item['id'] + ': ' + item['name'], item['selector'].removeprefix('#') in home.ids, item['selector'])
 for entity in requirements['required_entities']:
     check('Main-content entity: '+entity, entity.lower() in home.main.lower(), entity)
-check('Primary technical-requirements citation', 'https://developers.google.com/search/docs/essentials/technical' in home.links, 'Google Search technical requirements')
-check('Primary content-guidance citation', 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content' in home.links, 'Google people-first content guidance')
+sources=json.loads((ROOT/'content/sources.json').read_text())
+for source in sources.values():
+    check('Primary citation: '+source['publisher']+' / '+source['title'], source['url'] in home.links, source['url'])
 check('Visible publisher and direct contact', 'Max Fisher' in home.ids.get('publisher','') and 'mailto:mfisher@mbraceinsight.com' in home.links, home.ids.get('publisher',''))
 nodes = [n for s in home.schemas for n in s.get('@graph', [s])]
 check('Organization, person, website, and page schema', {'Organization','Person','WebSite','WebPage'}.issubset({n['@type'] for n in nodes}), [n['@type'] for n in nodes])
@@ -122,10 +123,11 @@ for resource in resources:
     route='/resources/'+resource['id']+'/'
     page=Page((DIST/route.lstrip('/')/'index.html').read_text())
     check('Resource has initial HTML and self canonical: '+route, resource['title'] in page.main and page.canonical==[origin+route], route)
-    check('Resource is linked from the homepage: '+route, route in home.links, route)
-check('Review, resource, and newsletter sections are present', all(id_ in home.ids for id_ in ['clearance','resources','newsletter']), 'Primary conversion sections')
+    if resource.get('featured'):
+        check('Featured resource is linked from the homepage: '+route, route in home.links, route)
+check('Resident briefing, resource, and newsletter sections are present', all(id_ in home.ids for id_ in ['briefing','resources','newsletter']), 'Primary resident sections')
 urls=[n.text for n in ET.fromstring((DIST/'sitemap.xml').read_text()).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-expected=[origin+'/']+[origin+a['path'] for a in content.values()]+[origin+'/resources/'+r['id']+'/' for r in resources]
+expected=[origin+'/']+[origin+a['path'] for a in content.values()]+[origin+'/resources/'+r['id']+'/' for r in resources if r.get('featured')]
 check('Sitemap includes all authored pages', set(urls)==set(expected), urls)
 robots=(DIST/'robots.txt').read_text()
 check('Discovery declaration exists and preserves draft restriction', 'Disallow: /' in robots and origin+'/sitemap.xml' in robots, robots)

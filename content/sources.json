@@ -1,0 +1,54 @@
+{
+  "dc": {
+    "publisher": "DC Department of Energy & Environment",
+    "title": "Federal Home Energy Rebates and Healthy Homes",
+    "url": "https://doee.dc.gov/service/federal-home-energy-rebates-and-healthy-homes-act-2024",
+    "checked": "2026-10-29",
+    "scope": "DC federal assistance routes and distinct local residential rebates"
+  },
+  "md": {
+    "publisher": "Maryland Energy Administration",
+    "title": "Home Energy Rebate Program status",
+    "url": "https://energy.maryland.gov/Pages/IRArebates.aspx",
+    "checked": "2026-10-29",
+    "source_update": "2026-09-30",
+    "scope": "Updated applications submitted; launch depends on DOE approval"
+  },
+  "va": {
+    "publisher": "Virginia Energy",
+    "title": "Home Energy Rebates FAQ",
+    "url": "https://energy.virginia.gov/energy-efficiency/HomeEnergyRebatesFrequentlyAskedQuestions.shtml",
+    "checked": "2026-10-29",
+    "source_update": "2026-10-13",
+    "scope": "Programs not available; final access rules and launch timing pending"
+  },
+  "irs": {
+    "publisher": "Internal Revenue Service",
+    "title": "Energy Efficient Home Improvement Credit",
+    "url": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit",
+    "checked": "2026-10-29",
+    "scope": "Section 25C credit timing; improvements through 2025"
+  },
+  "mdbeps": {
+    "publisher": "Maryland Department of the Environment",
+    "title": "Building Energy Performance Standards",
+    "url": "https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx",
+    "checked": "2026-10-29",
+    "scope": "Covered commercial and multifamily buildings; exemption process"
+  },
+  "dcbeps": {
+    "publisher": "DC Department of Energy & Environment",
+    "title": "DC Building Energy Performance Standards",
+    "url": "https://doee.dc.gov/service/building-energy-performance-standards-beps",
+    "checked": "2026-10-29",
+    "scope": "Official DC BEPS program and link to current program portal"
+  },
+  "mcbeps": {
+    "publisher": "Montgomery County",
+    "title": "BEPS regulations adopted",
+    "url": "https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611",
+    "checked": "2026-10-29",
+    "source_update": "2025-02-26",
+    "scope": "County BEPS scope and adopted regulation; use current guidance for deadlines"
+  }
+}

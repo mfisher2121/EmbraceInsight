@@ -1,32 +1,38 @@
 {
-  "primary_offer": "Six-gate page-clearance review request",
-  "product_name_candidates": [
-    "Semantic Gate",
-    "Clearance Engine"
+  "primary_offer": "Independent DMV resident education and source-checked local context",
+  "audience": "Residents, homeowners, renters, and condo communities in Washington DC, Maryland, and Virginia",
+  "primary_topics": [
+    "Heat pumps and home electrification",
+    "Rebate and incentive program details",
+    "BEPS and building-performance context"
   ],
-  "product_name_decided": false,
-  "primary_business_goal": "Start an attributed, consent-aware email list through clearance requests, useful assets, and newsletter signup.",
+  "primary_business_goal": "Grow an attributed, consent-aware email list through useful resident guides and newsletter signup.",
   "primary_ctas": [
-    "Request my gate check",
-    "Get the resource",
+    "Get the DMV Rebate Roadmap",
+    "Get the free guide",
     "Join the newsletter"
   ],
-  "audience_status": "Provisional website owners/SEO agencies; optional clarification pending",
+  "brand_roles": {
+    "mbraceinsight.com": "Regional reporting, sources, program/policy context, and email briefing",
+    "dmvheatpumps.com": "Proposed practical heat pump education and homeowner planning; not edited or verified in this task",
+    "seo_agency": "Separate website; not this resident publication"
+  },
+  "semantic_gate_role": "Mandatory internal publishing standard for the final public URL/query; not the homepage service offer",
   "main_journey": [
-    "Understand six gates",
-    "Request a review or unlock an asset with email",
+    "Read useful source-linked regional context",
+    "Unlock an editable resident guide with email",
     "Choose newsletter separately",
-    "Receive a saved-request confirmation and immediate asset download where applicable"
+    "Keep the source and next questions"
   ],
-  "four_zip_role": "Supporting HVAC-specific asset, not the flagship offer",
-  "storage": "Private Sites D1; contact email deduped, request and consent events preserved",
-  "newsletter_state": "Requests pending email confirmation; no provider connected and no automated sending",
-  "automation_boundary": "The form queues a review; it does not issue a simulated or instant certification.",
-  "source_of_truth": "Source repository for content; private D1 for contact/consent/request records",
+  "storage": "Existing private Sites D1; deduplicated contacts and distinct source/consent events",
+  "newsletter_state": "Pending confirmation; delivery provider not connected",
+  "working_query": "DMV heat pump rebates",
+  "working_query_confirmed": false,
+  "public_eligibility": "Not certified; owner-private draft remains restricted",
   "launch_dependencies": [
-    "Final product/audience/query decisions",
-    "Newsletter provider, verified email confirmation and delivery",
-    "Final privacy/retention review",
-    "Public domain/access changes and a fresh six-gate validation"
+    "Confirm exact primary query",
+    "Connect confirmation/delivery and provider suppression",
+    "Finalize editorial/privacy review",
+    "Approve public access/domain and pass a fresh live six-gate review"
   ]
 }

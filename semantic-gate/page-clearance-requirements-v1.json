@@ -1,0 +1,126 @@
+{
+  "framework": "Semantic Gate v1.0",
+  "target_query": "website rank eligibility check",
+  "target_query_confirmed_by_user": false,
+  "query_status": "Working query for the user-requested page-clearance and email-capture direction. The older HVAC query is retained in hvac-requirements-v1.json; new public validation and query confirmation are required.",
+  "location": null,
+  "evaluated_url": "https://mbrace-insight.niceshark22.chatgpt.site/",
+  "intended_public_domain": "https://mbraceinsight.com/",
+  "stage": "owner-private draft; no public rank-eligibility claim",
+  "gates": [
+    "G0 \u2014 Crawlability",
+    "G1 \u2014 Index Eligibility",
+    "G2 \u2014 Query Alignment",
+    "G3 \u2014 Semantic Coverage",
+    "G4 \u2014 Citation Map",
+    "G5 \u2014 Trust Signals"
+  ],
+  "requirements_frozen_at": "2026-10-29T20:21:45.223184+00:00",
+  "requirements_basis": "Finite operator-defined source acceptance list for the revised build. No PAA or SERP consensus is asserted. A public certification requires a new evidence snapshot.",
+  "identity_tokens": {
+    "title": [
+      "website",
+      "rank",
+      "eligibility"
+    ],
+    "h1": [
+      "optimize",
+      "gates"
+    ]
+  },
+  "required_questions": [
+    {
+      "id": "Q1",
+      "question": "What does the six-gate review cover?",
+      "selector": "#gates",
+      "evidence": "Crawlability"
+    },
+    {
+      "id": "Q2",
+      "question": "Is the request an instant automated assessment?",
+      "selector": "#faq",
+      "evidence": "review request"
+    },
+    {
+      "id": "Q3",
+      "question": "How does a visitor unlock an asset?",
+      "selector": "#resources",
+      "evidence": "Enter your email"
+    },
+    {
+      "id": "Q4",
+      "question": "Is newsletter consent distinct from the resource request?",
+      "selector": "#faq",
+      "evidence": "separate, unchecked"
+    },
+    {
+      "id": "Q5",
+      "question": "What inputs start a clearance request?",
+      "selector": "#clearance",
+      "evidence": "target query"
+    },
+    {
+      "id": "Q6",
+      "question": "Who is responsible for the content?",
+      "selector": "#publisher",
+      "evidence": "Max Fisher"
+    },
+    {
+      "id": "Q7",
+      "question": "Does the framework promise rankings?",
+      "selector": "#faq",
+      "evidence": "not guaranteed"
+    }
+  ],
+  "required_sections": [
+    {
+      "id": "S1",
+      "name": "six-gate method",
+      "selector": "#gates"
+    },
+    {
+      "id": "S2",
+      "name": "clearance request and contact consent",
+      "selector": "#clearance"
+    },
+    {
+      "id": "S3",
+      "name": "resource library and email capture",
+      "selector": "#resources"
+    },
+    {
+      "id": "S4",
+      "name": "newsletter signup and separate opt-in",
+      "selector": "#newsletter"
+    },
+    {
+      "id": "S5",
+      "name": "responsible publisher and contact",
+      "selector": "#publisher"
+    },
+    {
+      "id": "S6",
+      "name": "scope and fulfillment questions",
+      "selector": "#faq"
+    }
+  ],
+  "required_entities": [
+    "MBRACE INSIGHT",
+    "Crawlability",
+    "Index Eligibility",
+    "Query Alignment",
+    "Semantic Coverage",
+    "Citation Map",
+    "Trust Signals",
+    "Max Fisher",
+    "newsletter"
+  ],
+  "non_goals": [
+    "Instant simulated certification",
+    "Ranking guarantees",
+    "Automatic newsletter enrollment with every resource",
+    "Unverified email delivery claims",
+    "Public launch without a live six-gate review"
+  ],
+  "release_condition": "Preserve owner-private access. Confirm the revised query/audience and complete a fresh anonymous live validation on the actual public URL before any public eligibility claim."
+}

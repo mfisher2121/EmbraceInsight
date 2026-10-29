@@ -1,6 +1,82 @@
 [
-  {"id":"six-gate-checklist","title":"The Six-Gate Readiness Checklist","category":"Page clearance","description":"A practical checklist for crawlability, indexing, query fit, coverage, citations, and trust.","format":"Markdown checklist","tag":"START HERE"},
-  {"id":"evidence-worksheet","title":"The Evidence & Citation Worksheet","category":"Evidence","description":"Keep the claim, source, checked date, and missing evidence together before issuing a verdict.","format":"Editable worksheet","tag":"BUILD YOUR RECORD"},
-  {"id":"launch-clearance-checklist","title":"The Before-Publish Checklist","category":"Publishing","description":"A compact review of initial HTML, metadata, discovery paths, identity, and release evidence.","format":"Markdown checklist","tag":"BEFORE YOU SHIP"},
-  {"id":"four-zip-worksheet","title":"The Four-ZIP Market Worksheet","category":"For HVAC operators","description":"A focused territory and customer-journey worksheet for HVAC owners investigating their next move.","format":"Editable worksheet","tag":"HVAC RESOURCE"}
+  {
+    "id": "dmv-rebate-roadmap",
+    "title": "The DMV Rebate Roadmap",
+    "category": "Rebates & incentives",
+    "description": "Find the right official program, check timing, and build your eligibility question list before you buy.",
+    "format": "Editable Markdown guide",
+    "tag": "START HERE",
+    "cover": "FOLLOW THE<br>RIGHT ROUTE.",
+    "featured": true
+  },
+  {
+    "id": "heat-pump-quote-companion",
+    "title": "The Heat Pump Quote Companion",
+    "category": "Heat pump planning",
+    "description": "Compare the scope behind the price: equipment, home assessment, electrical work, permits, and program requirements.",
+    "format": "Editable comparison sheet",
+    "tag": "BEFORE YOU SIGN",
+    "cover": "BETTER<br>QUESTIONS.",
+    "featured": true
+  },
+  {
+    "id": "beps-resident-question-sheet",
+    "title": "The Condo & BEPS Question Sheet",
+    "category": "BEPS & your building",
+    "description": "Questions for your condo board or building manager about coverage, records, responsibilities, and the next official check.",
+    "format": "Editable question sheet",
+    "tag": "KNOW YOUR BUILDING",
+    "cover": "BUILDING<br>CONTEXT.",
+    "featured": true
+  },
+  {
+    "id": "home-electrification-planner",
+    "title": "The Home Electrification Planner",
+    "category": "Home electrification",
+    "description": "Put your equipment, priorities, utility, project sequence, and unanswered questions in one useful planning record.",
+    "format": "Editable planning sheet",
+    "tag": "MAKE A PLAN",
+    "cover": "YOUR HOME.<br>YOUR PLAN.",
+    "featured": true
+  },
+  {
+    "id": "six-gate-checklist",
+    "title": "The Six-Gate Readiness Checklist",
+    "category": "Page clearance",
+    "description": "A practical checklist for crawlability, indexing, query fit, coverage, citations, and trust.",
+    "format": "Markdown checklist",
+    "tag": "START HERE",
+    "featured": false,
+    "archival": true
+  },
+  {
+    "id": "evidence-worksheet",
+    "title": "The Evidence & Citation Worksheet",
+    "category": "Evidence",
+    "description": "Keep the claim, source, checked date, and missing evidence together before issuing a verdict.",
+    "format": "Editable worksheet",
+    "tag": "BUILD YOUR RECORD",
+    "featured": false,
+    "archival": true
+  },
+  {
+    "id": "launch-clearance-checklist",
+    "title": "The Before-Publish Checklist",
+    "category": "Publishing",
+    "description": "A compact review of initial HTML, metadata, discovery paths, identity, and release evidence.",
+    "format": "Markdown checklist",
+    "tag": "BEFORE YOU SHIP",
+    "featured": false,
+    "archival": true
+  },
+  {
+    "id": "four-zip-worksheet",
+    "title": "The Four-ZIP Market Worksheet",
+    "category": "For HVAC operators",
+    "description": "A focused territory and customer-journey worksheet for HVAC owners investigating their next move.",
+    "format": "Editable worksheet",
+    "tag": "HVAC RESOURCE",
+    "featured": false,
+    "archival": true
+  }
 ]

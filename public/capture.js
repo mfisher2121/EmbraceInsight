@@ -39,7 +39,7 @@ qa('[data-capture-form]').forEach(form=>form.addEventListener('submit',async eve
     title.textContent=payload.type==='resource'?'Your resource is ready.':payload.type==='newsletter'?'Your newsletter request is saved.':'Your clearance request is saved.';
     const message=document.createElement('p');message.textContent=data.message;
     result.replaceChildren(title,message);
-    if(data.download_url)result.append(safeLink(data.download_url,'Download the checklist or worksheet ↓','button button-dark'));
+    if(data.download_url)result.append(safeLink(data.download_url,'Download your resource ↓','button button-dark'));
     if(data.preview_note){const note=document.createElement('p');note.className='capture-preview-note';note.textContent=data.preview_note;result.append(note);}
     if(payload.type==='review'){const status=document.createElement('p');status.className='capture-preview-note';status.textContent='Request recorded · evidence review pending. No report or email has been sent automatically.';result.append(status);}
     if(data.preferences_url)result.append(safeLink(data.preferences_url,'Manage newsletter preferences ↗'));

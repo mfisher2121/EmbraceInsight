@@ -1,21 +1,14 @@
-# MBRACE INSIGHT — page clearance and email-list growth
+# MBRACE INSIGHT — DMV resident education
 
-The user-selected direction is the six-gate review / clearance-engine offer, supported by resource lead magnets and newsletter signup. **Semantic Gate** and **Clearance Engine** are provisional product names. The Four-ZIP Worksheet is a supporting HVAC resource, not the primary offer.
+The user-confirmed audience is DMV residents. MBRACE INSIGHT explains heat pumps, electrification, rebates, and BEPS through source-checked local context. The SEO agency will have a separate website. Semantic Gate remains this publication’s internal release standard; it is no longer the homepage service offer.
 
-## Current experience
+The homepage leads to the DMV Rebate Roadmap, four resident resources, and a dedicated newsletter form. Existing durable capture, separate consent, preferences, and owner exports remain intact. Prior professional/SEO resources stay available for historical links but are not promoted in the resident journey.
 
-- A six-gate overview and an honest review-request form for one public URL and one query.
-- Four resource lead magnets with email capture and immediate protected downloads.
-- A separate newsletter CTA; optional newsletter choices on resource/review forms start unchecked.
-- Real Sites D1 storage for deduplicated contacts and distinct request/consent/source events.
-- Private preference links and explicit withdrawal. Opening a link does not change a subscription.
-- Owner-only contact, newsletter-request, and review-queue CSV exports at `/admin`.
-
-The review form queues a request; it does not run an automated assessment or issue a simulated PASS/FAIL. Newsletter requests remain pending email confirmation. No newsletter platform is connected, and no emails are sent automatically by this preview.
+Newsletter confirmation and delivery still need a provider. No automatic emails are sent. Dated briefing content is editorial, not an automatic live status feed. No household eligibility, compliance determination, government affiliation, or guaranteed savings is claimed.
 
 ## Source and build
 
-`public/` is authored HTML/browser source. `content/resources.json` is the resource catalog; add a matching Markdown file in `assets-downloads/` for every catalog item. `content/field-notes.json` controls editorial pages, the privacy draft, and sample format. `worker/index.js` is the server-side request handler. The supplied Worker ESM contract is preserved; build output embeds browser assets and protected downloads in one module.
+`public/` is authored HTML/browser source. `content/resources.json` is the resource catalog; add a matching Markdown file in `assets-downloads/` for every catalog item. `content/field-notes.json` controls resident guides and policy pages; `content/sources.json` records official sources and dates checked. `worker/index.js` is the server-side request handler. The supplied Worker ESM contract is preserved; build output embeds browser assets and protected downloads in one module.
 
 - `npm run build` generates initial-HTML resource pages, sitemap, and `dist/server/index.js`.
 - `npm test` runs capture integration checks with SQLite using the same Worker handler.
@@ -35,12 +28,10 @@ Exports contain at most 5,000 rows and keep newsletter status explicit. Pending 
 
 ## Launch status
 
-The site remains owner-private. mbraceinsight.com, DNS, and its existing deployment are unchanged. Audience and newsletter-platform clarification was requested; current copy provisionally serves website owners/SEO agencies while retaining HVAC resources.
+The Site remains owner-private; both custom domains and DNS are untouched. The resident audience and topics are confirmed. DMV heat pump rebates is the working query; the exact primary query is not yet confirmed. Earlier query requirement files are historical. Freeze requirements and perform a fresh anonymous live six-gate review on the final URL before claiming eligibility.
 
-The former confirmed HVAC query is preserved in semantic-gate/hvac-requirements-v1.json. The revised working query, website rank eligibility check, is not user-confirmed. Semantic Gate remains a separate requirement for this website's public launch: fresh query-specific requirements, anonymous access/indexing checks, sources, identity, and a complete six-gate result on the actual public URL.
-
-Before public signup or sending: select the delivery provider, verify confirmation/delivery/unsubscribe integration, finalize privacy/retention terms and editorial content, and approve the final product/audience/query decisions. The private database can capture requests now; no sending or automated certification is claimed.
+The proposed domain split is MBRACE INSIGHT for regional reporting/context and DMVHeatPumps.com for practical homeowner heat pump education. This task edits only the existing MBRACE INSIGHT Site and does not verify the companion domain.
 
 ## Asset provenance
 
-Three new preparation assets summarize the user's local Semantic Gate v1.0 protocol and link to primary Google Search documentation. The Four-ZIP Worksheet comes from the user's existing HVAC newsletter launch kit. All are editable drafts. Previous illustrative rooftop imagery and self-hosted font files are retained with their licenses; the gate-focused hero uses native HTML/CSS rather than a project photograph.
+Four resident Markdown assets were authored as editable educational drafts, with official agency links. content/sources.json records the current evidence map. Archived earlier preparation assets remain in the catalog to preserve prior downloads. No subscriber records are included in source. Self-hosted fonts retain their licenses.
