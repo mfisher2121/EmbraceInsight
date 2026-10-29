@@ -13,13 +13,19 @@ Audience: HVAC owners and operators in the DMV. Job: introduce Insight's propose
 
 ## Editing and preview
 
-Edit `dist/index.html`, `dist/styles.css`, and `dist/app.js`. Run `python3 -m http.server 4173 --directory dist` from this folder for a local preview. No dependencies or build step are required. Fonts are served locally. `dist/assets/rooftop.jpg` is the optimized hero asset.
+Edit `dist/index.html`, `dist/styles.css`, and `dist/app.js`. The canonical field-note content lives in `content/field-notes.json`; run `node scripts/prepare-content.mjs` after editing it or shared page chrome to regenerate the five standalone pages, shared reader JSON, sitemap, and draft robots declaration. Run `python3 scripts/semantic-preflight.py` for source checks, then `python3 -m http.server 4173 --directory dist` for a local preview. No third-party dependencies are required. Fonts are served locally. `dist/assets/rooftop.jpg` is the optimized hero asset.
 
 ## Content and launch status
 
 This is a private website concept. It does not modify mbraceinsight.com, its current hosting, or its DNS. All service descriptions and field notes are drafts; the commercial brief is expressly illustrative. There are no invented customers, testimonials, prices, conversion metrics, or live projects.
 
-Before a public/domain launch, confirm the final offer, contact destination, intake and consent requirements, editorial review, privacy language, and any referral relationship disclosures. Replace the noindex directive only when public launch is intended. Add verified analytics or lead capture only with appropriate review.
+Before a public/domain launch, confirm the final offer, intake and consent requirements, editorial review, privacy language, and any referral relationship disclosures. The visible contact route is mfisher@mbraceinsight.com, corroborated by the existing MBRACE source's schema and contact routing; clicking it opens a visitor's mail app and does not send mail automatically. Add analytics or lead capture only with appropriate review.
+
+## Semantic Gate is required
+
+The user confirmed the homepage target query **HVAC business intelligence DMV**. The acceptance contract is in `semantic-gate/requirements.json`; `AGENTS.md` records it for continued work. Six gates, binary outcomes, no scores, no inferred passes, no ranking guarantees. The current private hosted URL returns an authentication gate to anonymous requests, and its source retains noindex and robots disallow. It cannot receive a public eligibility PASS. Source preflight results do not certify a live URL.
+
+The implementation now includes a self canonical, query-aligned title and H1, visible publisher and business contact, Organization/Person/WebSite/WebPage schema, primary outbound sources, direct resource links, and article content in initial HTML. Public release requires deliberate alignment of canonical, metadata, sitemap, schema, and robots to the actual public origin, followed by a fresh anonymous live validation. Preserve private access until explicitly changed by the user. Do not display a certification badge without a full live PASS.
 
 ## Source context
 

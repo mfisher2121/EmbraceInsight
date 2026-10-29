@@ -1,0 +1,260 @@
+{
+  "captured_at": "2026-10-29T19:35:47.736Z",
+  "request": {
+    "keyword": "HVAC business intelligence DMV",
+    "location_name": "Washington,District of Columbia,United States",
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10
+  },
+  "response": {
+    "id": "10291935-1156-0139-0000-4a1be639aaa4",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 1,
+        "page": 1,
+        "domain": "www.yelp.com",
+        "title": "DMV Heating & Cooling",
+        "url": "https://www.yelp.com/biz/dmv-heating-and-cooling-springfield",
+        "breadcrumb": "https://www.yelp.com › biz › dmv-heating-and-cooling...",
+        "website_name": "Yelp",
+        "description": "DMV HEATING & COOLING, 6111 Pioneer Dr, Springfield, VA 22150, 2 Photos, (571) 218-8900, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, ...",
+        "rating": {
+          "rating_type": "Max5",
+          "value": 1.4,
+          "votes_count": 45,
+          "rating_max": 5
+        },
+        "highlighted": [
+          "6111 Pioneer Dr, Springfield, VA 22150"
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "rank_absolute": 2,
+        "page": 1,
+        "domain": "www.withorbital.com",
+        "title": "The Largest HVACs in Washington, DC",
+        "url": "https://www.withorbital.com/data/hvac/washington-dc/largest/",
+        "breadcrumb": "https://www.withorbital.com › ... › Washington, DC",
+        "website_name": "withorbital.com",
+        "description": "HVAC company records draw from 12+ public and private data sources, refresh weekly, and are independently verified against at least two of them, including state ... Read more",
+        "highlighted": [
+          "HVAC"
+        ],
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Read more",
+            "url": "https://www.withorbital.com/data/hvac/washington-dc/largest/#:~:text=HVAC%20company%20records%20draw%20from,and%20publicly%20available%20business%20records.",
+            "domain": "www.withorbital.com"
+          }
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 3,
+        "page": 1,
+        "domain": "intelligenceinbox.com",
+        "title": "Washington, D.C. HVAC market intelligence",
+        "url": "https://intelligenceinbox.com/hvac/washington-dc.html",
+        "breadcrumb": "https://intelligenceinbox.com › hvac › washington-dc",
+        "website_name": "intelligenceinbox.com",
+        "description": "Complete HVAC market intelligence for Washington, D.C.: every active permit, every contractor, every job address, refreshed weekly. $49/month, flat.",
+        "highlighted": [
+          "HVAC market intelligence for Washington, D.C"
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "rank_absolute": 4,
+        "page": 1,
+        "domain": "intelligentelp.com",
+        "title": "HVAC, Washington, DC",
+        "url": "https://intelligentelp.com/services-washington-dc/hvac/",
+        "breadcrumb": "https://intelligentelp.com › Services, Washington, DC",
+        "website_name": "Intelligent Energy Light and Power",
+        "description": "If you are looking for ways to upgrade and improve your HVAC system, we encourage you to give us a call to find out how we can help.",
+        "highlighted": [
+          "HVAC"
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "rank_absolute": 5,
+        "page": 1,
+        "domain": "wjla.com",
+        "title": "DC officials urge HVAC maintenance amid heat wave to ...",
+        "url": "https://wjla.com/news/local/heat-wave-hvac-repairs-air-conditioning-ventilation-dc-viriginia-maryland-dc-department-of-general-services-safety-dc-department-of-general-services-turkey-thicket-recreation-center-cooling-centers",
+        "breadcrumb": "https://wjla.com › news › local › heat-wave-hvac-repairs-...",
+        "website_name": "WJLA",
+        "description": "Jun 24, 2025 — Local HVAC companies are dealing with an influx of customers amidst a heat wave across the DMV.",
+        "pre_snippet": "06/24/2025 00:00:00",
+        "highlighted": [
+          "HVAC companies",
+          "DMV"
+        ],
+        "timestamp": "2025-06-24 00:00:00 +00:00"
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 6,
+        "page": 1,
+        "domain": "airmasterdmv.com",
+        "title": "Air Master Heating & Cooling | HVAC in Washington DC ...",
+        "url": "https://airmasterdmv.com/",
+        "breadcrumb": "https://airmasterdmv.com",
+        "website_name": "airmasterdmv.com",
+        "description": "Air Master Heating and Cooling LLC, fully licensed and insured HVAC company serving Washington DC, Maryland and Virginia. AC repair, heating, installation, ...",
+        "highlighted": [
+          "HVAC"
+        ]
+      },
+      {
+        "type": "local_pack",
+        "rank_group": 1,
+        "rank_absolute": 7,
+        "page": 1,
+        "title": "DMV HVAC Appliance Service",
+        "description": "Woodbridge, VA · (571) 315-2571 \nOpen · Closes 6 PM \n\"Walked me through his process and was finished in less than 30 minutes.\" \n",
+        "domain": "www.dmvhvac.services",
+        "phone": "(571) 315-2571",
+        "url": "http://www.dmvhvac.services/",
+        "rating": {
+          "rating_type": "Max5",
+          "value": 4.5,
+          "votes_count": 462,
+          "rating_max": 5
+        },
+        "cid": "17160608229462351132"
+      },
+      {
+        "type": "local_pack",
+        "rank_group": 2,
+        "rank_absolute": 8,
+        "page": 1,
+        "title": "EMBS HVAC",
+        "description": "Open · Closes 6 PM \n\"I will never use another service in DC.\" \n",
+        "domain": "www.embshvac.com",
+        "phone": "(202) 787-9225",
+        "url": "https://www.embshvac.com/",
+        "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 4,
+          "rating_max": 5
+        },
+        "cid": "930461382429652468"
+      },
+      {
+        "type": "local_pack",
+        "rank_group": 3,
+        "rank_absolute": 9,
+        "page": 1,
+        "title": "Heating Ventilation Air Conditioning Mechanical Service",
+        "description": "4471 MacArthur Blvd NW Apt 104 · (202) 480-1337 \nOpen 24 hours \n\"Very honest with their prices and even removed items blocking AC unit.\" \n",
+        "domain": "hvacmechanicalservice.com",
+        "phone": "(202) 480-1337",
+        "url": "https://hvacmechanicalservice.com/",
+        "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 88,
+          "rating_max": 5
+        },
+        "cid": "17923034560409827911"
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 10,
+        "page": 1,
+        "domain": "dmvconstructionmd.com",
+        "title": "HVAC",
+        "url": "https://dmvconstructionmd.com/services/hvac/",
+        "breadcrumb": "https://dmvconstructionmd.com › services › hvac",
+        "website_name": "DMV Construction LLC",
+        "description": "For everything HVAC related, DMV Construction LLC is the best for the job. Call us now at (202) 262-3206 to set up an assessment.",
+        "highlighted": [
+          "DMV Construction LLC"
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "rank_absolute": 11,
+        "page": 1,
+        "domain": "www.instagram.com",
+        "title": "The DMV HVAC market just got interesting. 🔥 Maryland ...",
+        "url": "https://www.instagram.com/reel/DTCN6ikjdBX/",
+        "breadcrumb": "10 months ago",
+        "website_name": "Instagram · mbraceinsight",
+        "description": "The DMV HVAC market just got interesting. Maryland mandated 180,000 homes convert to electric heating by 2029. Read more",
+        "highlighted": [
+          "DMV HVAC"
+        ],
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Read more",
+            "url": "https://www.instagram.com/reel/DTCN6ikjdBX/#:~:text=The%20DMV%20HVAC%20market%20just,to%20electric%20heating%20by%202029.",
+            "domain": "www.instagram.com"
+          }
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 9,
+        "rank_absolute": 12,
+        "page": 1,
+        "domain": "www.zoominfo.com",
+        "title": "Washington DC HVAC - Overview, News & Similar ...",
+        "url": "https://www.zoominfo.com/c/washington-dc-hvac/541860435",
+        "breadcrumb": "https://www.zoominfo.com › washington-dc-hvac",
+        "website_name": "ZoomInfo",
+        "description": "Compare insights from companies similar to Washington DC HVAC, focusing on performance, financial data, growth rates, and unique benchmarks to identify key ... Read more",
+        "highlighted": [
+          "companies",
+          "HVAC"
+        ],
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Read more",
+            "url": "https://www.zoominfo.com/c/washington-dc-hvac/541860435#:~:text=Compare%20insights%20from%20companies%20similar,key%20industry%20trends%20and%20opportunities.",
+            "domain": "www.zoominfo.com"
+          }
+        ]
+      },
+      {
+        "type": "organic",
+        "rank_group": 10,
+        "rank_absolute": 13,
+        "page": 1,
+        "domain": "www.angi.com",
+        "title": "Dmv Hvac and Appliances Repair",
+        "url": "https://www.angi.com/companylist/us/va/arlington/dmv-hvac-and-appliances-repair-reviews-1.htm",
+        "breadcrumb": "https://www.angi.com › VA › Arlington",
+        "website_name": "Angie's List",
+        "description": "We take great pride in our experience, expertise, quality, and customer service that we provide to meet the consumer's needs. It is our mission to provide ... Read more",
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Read more",
+            "url": "https://www.angi.com/companylist/us/va/arlington/dmv-hvac-and-appliances-repair-reviews-1.htm#:~:text=We%20take%20great%20pride%20in,to%20completion%20of%20a%20project.",
+            "domain": "www.angi.com"
+          }
+        ]
+      }
+    ]
+  }
+}

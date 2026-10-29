@@ -56,40 +56,22 @@ $$('[data-filter]').forEach(button => button.addEventListener('click', () => {
   $('.note-count').textContent = `${String(count).padStart(2, '0')} ${count === 1 ? 'NOTE' : 'NOTES'}`;
 }));
 
-const articles = {
-  fourzip: {
-    category: 'LOCAL VISIBILITY / 4 MIN READ',
-    title: 'Start with four ZIP codes. Not the whole map.',
-    body: `<p>A broad service area can make a business feel bigger while making its marketing harder to understand. Before trying to understand an entire region, choose a small part of your territory and look closely.</p><h3>Choose a useful starting area.</h3><p>Pick four ZIP codes you already serve or can serve reliably. Consider drive time, your existing work, and the kinds of systems your team handles. This is a research boundary, not a rule that customers outside it are less valuable.</p><h3>Follow the customer’s questions.</h3><p>For each area, record what a person would need to know: who serves it, which services are clearly explained, and how someone takes the next step. Use a consistent set of search terms. Record the date, search location, and device, because results can vary.</p><h3>Check your own story.</h3><p>Compare your website and business profile with the services you actually deliver. Is the service area accurate? Does the language name the problem you solve? Can a visitor find a working contact route without searching for it?</p><h3>Work on one gap.</h3><p>Choose one observed problem to address, such as an unclear service page or a broken contact path. Keep a record of what changed. Compare the same journey again before claiming that the change improved results.</p><div class="article-takeaway"><p>Take this back to the business: four areas, one repeatable observation sheet, one improvement to test. A manageable market is a better place to learn.</p></div><p class="article-label">Original editorial draft · A planning framework, not a completed market audit.</p>`
-  },
-  signal: {
-    category: 'COMMERCIAL / 3 MIN READ',
-    title: 'A building is a signal. A project is a conversation.',
-    body: `<p>A public building record can help you decide what to investigate. It cannot tell you, by itself, that the owner wants an HVAC project or is ready to buy.</p><h3>Keep the observation intact.</h3><p>Start with the exact building identity, source, reporting period, and date checked. Preserve building-ID suffixes and separate multiple buildings on the same parcel. If a number is missing or a target conflicts, make the gap visible.</p><h3>Ask what is still unknown.</h3><p>A measured performance gap does not establish noncompliance, a need to replace equipment, an approved budget, or an active procurement. Current ownership, the decision route, system condition, and project intent need their own evidence.</p><h3>Qualify the work and the fit.</h3><p>Before making an introduction, confirm the need with the owner or an authorized representative. Establish project stage, scope, timing, and permission to share details. Then check comparable contractor experience, technical capability, capacity, and availability.</p><div class="article-takeaway"><p>The next useful action may be a question, a document request, or an engineering assessment. A qualified next step is more useful than a confident guess.</p></div><p>Public research starting point: <a href="https://mcbeps.org/" target="_blank" rel="noopener noreferrer">Montgomery County’s building energy performance map ↗</a>. Check the applicable official requirements and building record before drawing conclusions.</p><p class="article-label">Original editorial draft · General research discipline, not engineering or compliance advice.</p>`
-  },
-  handoff: {
-    category: 'OPERATIONS / 3 MIN READ',
-    title: 'The next missed opportunity might be in the handoff.',
-    body: `<p>Before you look for more inquiries, follow one through the business. A person can be interested, qualified, and ready to talk—and still disappear between two ordinary steps.</p><h3>Trace a real journey.</h3><p>With appropriate internal access, choose a recent inquiry and reconstruct the sequence: first contact, initial reply, qualification, appointment, estimate, and follow-up. Record what happened rather than what the process document says should happen.</p><h3>Name an owner for each step.</h3><p>For every handoff, identify the person responsible, the information they need, and the event that tells them it is their turn. If responsibility is shared, clarify how someone knows the work is complete.</p><h3>Look for a useful gap.</h3><p>Common things to investigate include unanswered questions, missing service details, and unclear follow-up dates. These are questions for your own records, not a diagnosis of every HVAC business.</p><h3>Improve one transition.</h3><p>Choose one change your team can actually maintain. It might be a clearer intake prompt, a named follow-up owner, or a visible appointment status. Decide how you will assess it before declaring success.</p><div class="article-takeaway"><p>Write the handoff in one line: who does what next, by when, using which information, and how the team knows it happened.</p></div><p class="article-label">Original editorial draft · Keep customer records and private information inside authorized business systems.</p>`
-  },
-  sample: {
-    category: 'COMMERCIAL / ILLUSTRATIVE SAMPLE',
-    title: 'Before a building becomes an opportunity.',
-    body: `<p>This example demonstrates the structure of a commercial research brief. It describes no actual building, owner, contractor, or available project.</p><ul class="sample-list"><li><b>1. The research question</b>Is this building worth a permission-based qualification conversation with an authorized representative?</li><li><b>2. Public evidence to collect</b>Exact building ID, address, reporting period, energy observation, applicable target source, and checked date. Retain any conflicting records.</li><li><b>3. What the record can establish</b>A dated observation from a named source. A comparison is meaningful only when identity, units, reporting period, and target are compatible.</li><li><b>4. What remains unknown</b>Current decision authority, equipment condition, owner intent, project stage, approved scope, budget, procurement route, and timing.</li><li><b>5. Contractor fit to verify</b>Comparable projects, system expertise, commissioning capability, geographic coverage, and confirmed capacity.</li><li><b>6. The next action</b>Confirm the owner’s need and permission, then decide whether a scoped technical assessment or an introduction is appropriate.</li></ul><div class="article-takeaway"><p>A record moves from research to a qualified opportunity when the missing pieces are confirmed. A public performance gap alone does not make that transition.</p></div><p class="article-label">Illustrative structure only · No live lead, compliance determination, or project commitment.</p>`
-  },
-  privacy: {
-    category: 'ABOUT THIS PREVIEW',
-    title: 'A private draft. A clear boundary.',
-    body: `<p>This is a website concept for MBRACE INSIGHT. Service descriptions and editorial material are drafts for review. The sample brief is illustrative and does not represent a real project or customer result.</p><h3>Your starting brief</h3><p>The interactive planner uses your selections in this browser to create a text download. Its application code does not send those selections to MBRACE, create an account, or subscribe you to a mailing list. It does not save your selections after a reload.</p><h3>Site access and hosting</h3><p>This draft is hosted through Sites with private access. The hosting provider may process technical access information to deliver and protect the site; this page is not a substitute for the provider’s privacy terms.</p><h3>Images and external sources</h3><p>The rooftop photograph is AI-generated illustrative imagery. Fonts are served with the site. External reference links open third-party websites, which have their own practices.</p><h3>Before a public launch</h3><p>Confirm service scope, contact and intake routing, editorial review, privacy terms, and any commercial or referral disclosures. A subscription, live project feed, client dashboard, or CRM connection is not active in this concept.</p>`
-  }
-};
+let articlesPromise;
+function loadArticles() {
+  if (!articlesPromise) articlesPromise = fetch('/field-notes.json').then(r => { if (!r.ok) throw new Error('Article unavailable'); return r.json(); });
+  return articlesPromise;
+}
 const dialog = $('#article-dialog');
 let lastArticleTrigger = null;
-$$('[data-article]').forEach(trigger => trigger.addEventListener('click', () => {
+$$('[data-article]').forEach(trigger => trigger.addEventListener('click', async e => {
+  if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  e.preventDefault();
+  let articles;
+  try { articles = await loadArticles(); } catch { window.location.assign(trigger.href); return; }
   const article = articles[trigger.dataset.article];
   if (!article) return;
   lastArticleTrigger = trigger;
-  $('#article-content').innerHTML = `<div class="eyebrow">${article.category}</div><h2 id="article-title">${article.title}</h2>${article.body}`;
+  $('#article-content').innerHTML = `<div class="eyebrow">${article.category}</div><h2 id="article-title">${article.title}</h2><p class="article-byline">By ${article.author} · ${article.editorialStatus} · ${article.date}</p>${article.body}<p class="article-permalink"><a href="${article.path}">Open this note on its own page ↗</a></p>`;
   $('.dialog-top .mono').textContent = trigger.dataset.article === 'privacy' ? 'MBRACE / ABOUT THIS PREVIEW' : 'MBRACE / FIELD NOTES';
   dialog.showModal();
   dialog.scrollTop = 0;
@@ -133,6 +115,7 @@ const plans = {
 let currentBrief = null;
 const form = $('#brief-form');
 const result = $('#brief-result');
+$('.planner-submit').disabled = false;
 form.addEventListener('submit', e => {
   e.preventDefault();
   const data = new FormData(form);

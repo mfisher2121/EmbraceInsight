@@ -1,0 +1,19 @@
+{
+  "framework": "Semantic Gate v1.0",
+  "source": "User local Semantic Gate Protocol checkout",
+  "files": [
+    {
+      "path": "/Users/maxfisher/semantic-gate-protocol/skills/semantic-gate/SKILL.md",
+      "sha256": "33fbe9a748a20f6e3fb18ebe641eceb098287fbbdf792f398445d403519e6ef5"
+    },
+    {
+      "path": "/Users/maxfisher/semantic-gate-protocol/skills/semantic-gate/references/gates.md",
+      "sha256": "cff852633b9a7a6cd427147e827e9407769164e528cdecbbb481ca76143ca153"
+    },
+    {
+      "path": "/Users/maxfisher/semantic-gate-protocol/skills/semantic-gate/references/determinism.md",
+      "sha256": "2305f07f0052e5678b632c02a1a498675b1615e9a6619a43200a39167684b0c8"
+    }
+  ],
+  "note": "This protocol checkout has no committed version. Exact file hashes preserve the inspected rules. The older semantic-gate-core uses a different two-level model; it was not substituted for the six-gate protocol."
+}

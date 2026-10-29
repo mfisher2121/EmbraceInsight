@@ -1,0 +1,129 @@
+{
+  "framework": "Semantic Gate v1.0",
+  "target_query": "HVAC business intelligence DMV",
+  "target_query_confirmed_by_user": true,
+  "location": "Washington, DC / Maryland / Virginia",
+  "evaluated_url": "https://mbrace-insight.niceshark22.chatgpt.site/",
+  "intended_public_domain": "https://mbraceinsight.com/",
+  "stage": "owner-private draft; no public rank-eligibility claim",
+  "gates": [
+    "G0 — Crawlability",
+    "G1 — Index Eligibility",
+    "G2 — Query Alignment",
+    "G3 — Semantic Coverage",
+    "G4 — Citation Map",
+    "G5 — Trust Signals"
+  ],
+  "requirements_frozen_at": "2026-10-29T19:35:47.726Z",
+  "requirements_basis": "Finite implementation acceptance list created by the site operator (Codex) for this build, not an assertion of exhaustive search intent. User confirmed the target query, not this entire question set.",
+  "serp_snapshot": {
+    "provider": "DataForSEO Google organic live advanced",
+    "task_id": "10291935-1156-0139-0000-4a1be639aaa4",
+    "keyword": "HVAC business intelligence DMV",
+    "location_name": "Washington,District of Columbia,United States",
+    "device": "desktop",
+    "depth": 10,
+    "paa_questions_observed": [],
+    "paa_limit": "No People Also Ask items in the returned AI-optimized response. This is not evidence that Google has no PAA. No PAA questions are invented.",
+    "page_types_observed": [
+      "HVAC service businesses",
+      "HVAC market intelligence",
+      "business directories"
+    ],
+    "interpretation": "Mixed intent. Business intelligence results support an operator-facing informational/service overview; consumer HVAC-repair intent is explicitly excluded."
+  },
+  "required_questions": [
+    {
+      "id": "Q1",
+      "question": "What does HVAC business intelligence mean here?",
+      "selector": "#scope-definition",
+      "evidence": "public research"
+    },
+    {
+      "id": "Q2",
+      "question": "Who is it for and which DMV markets does it cover?",
+      "selector": "#scope-definition",
+      "evidence": "Washington, DC, Maryland, and Virginia"
+    },
+    {
+      "id": "Q3",
+      "question": "How do local visibility and commercial readiness differ?",
+      "selector": "#opportunity",
+      "evidence": "Get ready for commercial"
+    },
+    {
+      "id": "Q4",
+      "question": "Where do the research inputs come from and how are they checked?",
+      "selector": "#evidence",
+      "evidence": "Google Business Profile"
+    },
+    {
+      "id": "Q5",
+      "question": "Does this preview provide live leads, guaranteed rankings, or verified projects?",
+      "selector": "#faq",
+      "evidence": "verified project inventory"
+    },
+    {
+      "id": "Q6",
+      "question": "How much does it cost and how can an operator get started?",
+      "selector": "#faq",
+      "evidence": "does not publish pricing"
+    }
+  ],
+  "required_sections": [
+    {
+      "id": "S1",
+      "name": "audience and scope",
+      "selector": "#scope-definition"
+    },
+    {
+      "id": "S2",
+      "name": "local visibility and commercial readiness",
+      "selector": "#opportunity"
+    },
+    {
+      "id": "S3",
+      "name": "evidence-to-action process",
+      "selector": "#approach"
+    },
+    {
+      "id": "S4",
+      "name": "sources and claim boundaries",
+      "selector": "#evidence"
+    },
+    {
+      "id": "S5",
+      "name": "starting brief and next action",
+      "selector": "#your-next-move"
+    },
+    {
+      "id": "S6",
+      "name": "responsible publisher and contact",
+      "selector": "#publisher"
+    },
+    {
+      "id": "S7",
+      "name": "scope, cost, and availability questions",
+      "selector": "#faq"
+    }
+  ],
+  "required_entities": [
+    "MBRACE INSIGHT",
+    "HVAC",
+    "business intelligence",
+    "Washington, DC",
+    "Maryland",
+    "Virginia",
+    "Google Business Profile",
+    "Max Fisher"
+  ],
+  "non_goals": [
+    "HVAC repair service",
+    "homeowner advice platform",
+    "ranking guarantee",
+    "live lead feed",
+    "engineering assessment",
+    "compliance determination"
+  ],
+  "release_condition": "No public launch or eligibility claim until anonymous live checks for the intended public URL pass all six gates. Source checks alone cannot certify a deployed URL."
+}

@@ -1,0 +1,5 @@
+# Owner-private review build. Not eligible for public indexing.
+User-agent: *
+Disallow: /
+
+Sitemap: https://mbrace-insight.niceshark22.chatgpt.site/sitemap.xml
