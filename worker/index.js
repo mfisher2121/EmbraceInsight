@@ -163,7 +163,8 @@ export default {
       const asset = __SITE_ASSETS__[key] || __SITE_ASSETS__[key+'/'];
       if (!asset) return page('Page not found','<p>This page is not available.</p>',404);
       const bytes = Uint8Array.from(atob(asset.body),c=>c.charCodeAt(0));
-      return new Response(request.method==='HEAD'?null:bytes,{headers:{'content-type':asset.type,'cache-control':asset.type.startsWith('text/html')?'no-cache':'public,max-age=3600','x-content-type-options':'nosniff','referrer-policy':'strict-origin-when-cross-origin'}});
+      const mutable=['text/html','text/css','text/javascript','application/json'].some(type=>asset.type.startsWith(type));
+      return new Response(request.method==='HEAD'?null:bytes,{headers:{'content-type':asset.type,'cache-control':mutable?'no-cache':'public,max-age=3600','x-content-type-options':'nosniff','referrer-policy':'strict-origin-when-cross-origin'}});
     } catch (error) {
       console.error('Request failed',error?.name || 'Error');
       return json({ok:false,error:'Your request could not be saved. Please try again later.'},503);
