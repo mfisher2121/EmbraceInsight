@@ -1,0 +1,1543 @@
+zip,issued_date,work_type,use_code,status,description_bucket,ductwork_or_ducted_mentioned,fossil_heating_explicitly_named
+20814,2025-11-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2025-11-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2025-11-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20814,2025-11-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2025-11-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2025-11-23,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2025-11-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2025-11-24,REPLACE,RESIDENTIAL ACCESSORY STRUCTURE,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2025-11-25,INSTALL,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2025-11-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20814,2025-11-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2025-11-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2025-11-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2025-12-02,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2025-12-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2025-12-08,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20814,2025-12-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2025-12-10,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2025-12-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2025-12-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2025-12-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2025-12-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2025-12-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2025-12-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20814,2025-12-17,INSTALL,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2025-12-18,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2025-12-24,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Finaled,Ductless or mini-split named,false,false
+20814,2025-12-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-01-02,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20814,2026-01-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-01-05,REPLACE,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-01-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-01-09,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-01-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-01-14,REPLACE,TOWNHOUSE,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-01-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-01-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20814,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,false
+20814,2026-01-21,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-01-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-01-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-01-27,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-01-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-02-01,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-02-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20814,2026-02-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-02-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-02-06,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-02-09,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-02-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-02-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-02-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20814,2026-02-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-02-11,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,true,false
+20814,2026-02-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20814,2026-02-12,REPLACE,RESIDENTIAL ACCESSORY STRUCTURE,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-02-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-02-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20814,2026-02-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-02-24,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-02-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-02-25,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-02-26,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-02-26,REPLACE,BUSINESS BUILDING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-03-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-03-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-03-02,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-03-04,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-03-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20814,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-03-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-03-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-03-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-03-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-03-16,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-16,INSTALL,TOWNHOUSE,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-03-16,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-03-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-03-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-03-18,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-03-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-03-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20814,2026-03-24,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-03-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-03-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-03-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-03-31,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,true,false
+20814,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-04-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-04-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20814,2026-04-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-04-07,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-04-08,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-04-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-04-15,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-04-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-04-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-04-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-04-17,REPLACE,TOWNHOUSE,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-04-20,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-04-20,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-04-21,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-04-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-04-24,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-04-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20814,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-04-30,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-05-01,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-05-07,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-05-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-05-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-05-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20814,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-05-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-05-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-05-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-05-21,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-05-21,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-05-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20814,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20814,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-05-27,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-05-29,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,false
+20814,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-06-03,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-06-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-06-05,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-06-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20814,2026-06-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-06-10,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-06-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20814,2026-06-18,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-06-22,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20814,2026-06-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-06-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-06-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-06-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-06-30,INSTALL,BUSINESS BUILDING,Issued,AC named without heating equipment,false,false
+20814,2026-07-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20814,2026-07-02,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-07-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-07-06,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-07-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-07-13,REPLACE,TOWNHOUSE,Finaled,AC named without heating equipment,false,false
+20814,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-07-15,REPLACE,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20814,2026-07-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20814,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-07-16,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-07-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-07-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-07-22,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-07-28,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-07-29,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20814,2026-07-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-07-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-08-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20814,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20814,2026-08-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20814,2026-08-13,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-08-13,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-08-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-08-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-08-18,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20814,2026-08-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-08-18,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-08-20,REPLACE,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-08-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-08-21,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-08-25,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-08-25,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-08-26,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-08-27,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-08-27,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-08-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-08-31,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-02,REPLACE,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20814,2026-09-03,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-09-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20814,2026-09-03,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-03,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-09-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-09-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20814,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20814,2026-09-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-09-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-09-11,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-09-15,REPLACE,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-09-17,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-09-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-09-23,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-09-29,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20814,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20814,2026-09-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20814,2026-09-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20814,2026-10-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-10-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20814,2026-10-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,false
+20814,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20814,2026-10-07,REPLACE,TOWNHOUSE,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-10-08,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-10-09,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,false
+20814,2026-10-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20814,2026-10-13,REPLACE,TOWNHOUSE,Issued,Furnace or boiler named without heat pump,false,false
+20814,2026-10-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20814,2026-10-15,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20814,2026-10-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20814,2026-10-17,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-10-19,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-10-20,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-10-20,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-10-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-10-22,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20814,2026-10-23,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20814,2026-10-27,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20814,2026-10-28,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2025-11-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2025-11-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2025-11-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-11-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2025-11-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2025-11-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2025-11-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2025-11-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2025-11-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2025-11-19,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20815,2025-11-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,true,true
+20815,2025-11-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2025-11-20,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2025-11-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-11-24,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-11-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2025-11-25,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2025-11-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2025-11-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2025-11-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-11-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,true,true
+20815,2025-12-03,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2025-12-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-04,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Other or insufficient detail,false,false
+20815,2025-12-04,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2025-12-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2025-12-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2025-12-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2025-12-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2025-12-09,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2025-12-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-12-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2025-12-15,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2025-12-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-12-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-12-18,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2025-12-24,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2025-12-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2025-12-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2025-12-31,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-01-02,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-01-02,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20815,2026-01-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-01-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-01-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-01-08,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit fossil-to-heat-pump switch,false,true
+20815,2026-01-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-12,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-01-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-01-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20815,2026-01-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-01-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-01-23,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-01-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-02-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-02-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-02-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-02-04,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-02-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20815,2026-02-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-02-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2026-02-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-02-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-02-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2026-02-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-02-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-02-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-02-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20815,2026-02-13,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-02-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-02-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-02-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-02-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-02-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2026-02-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,true,false
+20815,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-02-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-02-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-02-23,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-02-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-02-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2026-03-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-03-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-03-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,true,true
+20815,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-03-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-03-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-03-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-03-13,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-03-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-03-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-03-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20815,2026-03-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-03-17,REPLACE,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-03-18,REPLACE,BUSINESS BUILDING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-03-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-03-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-03-31,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-04-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-04-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-04-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-04-08,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-04-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-04-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-04-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-04-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-04-14,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,true,false
+20815,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-04-14,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-04-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-04-22,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-04-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-04-28,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-04-29,REPLACE,TOWNHOUSE,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-04-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-04-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-04-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-01,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-05-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-05-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-04,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-04,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2026-05-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-05-11,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-12,REPLACE,BUSINESS BUILDING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-05-14,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-14,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-14,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-05-14,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-05-15,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20815,2026-05-18,REPLACE,BUSINESS BUILDING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-05-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-05-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-05-24,REPLACE,TOWNHOUSE,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-05-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20815,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-06-02,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-06-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20815,2026-06-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-06-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20815,2026-06-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-06-15,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-06-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-06-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-06-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20815,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-06-22,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-06-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-06-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-06-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-06-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-06-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-07-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-07-08,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-07-08,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-07-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-07-13,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-07-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-07-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-07-14,REPLACE,BUSINESS BUILDING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-07-17,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-07-20,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-07-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2026-07-20,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-07-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-07-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20815,2026-07-22,REPLACE,TOWNHOUSE,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-07-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-07-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-07-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-07-27,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-07-29,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-07-30,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-08-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-08-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-08-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,true,false
+20815,2026-08-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-08-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-08-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,true,false
+20815,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-08-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20815,2026-08-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,true
+20815,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20815,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20815,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20815,2026-08-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-08-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20815,2026-08-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-08-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-08-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20815,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20815,2026-08-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-08-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-08-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-08-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-08-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20815,2026-08-26,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-08-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-08-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-08-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-08-31,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-04,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-09-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-09-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-09-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-09-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-09-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20815,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20815,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-09-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20815,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-09-17,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-09-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-09-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-09-23,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20815,2026-09-24,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-09-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-09-25,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-09-25,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-09-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-09-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20815,2026-10-02,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20815,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20815,2026-10-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20815,2026-10-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-10-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,true,false
+20815,2026-10-08,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-10-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-10-09,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20815,2026-10-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20815,2026-10-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20815,2026-10-14,REPLACE,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-10-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20815,2026-10-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20815,2026-10-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20815,2026-10-20,REPLACE,BUSINESS BUILDING,Finaled,Heat pump named without furnace or boiler,false,false
+20815,2026-10-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-10-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20815,2026-10-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20815,2026-10-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2025-11-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2025-11-07,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2025-11-08,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2025-11-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20816,2025-11-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20816,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2025-12-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2025-12-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2025-12-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2025-12-09,INSTALL,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2025-12-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2025-12-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2025-12-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2025-12-17,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2025-12-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20816,2025-12-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-01-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-01-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-01-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20816,2026-01-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-01-15,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2026-01-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-01-15,INSTALL,TOWNHOUSE,Finaled,Other or insufficient detail,false,false
+20816,2026-01-16,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20816,2026-01-21,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-01-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2026-01-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-01-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-02-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-02-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-02-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-02-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-02-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-02-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20816,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20816,2026-02-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-02-24,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-02-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-03-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-03-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20816,2026-03-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-03-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-03-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,true,false
+20816,2026-03-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-03-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-03-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-03-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-03-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-03-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-04-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-04-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20816,2026-04-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20816,2026-04-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-09,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-04-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-04-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-04-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-04-18,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2026-04-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20816,2026-04-21,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20816,2026-04-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-04-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20816,2026-05-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-05-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-05-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-05-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-05-20,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-05-21,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-05-28,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20816,2026-05-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-01,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-06-01,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-06-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20816,2026-06-03,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-06-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-06-08,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20816,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-12,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-06-15,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2026-06-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20816,2026-06-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2026-06-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-06-29,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-06-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-07-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-07-01,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20816,2026-07-02,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-07-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-07-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-07-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-07-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20816,2026-07-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-23,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-30,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-07-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-08-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-08-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-08-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-08-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20816,2026-08-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2026-08-13,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-08-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-08-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-08-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-08-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-08-26,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-08-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-08-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-08-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-09-01,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Issued,Ductless or mini-split named,false,false
+20816,2026-09-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit fossil-to-heat-pump switch,false,true
+20816,2026-09-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-09-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20816,2026-09-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20816,2026-09-10,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20816,2026-09-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-09-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-09-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-09-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,true,false
+20816,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20816,2026-09-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20816,2026-09-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-09-18,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-09-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20816,2026-09-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20816,2026-09-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20816,2026-09-25,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-09-28,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-09-28,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20816,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20816,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20816,2026-10-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-10-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20816,2026-10-12,REPLACE,TOWNHOUSE,Issued,Furnace or boiler named without heat pump,false,false
+20816,2026-10-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-10-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20816,2026-10-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-10-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20816,2026-10-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20816,2026-10-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20816,2026-10-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,true
+20816,2026-10-20,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20816,2026-10-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20816,2026-10-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20816,2026-10-28,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2025-11-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-11-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-11-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2025-11-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-13,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2025-11-14,REPLACE,TOWNHOUSE,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20817,2025-11-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2025-11-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-11-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2025-11-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2025-11-24,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20817,2025-11-24,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-11-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-24,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2025-11-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-11-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2025-12-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-12-01,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-12-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2025-12-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2025-12-09,INSTALL,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2025-12-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2025-12-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-12-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20817,2025-12-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2025-12-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-12-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-12-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20817,2025-12-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2025-12-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2025-12-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-12-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2025-12-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-12-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2025-12-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2025-12-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2025-12-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2025-12-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-12-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2025-12-31,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2025-12-31,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-01-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-01-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-01-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20817,2026-01-09,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-01-14,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-01-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20817,2026-01-16,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-01-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-01-19,REPLACE,TOWNHOUSE,Issued,AC named without heating equipment,false,false
+20817,2026-01-19,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-01-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-21,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-21,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-21,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-01-21,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-01-21,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-01-22,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-01-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-01-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-01-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-01-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-01-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-01-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,true,false
+20817,2026-01-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-01-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-02-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-02-03,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-02-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-02-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-02-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-02-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-02-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-02-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-02-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20817,2026-02-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-02-14,REPLACE,TOWNHOUSE,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-02-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-02-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,true,false
+20817,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-02-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-02-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-02-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-02-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20817,2026-02-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-03-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-03-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-03-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-03-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20817,2026-03-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,false
+20817,2026-03-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,true,true
+20817,2026-03-04,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-03-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-03-05,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-03-09,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-03-09,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-03-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-03-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,false
+20817,2026-03-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-11,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-03-11,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-03-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-11,REPLACE,TOWNHOUSE,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-03-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-03-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-12,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20817,2026-03-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-03-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-16,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-03-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-03-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-03-17,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-03-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-03-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-03-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-03-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-03-24,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-03-26,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-03-26,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-03-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-03-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-04-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-04-03,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-04-06,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-04-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-04-06,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-04-07,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Finaled,Ductless or mini-split named,false,false
+20817,2026-04-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-04-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-04-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-04-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-04-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-04-11,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-04-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-04-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-04-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-04-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-04-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-20,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-04-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit fossil-to-heat-pump switch,false,true
+20817,2026-04-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-04-22,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-04-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-04-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-04-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20817,2026-04-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-04-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-04-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-27,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-04-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-04-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-04-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-05-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-05-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-05-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-05-06,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-05-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-05-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-05-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-05-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-05-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20817,2026-05-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-05-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-05-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20817,2026-05-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-05-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-05-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,false
+20817,2026-05-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-05-15,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-05-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-05-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-05-19,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-05-20,REPLACE,TOWNHOUSE,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-05-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20817,2026-05-20,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-05-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-22,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20817,2026-05-27,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-05-28,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-05-28,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-28,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-05-31,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-05-31,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,true,false
+20817,2026-06-01,INSTALL,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,true,false
+20817,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-06-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-06-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-06-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-06-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-06-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-06-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-06-05,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-06-05,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-06-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-06-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-06-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-06-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,true
+20817,2026-06-11,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-06-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-17,REPLACE,TOWNHOUSE,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-06-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-06-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-06-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,true,false
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,true
+20817,2026-06-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-06-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,false
+20817,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-06-24,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-06-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-06-26,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-06-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-06-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-29,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20817,2026-06-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-06-29,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-06-29,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-06-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-06-29,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-07-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-07-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-07-04,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-07-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-07-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-07-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-07-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-07-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-07-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-07-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-07-09,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-07-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-07-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-07-13,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20817,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-07-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-14,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20817,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-07-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-07-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-07-16,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-07-20,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-07-20,REPLACE,TOWNHOUSE,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-07-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-07-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-07-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-07-23,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-07-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-07-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-07-27,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-07-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-07-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-07-29,INSTALL,SINGLE FAMILY DWELLING,Finaled,Explicit fossil-to-heat-pump switch,false,false
+20817,2026-07-29,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-07-29,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20817,2026-07-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-07-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-07-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-07-30,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-07-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-07-30,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-08-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-08-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-08-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-08-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-08-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-08-05,INSTALL,BUSINESS BUILDING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-08-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-08-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-08-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-08-13,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-08-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-08-13,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-08-13,REPLACE,TOWNHOUSE,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-08-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-08-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-08-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20817,2026-08-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-08-19,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-08-20,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-08-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20817,2026-08-21,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-08-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-08-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20817,2026-08-25,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20817,2026-08-27,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20817,2026-08-31,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-31,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-08-31,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-09-02,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-09-03,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-09-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-09-03,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20817,2026-09-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20817,2026-09-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-09-04,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-09-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-10,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-09-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-09-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-09-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20817,2026-09-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-09-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-09-15,REPLACE,TOWNHOUSE,Finaled,Ductless or mini-split named,false,false
+20817,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-09-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20817,2026-09-16,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20817,2026-09-21,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-09-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20817,2026-09-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-09-25,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-09-25,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20817,2026-09-25,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-09-29,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-09-30,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-10-05,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20817,2026-10-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-10-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-10-06,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-06,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-10-07,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,false
+20817,2026-10-08,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-10-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-10-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20817,2026-10-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20817,2026-10-13,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-10-14,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20817,2026-10-14,INSTALL,RESIDENTIAL ACCESSORY STRUCTURE,Finaled,Ductless or mini-split named,false,false
+20817,2026-10-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,true
+20817,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-10-15,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-10-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-10-19,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20817,2026-10-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20817,2026-10-21,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-10-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20817,2026-10-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20817,2026-10-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-22,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,true
+20817,2026-10-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-10-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20817,2026-10-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,true,false
+20817,2026-10-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20817,2026-10-23,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,true,false
+20817,2026-10-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20817,2026-10-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2025-11-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2025-11-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-11-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2025-11-18,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-11-19,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2025-11-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2025-12-01,REPLACE,TOWNHOUSE,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-12-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2025-12-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20895,2025-12-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-08,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-12-09,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20895,2025-12-10,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20895,2025-12-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2025-12-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-12-18,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2025-12-18,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2025-12-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-12-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2025-12-29,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2025-12-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20895,2025-12-31,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-01-02,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-01-02,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-01-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20895,2026-01-14,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-01-15,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,true,false
+20895,2026-01-15,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-01-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-01-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-01-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-01-26,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20895,2026-01-27,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-01-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,false
+20895,2026-01-29,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,true,false
+20895,2026-01-30,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-02-02,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-02-03,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-04,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-02-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-02-05,INSTALL,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-02-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-02-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20895,2026-02-17,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,true,false
+20895,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-02-19,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-25,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-02-27,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-03-05,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-03-09,INSTALL,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-10,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-03-11,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-03-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-03-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20895,2026-03-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-23,REPLACE,BUSINESS BUILDING,Finaled,Other or insufficient detail,false,false
+20895,2026-03-23,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-03-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-03-31,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-04-01,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-04-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-04-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump and furnace or boiler both named,false,true
+20895,2026-04-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,true,true
+20895,2026-04-09,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-04-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-04-13,INSTALL,SINGLE FAMILY DWELLING,Finaled,Explicit fossil-to-heat-pump switch,true,true
+20895,2026-04-15,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-04-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-04-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-04-20,INSTALL,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-04-20,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-04-20,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-04-21,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-04-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-04-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-04-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-04-25,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-04-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-04-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-05-04,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-05-05,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-05-11,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-05-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-05-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20895,2026-05-14,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-05-19,REPLACE,TOWNHOUSE,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-05-19,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-05-24,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-05-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-05-26,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-05-28,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-06-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20895,2026-06-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-06-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20895,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-06-04,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-06-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-06-08,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductless or mini-split named,false,false
+20895,2026-06-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-06-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-06-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-06-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-06-12,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-06-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-06-17,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-06-18,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-06-21,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-06-24,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-06-29,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-07-09,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-07-10,REPLACE,BUSINESS BUILDING,Finaled,Furnace or boiler named without heat pump,false,true
+20895,2026-07-14,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-07-16,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-07-22,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-07-22,INSTALL,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-07-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-07-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-07-28,REPLACE,SINGLE FAMILY DWELLING,Finaled,Other or insufficient detail,false,false
+20895,2026-08-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-08-02,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-08-05,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-08-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-08-06,REPLACE,SINGLE FAMILY DWELLING,Finaled,AC named without heating equipment,false,false
+20895,2026-08-07,REPLACE,SINGLE FAMILY DWELLING,Finaled,Furnace or boiler named without heat pump,false,false
+20895,2026-08-11,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-08-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-08-12,REPLACE,SINGLE FAMILY DWELLING,Issued,Explicit hybrid or dual-fuel wording,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-13,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-08-18,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-08-19,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-08-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-08-27,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-08-28,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-08-31,REPLACE,BUSINESS BUILDING,Finaled,AC named without heating equipment,false,false
+20895,2026-08-31,INSTALL,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-09-01,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-09-01,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-09-01,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-09-02,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-09-02,REPLACE,SINGLE FAMILY DWELLING,Finaled,Explicit hybrid or dual-fuel wording,false,true
+20895,2026-09-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,true,false
+20895,2026-09-03,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-09-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-09-10,REPLACE,SINGLE FAMILY DWELLING,Finaled,Heat pump named without furnace or boiler,false,false
+20895,2026-09-11,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-09-14,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,true
+20895,2026-09-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-09-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20895,2026-09-17,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-09-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-09-23,REPLACE,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-09-24,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-09-24,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-09-25,REPLACE,SINGLE FAMILY DWELLING,Issued,AC named without heating equipment,false,false
+20895,2026-09-30,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump and furnace or boiler both named,false,false
+20895,2026-10-02,REPLACE,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-07,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-10-08,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductless or mini-split named,false,false
+20895,2026-10-08,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-10-09,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,BUSINESS BUILDING,Issued,Other or insufficient detail,false,false
+20895,2026-10-12,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-10-13,INSTALL,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,true,false
+20895,2026-10-14,INSTALL,SINGLE FAMILY DWELLING,Issued,Ductwork named without a specific HVAC equipment type,true,false
+20895,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-10-15,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-10-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Heat pump named without furnace or boiler,false,false
+20895,2026-10-16,REPLACE,SINGLE FAMILY DWELLING,Issued,Other or insufficient detail,false,false
+20895,2026-10-20,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,true
+20895,2026-10-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false
+20895,2026-10-22,REPLACE,SINGLE FAMILY DWELLING,Issued,Furnace or boiler named without heat pump,false,false

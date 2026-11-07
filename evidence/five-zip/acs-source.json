@@ -1,0 +1,6 @@
+{
+ "source": "U.S. Census Bureau, American Community Survey 2020-2024 5-year estimates, table B25040 (House Heating Fuel), occupied housing units, ZIP Code Tabulation Areas",
+ "retrieved_via": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25040&geo_ids=86000US20814,86000US20815,86000US20816,86000US20817,86000US20895",
+ "census_table_url": "https://data.census.gov/table/ACSDT5Y2024.B25040",
+ "retrieved_at_utc": "2026-11-07T18:59:43Z"
+}

@@ -1,0 +1,415 @@
+{
+ "period_start": "2025-11-07",
+ "period_last": "2026-10-28",
+ "retrieved": "2026-11-07",
+ "rows_updated": "2026-10-30",
+ "all": 1973,
+ "all_zips": {
+  "20814": 364,
+  "20815": 421,
+  "20816": 263,
+  "20817": 600,
+  "20895": 325
+ },
+ "api_matches_download": true,
+ "usecode": {
+  "TOWNHOUSE": 32,
+  "SINGLE FAMILY DWELLING": 1518,
+  "BUSINESS BUILDING": 411,
+  "RESIDENTIAL ACCESSORY STRUCTURE": 12
+ },
+ "residential": 1550,
+ "residential_install": 375,
+ "replacements": 1175,
+ "replacements_zips": {
+  "20814": 194,
+  "20815": 272,
+  "20816": 154,
+  "20817": 390,
+  "20895": 165
+ },
+ "described": 939,
+ "no_detail": 236,
+ "no_detail_share": 20,
+ "hp_any": 277,
+ "hp_any_share": 24,
+ "hp_any_described_share": 29,
+ "fossil_no_hp": 319,
+ "fossil_no_hp_share": 27,
+ "fossil_no_hp_described_share": 34,
+ "ac_only": 153,
+ "ac_only_share": 13,
+ "ac_in_season": 99,
+ "ac_in_season_share": 65,
+ "fossil_and_ac": 189,
+ "fossil_only": 130,
+ "fossil_only_winter": 95,
+ "fossil_only_winter_share": 73,
+ "hp_only": 169,
+ "hp_and_fossil": 80,
+ "hybrid": 25,
+ "switch": 3,
+ "ductless": 32,
+ "buckets": [
+  {
+   "id": "no_detail",
+   "label": "No equipment detail in the description",
+   "total": 236,
+   "share": 20,
+   "zips": {
+    "20814": 36,
+    "20815": 50,
+    "20816": 38,
+    "20817": 67,
+    "20895": 45
+   }
+  },
+  {
+   "id": "switch",
+   "label": "Explicit gas, oil or propane to heat pump switch",
+   "total": 3,
+   "share": 0,
+   "zips": {
+    "20814": 0,
+    "20815": 1,
+    "20816": 0,
+    "20817": 2,
+    "20895": 0
+   }
+  },
+  {
+   "id": "hybrid",
+   "label": "Hybrid or dual-fuel wording",
+   "total": 25,
+   "share": 2,
+   "zips": {
+    "20814": 4,
+    "20815": 4,
+    "20816": 3,
+    "20817": 10,
+    "20895": 4
+   }
+  },
+  {
+   "id": "hp_and_fossil",
+   "label": "Heat pump and furnace or boiler both named",
+   "total": 80,
+   "share": 7,
+   "zips": {
+    "20814": 19,
+    "20815": 13,
+    "20816": 5,
+    "20817": 31,
+    "20895": 12
+   }
+  },
+  {
+   "id": "ductless",
+   "label": "Ductless or mini-split named",
+   "total": 32,
+   "share": 3,
+   "zips": {
+    "20814": 4,
+    "20815": 6,
+    "20816": 5,
+    "20817": 11,
+    "20895": 6
+   }
+  },
+  {
+   "id": "hp_only",
+   "label": "Heat pump named, no furnace or boiler",
+   "total": 169,
+   "share": 14,
+   "zips": {
+    "20814": 38,
+    "20815": 45,
+    "20816": 13,
+    "20817": 60,
+    "20895": 13
+   }
+  },
+  {
+   "id": "fossil_and_ac",
+   "label": "Furnace or boiler and AC both named",
+   "total": 189,
+   "share": 16,
+   "zips": {
+    "20814": 31,
+    "20815": 35,
+    "20816": 27,
+    "20817": 65,
+    "20895": 31
+   }
+  },
+  {
+   "id": "fossil_only",
+   "label": "Furnace or boiler named, no AC or heat pump",
+   "total": 130,
+   "share": 11,
+   "zips": {
+    "20814": 17,
+    "20815": 36,
+    "20816": 14,
+    "20817": 48,
+    "20895": 15
+   }
+  },
+  {
+   "id": "ac_only",
+   "label": "AC named, no heating equipment",
+   "total": 153,
+   "share": 13,
+   "zips": {
+    "20814": 26,
+    "20815": 35,
+    "20816": 17,
+    "20817": 56,
+    "20895": 19
+   }
+  },
+  {
+   "id": "not_space",
+   "label": "Not heating or cooling equipment (water heaters, fireplaces, exhaust, gas piping)",
+   "total": 33,
+   "share": 3,
+   "zips": {
+    "20814": 2,
+    "20815": 10,
+    "20816": 5,
+    "20817": 13,
+    "20895": 3
+   }
+  },
+  {
+   "id": "duct_only",
+   "label": "Ductwork named, no equipment type",
+   "total": 24,
+   "share": 2,
+   "zips": {
+    "20814": 3,
+    "20815": 10,
+    "20816": 3,
+    "20817": 3,
+    "20895": 5
+   }
+  },
+  {
+   "id": "hvac_unclear",
+   "label": "HVAC work named, equipment type unclear",
+   "total": 87,
+   "share": 7,
+   "zips": {
+    "20814": 13,
+    "20815": 21,
+    "20816": 22,
+    "20817": 20,
+    "20895": 11
+   }
+  },
+  {
+   "id": "other",
+   "label": "Other wording",
+   "total": 14,
+   "share": 1,
+   "zips": {
+    "20814": 1,
+    "20815": 6,
+    "20816": 2,
+    "20817": 4,
+    "20895": 1
+   }
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-11",
+   "total": 57,
+   "ac_only": 2,
+   "fossil_and_ac": 10,
+   "fossil_only": 11,
+   "heat_pump": 13
+  },
+  {
+   "month": "2025-12",
+   "total": 89,
+   "ac_only": 2,
+   "fossil_and_ac": 13,
+   "fossil_only": 17,
+   "heat_pump": 24
+  },
+  {
+   "month": "2026-01",
+   "total": 93,
+   "ac_only": 7,
+   "fossil_and_ac": 10,
+   "fossil_only": 22,
+   "heat_pump": 24
+  },
+  {
+   "month": "2026-02",
+   "total": 79,
+   "ac_only": 2,
+   "fossil_and_ac": 10,
+   "fossil_only": 23,
+   "heat_pump": 17
+  },
+  {
+   "month": "2026-03",
+   "total": 84,
+   "ac_only": 6,
+   "fossil_and_ac": 12,
+   "fossil_only": 22,
+   "heat_pump": 18
+  },
+  {
+   "month": "2026-04",
+   "total": 115,
+   "ac_only": 18,
+   "fossil_and_ac": 17,
+   "fossil_only": 6,
+   "heat_pump": 28
+  },
+  {
+   "month": "2026-05",
+   "total": 97,
+   "ac_only": 24,
+   "fossil_and_ac": 21,
+   "fossil_only": 3,
+   "heat_pump": 22
+  },
+  {
+   "month": "2026-06",
+   "total": 145,
+   "ac_only": 31,
+   "fossil_and_ac": 22,
+   "fossil_only": 7,
+   "heat_pump": 35
+  },
+  {
+   "month": "2026-07",
+   "total": 123,
+   "ac_only": 26,
+   "fossil_and_ac": 23,
+   "fossil_only": 7,
+   "heat_pump": 22
+  },
+  {
+   "month": "2026-08",
+   "total": 109,
+   "ac_only": 9,
+   "fossil_and_ac": 19,
+   "fossil_only": 3,
+   "heat_pump": 28
+  },
+  {
+   "month": "2026-09",
+   "total": 106,
+   "ac_only": 17,
+   "fossil_and_ac": 14,
+   "fossil_only": 4,
+   "heat_pump": 29
+  },
+  {
+   "month": "2026-10",
+   "total": 78,
+   "ac_only": 9,
+   "fossil_and_ac": 18,
+   "fossil_only": 5,
+   "heat_pump": 17
+  }
+ ],
+ "fuel": [
+  {
+   "zip": "20814",
+   "homes": 14904,
+   "homes_moe": 599,
+   "gas": 8132,
+   "gas_moe": 529,
+   "electric": 6322,
+   "electric_moe": 462,
+   "oil": 110,
+   "propane": 141,
+   "gas_share": 55,
+   "electric_share": 42
+  },
+  {
+   "zip": "20815",
+   "homes": 12937,
+   "homes_moe": 593,
+   "gas": 8286,
+   "gas_moe": 609,
+   "electric": 4177,
+   "electric_moe": 334,
+   "oil": 164,
+   "propane": 172,
+   "gas_share": 64,
+   "electric_share": 32
+  },
+  {
+   "zip": "20816",
+   "homes": 6400,
+   "homes_moe": 382,
+   "gas": 4282,
+   "gas_moe": 362,
+   "electric": 1814,
+   "electric_moe": 329,
+   "oil": 91,
+   "propane": 181,
+   "gas_share": 67,
+   "electric_share": 28
+  },
+  {
+   "zip": "20817",
+   "homes": 13660,
+   "homes_moe": 536,
+   "gas": 10071,
+   "gas_moe": 536,
+   "electric": 3276,
+   "electric_moe": 345,
+   "oil": 144,
+   "propane": 105,
+   "gas_share": 74,
+   "electric_share": 24
+  },
+  {
+   "zip": "20895",
+   "homes": 6991,
+   "homes_moe": 465,
+   "gas": 5272,
+   "gas_moe": 362,
+   "electric": 1537,
+   "electric_moe": 279,
+   "oil": 68,
+   "propane": 73,
+   "gas_share": 75,
+   "electric_share": 22
+  }
+ ],
+ "fuel_total": {
+  "homes": 54892,
+  "gas": 36043,
+  "electric": 17126,
+  "oil": 577,
+  "propane": 672,
+  "gas_share": 66,
+  "electric_share": 31,
+  "oil_propane": 1249
+ },
+ "acs_release": "ACS 2024 5-year",
+ "earlier_file_rows": 1542,
+ "sources": {
+  "permits": {
+   "url": "https://data.montgomerycountymd.gov/d/ih88-a6aa",
+   "retrieved_utc": "2026-11-07T18:59:43Z",
+   "rows_updated_utc": "2026-10-30T07:16:43+00:00",
+   "sha256": "8f5952f1b043080802562d482c2846f1cbadc4729b5a8dca4b50e2ce797eb4b7"
+  },
+  "acs": {
+   "url": "https://data.census.gov/table/ACSDT5Y2024.B25040",
+   "via": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25040&geo_ids=86000US20814,86000US20815,86000US20816,86000US20817,86000US20895",
+   "retrieved_utc": "2026-11-07T18:59:43Z",
+   "sha256": "b1c2d6383fa102346e4bddc454ab1f8b35c0b5647c2fbfdf5d25b757b6b17374"
+  }
+ }
+}

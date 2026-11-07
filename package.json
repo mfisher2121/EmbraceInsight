@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/briefing-20814.mjs && node scripts/prepare-content.mjs && node scripts/build-worker.mjs",
+    "build": "node scripts/briefing-20814.mjs && node scripts/permits-five-zip.mjs && node scripts/prepare-content.mjs && node scripts/build-worker.mjs",
     "dev": "node scripts/dev-worker.mjs",
     "db:generate": "drizzle-kit generate",
     "test": "node scripts/test-capture.mjs && node scripts/test-briefing.mjs && node scripts/test-vercel.mjs",

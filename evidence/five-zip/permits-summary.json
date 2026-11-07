@@ -1,0 +1,26 @@
+{
+ "publisher": "Montgomery County Department of Permitting Services",
+ "dataset": "Mechanical Permits",
+ "dataset_id": "ih88-a6aa",
+ "url": "https://data.montgomerycountymd.gov/d/ih88-a6aa",
+ "retrieved_at_utc": "2026-11-07T18:59:43Z",
+ "source_rows_updated_at_utc": "2026-10-30T07:16:43+00:00",
+ "period_basis": "issue date, inclusive start / exclusive end",
+ "period_start": "2025-11-07",
+ "period_end_exclusive": "2026-10-29",
+ "zips": [
+  "20814",
+  "20815",
+  "20816",
+  "20817",
+  "20895"
+ ],
+ "api_group_count": {
+  "20814": 364,
+  "20815": 421,
+  "20816": 263,
+  "20817": 600,
+  "20895": 325
+ },
+ "query": "$where=issueddate >= '2025-11-07T00:00:00' AND issueddate < '2026-10-29T00:00:00' AND zip in ('20814','20815','20816','20817','20895')"
+}

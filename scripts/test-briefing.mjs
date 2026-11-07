@@ -21,26 +21,44 @@ const plain = html => html.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').repla
 
 const homeHTML = await get('/');
 const home = plain(homeHTML);
-const mf = use('multifamily housing'), hotel = use('hotel'), office = use('office');
+const mf = use('multifamily housing'), hotel = use('hotel');
+const p = JSON.parse(await fs.readFile(path.join(root, 'content/permits-five-zip.json'), 'utf8'));
+const n = v => v.toLocaleString('en-US');
 const homeClaims = [
-  `${f.matched} matched buildings.`, `${f.interim.no} marked “No.”`,
-  `${f.interim.no} of ${f.matched} matched 20814 buildings`, `${f.interim.yes} read Yes; ${f.interim.undisclosed} read Undisclosed`,
-  `${mf.no} of ${mf.records} multifamily buildings read No`, `all ${hotel.records} hotels`,
-  `${office.no} of ${office.records} office buildings read No. ${office.yes} read Yes.`,
-  `${f.interim_no_and_report_in_compliance} of those ${f.interim.no} buildings`,
-  `Three ${f.zip} inventory records have no energy map match`,
-  `${f.eui_blank} have no normalized site EUI and ${f.eui_undisclosed} read “Undisclosed.”`,
-  `October extract contains ${f.permits.county} mechanical permit records; ${f.permits.zip} list ${f.zip} (${f.permits.worktype.REPLACE} replacements, ${f.permits.worktype.INSTALL} installs)`,
-  `All ${f.inventory_in_zip} inventory records`
+  'Local reporting and practical guides for Montgomery County HVAC owners.',
+  `${n(p.replacements)} replacement permits.`, `${p.switch} spelled-out switches.`,
+  `${p.hp_any} Name a heat pump.`, `That's ${p.hp_any_described_share}% of the ${p.described} residential replacement permits`,
+  `${p.fossil_no_hp} Name a furnace or boiler, no heat pump.`, `${p.fossil_no_hp_described_share}% of the described permits`,
+  `utility gas heats about ${p.fuel_total.gas_share}% of occupied homes`,
+  `${p.ac_only} Replace the AC, name no heating.`, `${p.ac_in_season_share}% were issued April through July`,
+  `${n(p.replacements)} residential replacement permits, sorted`, `at ${p.fossil_and_ac} permits`,
+  `${p.no_detail} replacement permits carry no equipment detail`
 ];
-assert.equal(f.unmatched.length, 3, 'Homepage copy says "Three"; update it if the unmatched count changes.');
-assert.equal(hotel.no, hotel.records, 'Homepage copy says "all 6 hotels"; update it if any hotel reads Yes.');
+assert.ok(p.api_matches_download, 'Five-ZIP download must match the county API count');
 for (const claim of homeClaims) assert.ok(home.includes(claim), `Homepage figure missing or stale: ${claim}`);
+const navLinks = [...homeHTML.match(/<nav id="navigation"[\s\S]*?<\/nav>/)[0].matchAll(/<a [^>]*>([^<]+)<\/a>/g)].map(m => m[1]);
+assert.deepEqual(navLinks, ['Market Reports', 'Contractor Playbook', 'About']);
+assert.ok(homeHTML.indexOf('Read the first briefing') < homeHTML.indexOf('<h1'), 'Read the first briefing should appear above the headline');
+assert.doesNotMatch(homeHTML, /Get the next briefing|Join the list|id="newsletter"/, 'No newsletter signup until a test subscriber can receive email');
+
+const reportHTML = await get('/market-reports/five-zip-hvac-permits/');
+assert.doesNotMatch(reportHTML, /\{\{|\}\}/, 'Unresolved template token in report');
+const report = plain(reportHTML);
+for (const claim of [
+  `issued ${n(p.replacements)} mechanical replacement permits`, `${p.described} of them say what equipment went in`,
+  `${p.hp_any} (${p.hp_any_described_share}%) name a heat pump`, `${p.fossil_no_hp} (${p.fossil_no_hp_described_share}%) name a furnace or boiler`,
+  `Just ${p.switch} spell out a switch`, `${p.ac_in_season} of the ${p.ac_only} AC-only replacements (${p.ac_in_season_share}%)`,
+  `one of the five ZIP codes: ${n(p.all)} permits`, p.sources.permits.sha256, p.sources.acs.sha256
+]) assert.ok(report.includes(claim), `Report figure missing: ${claim}`);
+assert.equal([...reportHTML.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)][0][1].match(/<tr>/g).length, p.buckets.length);
+const playbook = plain(await get('/contractor-playbook/ac-fails-furnace-works/'));
+for (const claim of [`${p.ac_only} residential replacement permits`, `${p.ac_in_season_share}% of them were issued April through July`, `about ${p.fuel_total.gas_share}% of occupied homes`])
+  assert.ok(playbook.includes(claim), `Playbook figure missing: ${claim}`);
 assert.doesNotMatch(homeHTML, /<meta name="robots"[^>]+noindex/);
 assert.ok(homeHTML.includes('<link rel="canonical" href="https://mbraceinsight.com/">'));
 assert.doesNotMatch(await get('/robots.txt'), /^Disallow: \/$/m);
 const sitemap = await get('/sitemap.xml');
-assert.ok(sitemap.includes('<loc>https://mbraceinsight.com/montgomery-county/20814/beps-briefing/</loc>'));
+for (const route of ['/market-reports/five-zip-hvac-permits/', '/contractor-playbook/ac-fails-furnace-works/', '/about/', '/montgomery-county/20814/beps-briefing/']) assert.ok(sitemap.includes(`<loc>https://mbraceinsight.com${route}</loc>`), route);
 assert.ok(!sitemap.includes('chatgpt.site'));
 assert.match(await get('/guides/dmv-heat-pump-rebates/'), /<meta name="robots"[^>]+noindex/);
 
@@ -55,8 +73,8 @@ for (const claim of [
 ]) assert.ok(briefing.includes(claim), `Briefing figure missing: ${claim}`);
 const tableRows = [...briefingHTML.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)][0][1].match(/<tr>/g).length;
 assert.equal(tableRows, f.by_use.length);
-const allowedExternal = ['https://target-finder.mcbeps.org/building-inventory', 'https://mcbeps.org/', 'https://data.montgomerycountymd.gov/d/ih88-a6aa', 'https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611', 'https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx'];
-for (const html of [briefingHTML, await get('/')]) for (const [, href] of html.matchAll(/href="(https?:[^"]+)"/g)) {
+const allowedExternal = ['https://data.census.gov/table/ACSDT5Y2024.B25040', 'https://censusreporter.org/tables/B25040/', 'https://target-finder.mcbeps.org/building-inventory', 'https://mcbeps.org/', 'https://data.montgomerycountymd.gov/d/ih88-a6aa', 'https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611', 'https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx'];
+for (const html of [briefingHTML, reportHTML, await get('/'), await get('/contractor-playbook/ac-fails-furnace-works/'), await get('/about/')]) for (const [, href] of html.matchAll(/href="(https?:[^"]+)"/g)) {
   if (new URL(href).origin === 'https://mbraceinsight.com') continue;
   assert.ok(allowedExternal.includes(href), `Unreviewed external link: ${href}`);
 }
@@ -76,4 +94,4 @@ assert.equal(section('## Inventory records with no energy map match', '## Buildi
 assert.equal((await db.prepare("SELECT newsletter_status FROM contacts WHERE email='operator@example.invalid'").first()).newsletter_status, 'not_requested');
 const meta = JSON.parse((await get('/')).match(/<script id="resources-metadata" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 for (const id of ['moco-20814-beps-data-sheet', 'four-zip-worksheet', 'evidence-worksheet']) assert.ok(meta.some(r => r.id === id), `Homepage dialog metadata missing ${id}`);
-console.log(`Briefing checks passed: ${homeClaims.length} homepage figures and the briefing match the county-derived figures, links are reviewed, and the 20814 data sheet unlocks through the consent-separated download flow.`);
+console.log(`Briefing checks passed: ${homeClaims.length} homepage figures, the five-ZIP report, the playbook and the 20814 briefing match the source-derived figures, links are reviewed, and the 20814 data sheet unlocks through the consent-separated download flow.`);
