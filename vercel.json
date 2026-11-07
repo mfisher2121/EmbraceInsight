@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "functions": {
+    "api/worker.js": {
+      "includeFiles": "{worker/**,lib/**,content/resources.json,assets-downloads/**}",
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/capture", "destination": "/api/worker?__path=/api/capture" },
+    { "source": "/api/preferences", "destination": "/api/worker?__path=/api/preferences" },
+    { "source": "/preferences", "destination": "/api/worker?__path=/preferences" },
+    { "source": "/download/:asset", "destination": "/api/worker?__path=/download/:asset" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

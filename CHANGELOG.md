@@ -18,6 +18,7 @@ Live site: https://mbraceinsight.com (custom domain pending DNS verification on 
 ## Branches
 
 - `main`: the published Sites history above.
+- `vercel-supabase`: runs the site on Vercel, with signups stored in Supabase Postgres (see `VERCEL.md`). Adds `api/worker.js`, `lib/d1-postgres.mjs`, `db/supabase/0001_init.sql`, `vercel.json` and `scripts/test-vercel.mjs`. The one Worker change is the rate-limit upsert (`hits = rate_limits.hits + 1`), which Postgres requires and SQLite also accepts. Owner routes are not served on Vercel.
 - `reference/claude-county-edition`: the local county edition that v6 was built from (Claude, Nov 7), committed on top of v5 for comparison. It is not deployed. Compare with `git diff v5 reference/claude-county-edition` or `git diff reference/claude-county-edition v6`.
 
 ## Not in this repository

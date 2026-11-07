@@ -44,7 +44,7 @@ function validPageURL(value) {
 async function throttle(request, env) {
   const windowStart = Math.floor(Date.now() / 900000) * 900000;
   const key = await sha256((request.headers.get('cf-connecting-ip') || 'local')+'|'+windowStart);
-  await env.DB.prepare('INSERT INTO rate_limits (key, window_start, hits) VALUES (?, ?, 1) ON CONFLICT(key) DO UPDATE SET hits = hits + 1').bind(key,windowStart).run();
+  await env.DB.prepare('INSERT INTO rate_limits (key, window_start, hits) VALUES (?, ?, 1) ON CONFLICT(key) DO UPDATE SET hits = rate_limits.hits + 1').bind(key,windowStart).run();
   const row = await env.DB.prepare('SELECT hits FROM rate_limits WHERE key = ?').bind(key).first();
   return row.hits <= 40;
 }
