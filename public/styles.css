@@ -45,3 +45,8 @@
 .article-body ol li{padding-left:4px}
 @media(max-width:900px){.resource-library.library-three{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.resource-library.library-three{grid-template-columns:1fr}.data-table{font-size:12px}.data-table th,.data-table td{padding:10px 6px}.data-table td{font-size:11px}}
+
+.county-edition .hero-copy{min-width:0}
+.county-edition .hero h1{overflow-wrap:anywhere}
+.county-edition .hero .highlight{white-space:normal;background:linear-gradient(transparent 74%,var(--lime) 74%,var(--lime) 95%,transparent 95%);-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.county-edition .hero .highlight::before{content:none}
