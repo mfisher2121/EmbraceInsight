@@ -87,11 +87,11 @@ async function capture(request, env) {
   await env.DB.batch(statements);
   const data = {
     ok:true, request_id:requestID,
-    message:type==='review'?'Your clearance request has been recorded. The review has not run yet.':type==='newsletter'?'Your newsletter request has been recorded.':'Your resource is ready and your request has been recorded.',
+    message:type==='review'?'Your clearance request has been recorded. The review has not run yet.':type==='newsletter'?'Your email is saved for the Montgomery County briefing.':'Your resource is ready and your request has been recorded.',
     newsletter_requested:optIn,
     newsletter_status:optIn?'pending_confirmation':'not_requested_in_this_request',
     email_sent:false,
-    preview_note:optIn?'Newsletter signup is pending email confirmation. This private preview has not sent a confirmation email.':null,
+    preview_note:null,
     download_url:asset?`/download/${asset}?token=${downloadToken}`:null,
     preferences_url:`/preferences?token=${token}`
   };
