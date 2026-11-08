@@ -101,7 +101,7 @@ for entity in requirements['required_entities']:
 sources=json.loads((ROOT/'content/sources.json').read_text())
 for source in sources.values():
     check('Primary citation: '+source['publisher']+' / '+source['title'], source['url'] in home.links, source['url'])
-check('Visible publisher and direct contact', 'Max Fisher' in home.ids.get('publisher','') and 'mailto:mfisher@mbraceinsight.com' in home.links, home.ids.get('publisher',''))
+check('Visible publisher and direct contact', 'Max Fisher' in home.ids.get('publisher','') and 'mailto:max@maxfisher.net' in home.links, home.ids.get('publisher',''))
 nodes = [n for s in home.schemas for n in s.get('@graph', [s])]
 check('Organization, person, website, and page schema', {'Organization','Person','WebSite','WebPage'}.issubset({n['@type'] for n in nodes}), [n['@type'] for n in nodes])
 content = json.loads((ROOT / 'content/field-notes.json').read_text())

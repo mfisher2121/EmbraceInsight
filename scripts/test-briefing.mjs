@@ -55,10 +55,10 @@ const playbook = plain(await get('/contractor-playbook/ac-fails-furnace-works/')
 for (const claim of [`${p.ac_only} residential replacement permits`, `${p.ac_in_season_share}% of them were issued April through July`, `about ${p.fuel_total.gas_share}% of occupied homes`])
   assert.ok(playbook.includes(claim), `Playbook figure missing: ${claim}`);
 assert.doesNotMatch(homeHTML, /<meta name="robots"[^>]+noindex/);
-assert.ok(homeHTML.includes('<link rel="canonical" href="https://mbraceinsight.com/">'));
+assert.ok(homeHTML.includes('<link rel="canonical" href="https://embraceinsight.net/">'));
 assert.doesNotMatch(await get('/robots.txt'), /^Disallow: \/$/m);
 const sitemap = await get('/sitemap.xml');
-for (const route of ['/market-reports/five-zip-hvac-permits/', '/contractor-playbook/ac-fails-furnace-works/', '/about/', '/montgomery-county/20814/beps-briefing/']) assert.ok(sitemap.includes(`<loc>https://mbraceinsight.com${route}</loc>`), route);
+for (const route of ['/market-reports/five-zip-hvac-permits/', '/contractor-playbook/ac-fails-furnace-works/', '/about/', '/montgomery-county/20814/beps-briefing/']) assert.ok(sitemap.includes(`<loc>https://embraceinsight.net${route}</loc>`), route);
 assert.ok(!sitemap.includes('chatgpt.site'));
 assert.match(await get('/guides/dmv-heat-pump-rebates/'), /<meta name="robots"[^>]+noindex/);
 
@@ -73,9 +73,9 @@ for (const claim of [
 ]) assert.ok(briefing.includes(claim), `Briefing figure missing: ${claim}`);
 const tableRows = [...briefingHTML.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)][0][1].match(/<tr>/g).length;
 assert.equal(tableRows, f.by_use.length);
-const allowedExternal = ['https://data.census.gov/table/ACSDT5Y2024.B25040', 'https://censusreporter.org/tables/B25040/', 'https://target-finder.mcbeps.org/building-inventory', 'https://mcbeps.org/', 'https://data.montgomerycountymd.gov/d/ih88-a6aa', 'https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611', 'https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx'];
+const allowedExternal = ['https://maxfisher.net', 'https://www.linkedin.com/in/maxfisher21/', 'https://data.census.gov/table/ACSDT5Y2024.B25040', 'https://censusreporter.org/tables/B25040/', 'https://target-finder.mcbeps.org/building-inventory', 'https://mcbeps.org/', 'https://data.montgomerycountymd.gov/d/ih88-a6aa', 'https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=46611', 'https://mde.maryland.gov/programs/air/ClimateChange/Clean-Buildings/Pages/BEPS.aspx'];
 for (const html of [briefingHTML, reportHTML, await get('/'), await get('/contractor-playbook/ac-fails-furnace-works/'), await get('/about/')]) for (const [, href] of html.matchAll(/href="(https?:[^"]+)"/g)) {
-  if (new URL(href).origin === 'https://mbraceinsight.com') continue;
+  if (new URL(href).origin === 'https://embraceinsight.net') continue;
   assert.ok(allowedExternal.includes(href), `Unreviewed external link: ${href}`);
 }
 for (const [, href] of (await get('/')).matchAll(/href="(\/[^"#?]*)/g)) await get(href);

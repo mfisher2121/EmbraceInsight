@@ -1,6 +1,6 @@
-# MBRACE INSIGHT — DMV resident education
+# Embrace Insight — DMV resident education
 
-The user-confirmed audience is DMV residents. MBRACE INSIGHT explains heat pumps, electrification, rebates, and BEPS through source-checked local context. The SEO agency will have a separate website. Semantic Gate remains this publication’s internal release standard; it is no longer the homepage service offer.
+The user-confirmed audience is DMV residents. Embrace Insight explains heat pumps, electrification, rebates, and BEPS through source-checked local context. The SEO agency will have a separate website. Semantic Gate remains this publication’s internal release standard; it is no longer the homepage service offer.
 
 The homepage leads to the DMV Rebate Roadmap, four resident resources, and a dedicated newsletter form. Existing durable capture, separate consent, preferences, and owner exports remain intact. Prior professional/SEO resources stay available for historical links but are not promoted in the resident journey.
 
@@ -30,7 +30,7 @@ Exports contain at most 5,000 rows and keep newsletter status explicit. Pending 
 
 The Site remains owner-private; both custom domains and DNS are untouched. The resident audience and topics are confirmed. DMV heat pump rebates is the working query; the exact primary query is not yet confirmed. Earlier query requirement files are historical. Freeze requirements and perform a fresh anonymous live six-gate review on the final URL before claiming eligibility.
 
-The proposed domain split is MBRACE INSIGHT for regional reporting/context and DMVHeatPumps.com for practical homeowner heat pump education. This task edits only the existing MBRACE INSIGHT Site and does not verify the companion domain.
+The proposed domain split is Embrace Insight for regional reporting/context and DMVHeatPumps.com for practical homeowner heat pump education. This task edits only the existing Embrace Insight Site and does not verify the companion domain.
 
 ## Asset provenance
 

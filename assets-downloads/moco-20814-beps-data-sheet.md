@@ -1,12 +1,12 @@
 # The 20814 BEPS Data Sheet
 
-MBRACE INSIGHT · Montgomery County edition · Draft for review
+Embrace Insight · Montgomery County edition · Draft for review
 
 County exports retrieved November 7, 2026. Energy map reporting-year label as published: **2026**.
 
 ## What this is
 
-A building-level table of what Montgomery County publishes for ZIP 20814: the county BEPS building inventory joined to the county energy performance map by exact county building ID. Field values are copied as published. MBRACE INSIGHT has not changed, estimated, or filled in any value.
+A building-level table of what Montgomery County publishes for ZIP 20814: the county BEPS building inventory joined to the county energy performance map by exact county building ID. Field values are copied as published. Embrace Insight has not changed, estimated, or filled in any value.
 
 ## What this is not
 
@@ -223,4 +223,4 @@ Names and use types come from the county inventory. Status, EUI, and standards c
 - County energy performance map: https://mcbeps.org/ — export file time 2026-11-07T12:12:32.111618+00:00, SHA-256 `7eefe5583b48545bd44716f4c744f5fd04a9a968bb64b2b5815e6381628e3456`
 - Montgomery County Mechanical Permits (comparison only): https://data.montgomerycountymd.gov/d/ih88-a6aa — retrieved 2026-11-07T12:12:52.510939+00:00, source rows last updated 2026-10-30T07:16:43+00:00
 
-Recheck the county's current records before relying on any value for a business, compliance, or purchasing decision. Corrections: mfisher@mbraceinsight.com.
+Recheck the county's current records before relying on any value for a business, compliance, or purchasing decision. Corrections: max@maxfisher.net.

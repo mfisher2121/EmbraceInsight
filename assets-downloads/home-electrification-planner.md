@@ -1,5 +1,5 @@
 # The Home Electrification Planner
-MBRACE INSIGHT · Max Fisher · Editable planning draft · 2026-10-29
+Embrace Insight · Max Fisher · Editable planning draft · 2026-10-29
 
 ## Home and priorities
 - Jurisdiction / electric utility:

@@ -1,4 +1,4 @@
--- MBRACE INSIGHT signup store for Vercel + Supabase.
+-- Embrace Insight signup store for Vercel + Supabase.
 -- Same tables and columns as drizzle/0000_mixed_mastermind.sql (the D1 schema the
 -- Worker was written for), translated to Postgres. Run once in the Supabase SQL editor.
 --

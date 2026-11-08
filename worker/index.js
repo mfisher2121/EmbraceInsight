@@ -1,5 +1,5 @@
-const CONSENT_VERSION = 'mbrace-capture-2026-10-29-v1';
-const NEWSLETTER_CONSENT = 'Yes, send me the MBRACE INSIGHT newsletter. I can unsubscribe at any time.';
+const CONSENT_VERSION = 'embrace-capture-2026-11-08-v1';
+const NEWSLETTER_CONSENT = 'Yes, send me the Embrace Insight newsletter. I can unsubscribe at any time.';
 const REQUEST_CONSENT = 'You may email me about this page-clearance request.';
 const RESOURCE_CONSENT = 'Use my email to handle this resource request. Newsletter signup is a separate choice.';
 const DAY = 86400000;
@@ -14,7 +14,7 @@ function json(data, status = 200) {
   return new Response(JSON.stringify(data), {status, headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'}});
 }
 function page(title, body, status = 200) {
-  return new Response(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>${escapeHTML(title)} | MBRACE INSIGHT</title><link rel="stylesheet" href="/styles.css"></head><body><main class="utility-page container"><a class="brand" href="/">MBRACE INSIGHT</a><h1>${escapeHTML(title)}</h1>${body}<p class="utility-back"><a href="/">← Back to the website</a></p></main></body></html>`,{status,headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','referrer-policy':'same-origin','x-robots-tag':'noindex, nofollow','x-content-type-options':'nosniff'}});
+  return new Response(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>${escapeHTML(title)} | Embrace Insight</title><link rel="stylesheet" href="/styles.css"></head><body><main class="utility-page container"><a class="brand" href="/">Embrace Insight</a><h1>${escapeHTML(title)}</h1>${body}<p class="utility-back"><a href="/">← Back to the website</a></p></main></body></html>`,{status,headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','referrer-policy':'same-origin','x-robots-tag':'noindex, nofollow','x-content-type-options':'nosniff'}});
 }
 function hasOwner(request, env) {
   const email = request.headers.get('oai-authenticated-user-email')?.toLowerCase();
@@ -108,7 +108,7 @@ async function tokenRow(env, token, kind, asset = null) {
 async function preferences(request, env) {
   const token = new URL(request.url).searchParams.get('token');
   const row = await tokenRow(env,token,'preferences');
-  if (!row) return page('Link unavailable','<p>This preference link is invalid or expired. Contact mfisher@mbraceinsight.com for help.</p>',400);
+  if (!row) return page('Link unavailable','<p>This preference link is invalid or expired. Contact max@maxfisher.net for help.</p>',400);
   const contact = await env.DB.prepare('SELECT newsletter_status FROM contacts WHERE id=?').bind(row.contact_id).first();
   return page('Newsletter preferences',`<p>Current status: <strong>${escapeHTML(contact.newsletter_status.replaceAll('_',' '))}</strong>.</p><p>You can stop newsletter signup or future newsletter delivery here.</p><form method="post" action="/api/preferences"><input type="hidden" name="token" value="${escapeHTML(token)}"><button class="button button-dark" type="submit">Unsubscribe / withdraw newsletter request</button></form>`);
 }
@@ -137,7 +137,7 @@ async function admin(request, env) {
     const rows = (await env.DB.prepare(query).all()).results;
     const keys = rows.length?Object.keys(rows[0]):view==='reviews'?['email','page_url','target_query','source','created_at','status','request_contact_consent']:['email','newsletter_status','first_seen','last_seen','asset_sources','signup_sources'];
     const csv = [keys.map(csvCell).join(','),...rows.map(row=>keys.map(key=>csvCell(row[key])).join(','))].join('\r\n');
-    return new Response('\ufeff'+csv,{headers:{'content-type':'text/csv; charset=utf-8','content-disposition':`attachment; filename="mbrace-${view}-contacts.csv"`,'cache-control':'no-store','x-robots-tag':'noindex,nofollow'}});
+    return new Response('\ufeff'+csv,{headers:{'content-type':'text/csv; charset=utf-8','content-disposition':`attachment; filename="embrace-${view}-contacts.csv"`,'cache-control':'no-store','x-robots-tag':'noindex,nofollow'}});
   }
   const counts = await env.DB.prepare("SELECT COUNT(*) AS contacts,SUM(CASE WHEN newsletter_status='pending_confirmation' THEN 1 ELSE 0 END) AS newsletter_requests,SUM(CASE WHEN newsletter_status='unsubscribed' THEN 1 ELSE 0 END) AS unsubscribed FROM contacts WHERE is_test=0").first();
   const requests = await env.DB.prepare("SELECT COUNT(*) AS total FROM capture_events WHERE event_type='review' AND is_test=0").first();

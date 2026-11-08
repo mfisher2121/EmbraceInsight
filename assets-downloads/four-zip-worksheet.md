@@ -2,7 +2,7 @@
 
 ## A seven-day plan for one useful local marketing experiment
 
-For HVAC owners and small marketing teams. A Contractor Playbook draft from MBRACE INSIGHT; confirm attribution before release.
+For HVAC owners and small marketing teams. A Contractor Playbook draft from Embrace Insight; confirm attribution before release.
 
 **The idea:** Pick four ZIP codes you can serve reliably. Identify one customer question. Improve one touchpoint. Track what happens before doing more.
 

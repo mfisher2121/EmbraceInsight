@@ -1,12 +1,12 @@
-# MBRACE INSIGHT implementation requirements
+# Embrace Insight implementation requirements
 
 ## Current user direction
 
-MBRACE INSIGHT is the Montgomery County Home Services Intelligence Network. Start with HVAC operators and the 20814 briefing. Preserve the Sites v5 visual design. DMV Heat Pumps is the separate homeowner resource.
+Embrace Insight is the Montgomery County Home Services Intelligence Network. Start with HVAC operators and the 20814 briefing. Preserve the Sites v5 visual design. DMV Heat Pumps is the separate homeowner resource.
 
 ## Conversion and sources
 
-Keep the launch signup to an email address and explicit consent for county briefings. Use Sites D1 capture, existing deduplication, distinct download and newsletter events, hashed preference tokens, and owner-protected exports. Requests remain pending confirmation until a sending provider is connected. Use mfisher@mbraceinsight.com as the editorial contact.
+Keep the launch signup to an email address and explicit consent for county briefings. Use Sites D1 capture, existing deduplication, distinct download and newsletter events, hashed preference tokens, and owner-protected exports. Requests remain pending confirmation until a sending provider is connected. Use max@maxfisher.net as the editorial contact.
 
 Use official sources for program and regulatory claims. Record dates, jurisdiction and evidence limits. A county energy-map field does not establish compliance, equipment condition or project demand.
 
@@ -16,7 +16,7 @@ The gate product names remain undecided and belong to the separate agency contex
 
 The working homepage query is Montgomery County home services intelligence. Freeze the requirements before a live assessment. The separate briefing targets ZIP 20814 building energy records.
 
-The public release uses mbraceinsight.com. Index the county edition pages in the sitemap. Keep archival guides and utility routes outside the launch sitemap.
+The public release uses embraceinsight.net. Index the county edition pages in the sitemap. Keep archival guides and utility routes outside the launch sitemap.
 
 ## Source and runtime
 

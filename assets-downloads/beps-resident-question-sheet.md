@@ -1,5 +1,5 @@
 # The Condo & BEPS Question Sheet
-MBRACE INSIGHT · Max Fisher · Educational draft · Sources checked 2026-10-29
+Embrace Insight · Max Fisher · Educational draft · Sources checked 2026-10-29
 
 For a conversation with your board, manager, program administrator, or qualified adviser. This is not a legal or compliance determination.
 

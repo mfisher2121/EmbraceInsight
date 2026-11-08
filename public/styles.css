@@ -70,3 +70,8 @@
 .county-edition .resident-hero .highlight{white-space:normal;display:inline;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .county-edition .resident-hero .highlight::before{display:none}
 .county-edition .resident-hero .highlight{background:linear-gradient(transparent 69%,var(--lime) 69%,var(--lime) 93%,transparent 93%)}
+/* Publisher photo (Nov 2026) */
+.publisher-card{display:flex;align-items:center;gap:16px;margin-top:14px}
+.publisher-card p{margin-top:0}
+.publisher-photo{width:96px;height:96px;flex:none;border-radius:50%;object-fit:cover;object-position:50% 22%;filter:grayscale(1) contrast(1.05);border:1px solid var(--line)}
+@media (max-width:520px){.publisher-photo{width:76px;height:76px}}

@@ -1,6 +1,6 @@
 # The Before-Publish Checklist
 
-MBRACE INSIGHT · release-preparation asset
+Embrace Insight · release-preparation asset
 
 Page:
 Intended public URL:
@@ -49,4 +49,4 @@ Primary references:
 - https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
 - https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
 
-Publisher: MBRACE INSIGHT · mfisher@mbraceinsight.com
+Publisher: Embrace Insight · max@maxfisher.net

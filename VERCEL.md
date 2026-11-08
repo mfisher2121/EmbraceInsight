@@ -16,7 +16,7 @@ Vercel serves the pages in `public/` and runs one function, `api/worker.js`, for
 
 ## 1. Supabase (once)
 
-1. In the Supabase dashboard, pick or create the project for MBRACE INSIGHT. Region: **East US (North Virginia)** keeps it close to Vercel's default region.
+1. In the Supabase dashboard, pick or create the project for Embrace Insight. Region: **East US (North Virginia)** keeps it close to Vercel's default region.
 2. Open **SQL Editor**, paste all of `db/supabase/0001_init.sql`, and run it. It creates four tables (`contacts`, `capture_events`, `access_tokens`, `rate_limits`) with row-level security on and no public access.
 3. Open **Connect** (top of the project), choose **Transaction pooler**, and copy the connection string. It looks like `postgresql://postgres.<project-ref>:[YOUR-PASSWORD]@aws-0-us-east-1.pooler.supabase.com:6543/postgres`. Put your database password in place of `[YOUR-PASSWORD]`. Keep it private: it's the key to the signup list.
 
@@ -33,7 +33,7 @@ Then **Settings → Environment Variables**:
 | Name | Value | Environments |
 | --- | --- | --- |
 | `SUPABASE_DB_URL` | the transaction-pooler connection string from step 1 | Production and Preview |
-| `SITE_ORIGIN` | `https://mbraceinsight.com` | **Production only** |
+| `SITE_ORIGIN` | `https://embraceinsight.net` | **Production only** |
 
 Leave `SITE_ORIGIN` off Preview, so forms work on `*.vercel.app` preview addresses. Without `SUPABASE_DB_URL`, the pages still load, but signup returns "could not be saved" (a 503) rather than failing silently.
 
@@ -47,9 +47,9 @@ On the `*.vercel.app` address:
 4. In Supabase **Table Editor → contacts**, the test rows appear with `is_test = 1` (any `.invalid` address is marked as a test).
 5. `/admin` returns 404.
 
-## 4. Point mbraceinsight.com at Vercel
+## 4. Point embraceinsight.net at Vercel
 
-1. Vercel **Settings → Domains**: add `mbraceinsight.com` and `www.mbraceinsight.com`. Set `www` to redirect to `mbraceinsight.com`.
+1. Vercel **Settings → Domains**: add `embraceinsight.net` and `www.embraceinsight.net`. Set `www` to redirect to `embraceinsight.net`.
 2. In Cloudflare DNS, make the records match what Vercel's Domains page shows. Usually that means replacing the two Sites `A` records with Vercel's `A` record and pointing `www` at Vercel's CNAME, both **DNS only** (gray cloud).
 3. Don't add the ChatGPT Sites TXT records. Don't touch the Google mail records (MX, SPF, DKIM, DMARC, google-site-verification).
 4. Once Vercel shows the domain as valid, remove the custom domain from the ChatGPT Sites project so the two hosts don't compete.

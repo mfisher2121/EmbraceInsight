@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mbraceinsight.com/sitemap.xml
+Sitemap: https://embraceinsight.net/sitemap.xml

@@ -1,6 +1,6 @@
 # The Evidence & Citation Worksheet
 
-MBRACE INSIGHT · editable preparation asset
+Embrace Insight · editable preparation asset
 
 ## Freeze the review inputs
 
@@ -49,4 +49,4 @@ Keep observations, estimates, proposals, and verified outcomes distinct. Do not 
 
 This is a worksheet, not a completed assessment or issued certification.
 
-Publisher: Max Fisher, MBRACE INSIGHT · mfisher@mbraceinsight.com
+Publisher: Max Fisher, Embrace Insight · max@maxfisher.net

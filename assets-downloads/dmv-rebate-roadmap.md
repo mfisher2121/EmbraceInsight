@@ -1,5 +1,5 @@
 # The DMV Rebate Roadmap
-MBRACE INSIGHT · Max Fisher · Educational draft · Sources checked 2026-10-29
+Embrace Insight · Max Fisher · Educational draft · Sources checked 2026-10-29
 
 Start with your address and utility. A program cap is not an award for your home.
 

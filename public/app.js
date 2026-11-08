@@ -51,7 +51,7 @@ $$('[data-article]').forEach(trigger => trigger.addEventListener('click', async 
   if (!article) return;
   lastArticleTrigger = trigger;
   $('#article-content').innerHTML = `<div class="eyebrow">${article.category}</div><h2 id="article-title">${article.title}</h2><p class="article-byline">By ${article.author} · ${article.editorialStatus} · ${article.date}</p>${article.body}<p class="article-permalink"><a href="${article.path}">Open this note on its own page ↗</a></p>`;
-  $('.dialog-top .mono').textContent = trigger.dataset.article === 'privacy' ? 'MBRACE / ABOUT THIS PREVIEW' : 'MBRACE / FIELD NOTES';
+  $('.dialog-top .mono').textContent = trigger.dataset.article === 'privacy' ? 'EMBRACE / ABOUT THIS PREVIEW' : 'EMBRACE / FIELD NOTES';
   dialog.showModal();
   dialog.scrollTop = 0;
   document.body.style.overflow = 'hidden';
@@ -136,7 +136,7 @@ form.addEventListener('submit', event => {
   $('#result-steps').replaceChildren(...priority.steps.map(text => { const li = document.createElement('li'); li.textContent = text; return li; }));
   const subject = `Four-ZIP Market Brief${currentBrief.business ? ' — '+currentBrief.business : ''}`;
   const body = `Hi Max,\n\nI would like to discuss a Four-ZIP Market Brief.\n\nBusiness: ${currentBrief.business || 'To discuss'}\nWebsite: ${currentBrief.website || 'To discuss'}\nStarting market: ${currentBrief.market}\nZIP codes: ${zips.join(', ')}\nService focus: ${currentBrief.service}\nQuestion: ${priority.question}\n\nCan we discuss the proposed scope, fee, and timing? This is a review scope; observations have not yet been collected.\n\nThanks`;
-  $('#email-brief').href = `mailto:mfisher@mbraceinsight.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  $('#email-brief').href = `mailto:max@maxfisher.net?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   form.hidden = true;
   result.hidden = false;
   $('#result-title').focus({ preventScroll: true });
@@ -161,12 +161,12 @@ $('#download-brief').addEventListener('click', () => {
   if (!currentBrief) return;
   const b = currentBrief;
   const logs = b.zips.map(zip => `## Research area: ZIP ${zip}\n\n- Service coverage confirmed: [ ]\n- Query or customer-journey steps: \n- Source URL / authorized record: \n- Checked date and context: \n- What was observed: \n- What remains unknown: \n- Proposed next action: \n- Person responsible: \n- Review date: \n`).join('\n');
-  const text = `# MBRACE INSIGHT — FOUR-ZIP MARKET BRIEF\n\nResearch scope · observations pending\nCreated: ${new Date().toISOString().slice(0,10)}\n\nBusiness: ${b.business || 'To be added'}\nWebsite: ${b.website || 'To be added'}\nStarting market: ${b.market}\nZIP codes: ${b.zips.join(', ')}\nService focus: ${b.service}\n\n## The question\n\n${b.question}\n\n## What to investigate\n\n${b.steps.map((step,i)=>`${i+1}. ${step}`).join('\n\n')}\n\n${logs}\n## One decision after the evidence review\n\n- Finding and supporting source: \n- Why it matters to the chosen question: \n- Evidence still missing: \n- Next action: \n- Owner: \n- Review date: \n\n## Research references\n\nGoogle Business Profile local ranking guidance:\nhttps://support.google.com/business/answer/7091?hl=en\n\nSBA market research and competitive analysis:\nhttps://www.sba.gov/counseling/plan-your-business/#market-research-and-competitive-analysis\n\n## Scope and status\n\nThis worksheet was generated from your inputs in your browser. It is a research scope, not a completed audit, live ranking report, geographic validation, verified lead list, engineering assessment, or compliance determination. ZIP codes were checked for format and uniqueness only. The four-ZIP boundary is MBRACE's proposed scoping method, not an official ranking rule.\n\nTo discuss a researched review, contact Max Fisher: mfisher@mbraceinsight.com. Scope, fee, and timing require agreement. No email has been sent by this site.\n`;
+  const text = `# Embrace Insight — FOUR-ZIP MARKET BRIEF\n\nResearch scope · observations pending\nCreated: ${new Date().toISOString().slice(0,10)}\n\nBusiness: ${b.business || 'To be added'}\nWebsite: ${b.website || 'To be added'}\nStarting market: ${b.market}\nZIP codes: ${b.zips.join(', ')}\nService focus: ${b.service}\n\n## The question\n\n${b.question}\n\n## What to investigate\n\n${b.steps.map((step,i)=>`${i+1}. ${step}`).join('\n\n')}\n\n${logs}\n## One decision after the evidence review\n\n- Finding and supporting source: \n- Why it matters to the chosen question: \n- Evidence still missing: \n- Next action: \n- Owner: \n- Review date: \n\n## Research references\n\nGoogle Business Profile local ranking guidance:\nhttps://support.google.com/business/answer/7091?hl=en\n\nSBA market research and competitive analysis:\nhttps://www.sba.gov/counseling/plan-your-business/#market-research-and-competitive-analysis\n\n## Scope and status\n\nThis worksheet was generated from your inputs in your browser. It is a research scope, not a completed audit, live ranking report, geographic validation, verified lead list, engineering assessment, or compliance determination. ZIP codes were checked for format and uniqueness only. The four-ZIP boundary is Embrace Insight's proposed scoping method, not an official ranking rule.\n\nTo discuss a researched review, contact Max Fisher: max@maxfisher.net. Scope, fee, and timing require agreement. No email has been sent by this site.\n`;
   const blob = new Blob([text], { type: 'text/markdown;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = 'mbrace-four-zip-market-brief.md';
+  link.download = 'embrace-four-zip-market-brief.md';
   document.body.appendChild(link);
   link.click();
   link.remove();

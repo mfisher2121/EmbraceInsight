@@ -1,5 +1,5 @@
 # The Heat Pump Quote Companion
-MBRACE INSIGHT · Max Fisher · Editable planning draft · 2026-10-29
+Embrace Insight · Max Fisher · Editable planning draft · 2026-10-29
 
 Compare the same scope in each proposal. This sheet does not size a system or certify an installation.
 

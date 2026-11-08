@@ -101,13 +101,13 @@ const cell = value => String(value ?? '').replaceAll('|', '\\|') || '—';
 const title = s => s.replace(/(^|[\s\/(])([a-z])/g, (_, p, c) => p + c.toUpperCase()).replace(/ (And|Or|Of) /g, w => w.toLowerCase());
 const sheet = `# The 20814 BEPS Data Sheet
 
-MBRACE INSIGHT · Montgomery County edition · Draft for review
+Embrace Insight · Montgomery County edition · Draft for review
 
 County exports retrieved November 7, 2026. Energy map reporting-year label as published: **${figures.reporting_year_label}**.
 
 ## What this is
 
-A building-level table of what Montgomery County publishes for ZIP ${figures.zip}: the county BEPS building inventory joined to the county energy performance map by exact county building ID. Field values are copied as published. MBRACE INSIGHT has not changed, estimated, or filled in any value.
+A building-level table of what Montgomery County publishes for ZIP ${figures.zip}: the county BEPS building inventory joined to the county energy performance map by exact county building ID. Field values are copied as published. Embrace Insight has not changed, estimated, or filled in any value.
 
 ## What this is not
 
@@ -163,7 +163,7 @@ ${beps.map(r => `| ${cell(r.mbid)} | ${cell(r.inventory_name)} | ${cell(r.invent
 - County energy performance map: ${figures.sources.energy.url} — export file time ${figures.sources.energy.file_time_utc}, SHA-256 \`${figures.sources.energy.sha256}\`
 - Montgomery County Mechanical Permits (comparison only): ${figures.sources.permits.url} — retrieved ${figures.sources.permits.retrieved_utc}, source rows last updated ${figures.sources.permits.rows_updated_utc}
 
-Recheck the county's current records before relying on any value for a business, compliance, or purchasing decision. Corrections: mfisher@mbraceinsight.com.
+Recheck the county's current records before relying on any value for a business, compliance, or purchasing decision. Corrections: max@maxfisher.net.
 `;
 await fs.writeFile(path.join(root, 'assets-downloads/moco-20814-beps-data-sheet.md'), sheet);
 console.log(`Prepared 20814 briefing figures: ${figures.matched} matched, ${figures.interim.no} interim No, ${figures.unmatched.length} unmatched, ${figures.permits.zip} permits.`);

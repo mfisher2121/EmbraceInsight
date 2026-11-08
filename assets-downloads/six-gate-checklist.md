@@ -1,6 +1,6 @@
 # The Six-Gate Readiness Checklist
 
-MBRACE INSIGHT · based on the user's Semantic Gate v1.0 framework
+Embrace Insight · based on the user's Semantic Gate v1.0 framework
 
 One URL. One target query. Evidence for every required condition. This worksheet is preparation material; completing its boxes does not issue a certification.
 
@@ -60,4 +60,4 @@ References:
 - https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
 - https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
 
-Prepared by MBRACE INSIGHT. Contact: mfisher@mbraceinsight.com
+Prepared by Embrace Insight. Contact: max@maxfisher.net
